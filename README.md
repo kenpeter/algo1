@@ -1,6 +1,6 @@
 # start point to end point path
 
-https://leetcode.com/problems/unique-paths/ *
+https://leetcode.com/problems/unique-paths/ * (start pt -> end pt)
 https://leetcode.com/problems/unique-paths-ii/ *
 https://leetcode.com/problems/unique-paths-iii/ *
 https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question *
