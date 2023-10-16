@@ -97,15 +97,15 @@ https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/ x
 
 # tree depth
 
-https://leetcode.com/problems/average-of-levels-in-binary-tree/ *
-https://leetcode.com/problems/minimum-depth-of-binary-tree/ *
-https://leetcode.com/problems/maximum-depth-of-n-ary-tree/ *
-https://leetcode.com/problems/maximum-depth-of-binary-tree/ *
-https://leetcode.com/problems/balanced-binary-tree/ *
+https://leetcode.com/problems/average-of-levels-in-binary-tree/ * (bfs, with best place, sum)
+https://leetcode.com/problems/minimum-depth-of-binary-tree/ * (bfs, with best place, depth)
+https://leetcode.com/problems/maximum-depth-of-n-ary-tree/ * (dfs, left and right, getMaxH pattern)
+https://leetcode.com/problems/maximum-depth-of-binary-tree/ * (dfs, children, getMaxH pattern)
+https://leetcode.com/problems/balanced-binary-tree/ * (dfs, getMaxH pattern, compare each at same level)
 https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
 https://leetcode.com/problems/time-needed-to-inform-all-employees/
-https://leetcode.com/problems/diameter-of-binary-tree/ *
-https://leetcode.com/problems/diameter-of-n-ary-tree *
+https://leetcode.com/problems/diameter-of-binary-tree/ * (left and right; single node as center, left and right diameter)
+https://leetcode.com/problems/diameter-of-n-ary-tree * (children; single node as center, left and right diameter)
 
 https://leetcode.com/problems/cousins-in-binary-tree/
 https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/
