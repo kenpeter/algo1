@@ -56,8 +56,8 @@ https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/ *
 
 # robot back to origin
 
-https://leetcode.com/problems/robot-bounded-in-circle/ *
-https://leetcode.com/problems/robot-return-to-origin/description/ *
+https://leetcode.com/problems/robot-bounded-in-circle/ * (infinite cycle: 1. back to orig; 2. or after 1 cycle, !North)
+https://leetcode.com/problems/robot-return-to-origin/description/ * (L and R consumed in hash; TOP an BOTTOM consumed in hash)
 
 
 
