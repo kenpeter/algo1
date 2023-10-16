@@ -84,14 +84,15 @@ https://leetcode.com/problems/maximal-square/description/
 
 # tree travel
 
-https://leetcode.com/problems/binary-tree-vertical-order-traversal/ *
-https://leetcode.com/problems/binary-tree-level-order-traversal/description/ *
-https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ *
+https://leetcode.com/problems/binary-tree-vertical-order-traversal/ * (vertical)
+https://leetcode.com/problems/binary-tree-level-order-traversal/ * (horizontal, top to bottom)
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii/ * (horizontal, bottom to top)
+https://leetcode.com/problems/n-ary-tree-level-order-traversal/ * (horizontal, children)
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ * (zigzag, left -> right, right -> left)
+https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/ * (pre-order, dfs)
+https://leetcode.com/problems/n-ary-tree-postorder-traversal/ * (post-order, dfs)
 https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/ x
-https://leetcode.com/problems/binary-tree-level-order-traversal-ii/ *
-https://leetcode.com/problems/n-ary-tree-level-order-traversal/ *
-https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/ *
-https://leetcode.com/problems/n-ary-tree-postorder-traversal/ *
+
 
 
 # tree depth
