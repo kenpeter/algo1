@@ -1,7 +1,7 @@
 # start point to end point path
 
-https://leetcode.com/problems/unique-paths/ * (start pt -> end pt, return 1 add up)
-https://leetcode.com/problems/unique-paths-ii/ * (start pt -> end pt, with block, return 1 add up)
+https://leetcode.com/problems/unique-paths/ * (single start pt -> single end pt, return 1 add up)
+https://leetcode.com/problems/unique-paths-ii/ * (single start pt -> sinle end pt, with block, return 1 add up)
 https://leetcode.com/problems/unique-paths-iii/ *
 https://leetcode.com/problems/minimum-path-sum/ *
 https://leetcode.com/problems/minimum-path-cost-in-a-grid/
@@ -9,7 +9,7 @@ https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/description/
 https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 
-https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question *
+https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (all grid start pt -> single end pt, cache + seen, return 1 add up)
 
 https://gist.github.com/kanglicheng/75ae38967dc7e10a744ebb79bca2b335 *
 https://www.geeksforgeeks.org/unique-paths-covering-every-non-obstacle-block-exactly-once-in-a-grid/ *
