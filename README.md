@@ -1,9 +1,9 @@
 # start point to end point path
 
-https://leetcode.com/problems/unique-paths/ * (single start pt -> single end pt, return 1 add up; single_memo + !single_seen)
-https://leetcode.com/problems/unique-paths-ii/ * (single start pt -> single end pt, with block, return 1 add up; single_memo + !single_seen)
+https://leetcode.com/problems/unique-paths/ * (single start pt -> single end pt, return 1 add up; g_cache + !g_seen)
+https://leetcode.com/problems/unique-paths-ii/ * (single start pt -> single end pt, with block, return 1 add up; g_cache + !g_seen)
 https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (all grid start pt -> single end pt, single_cache + single_seen, return 1 add up; memo + seen)
-https://leetcode.com/problems/unique-paths-iii/ * (find out start pt -> find out end pt, with block, return 1 add up; !memo + level_seen)
+https://leetcode.com/problems/unique-paths-iii/ * (find out start pt -> find out end pt, with block; top down !g_cache + l_seen)
 https://leetcode.com/problems/minimum-path-sum/ *
 https://leetcode.com/problems/minimum-path-cost-in-a-grid/
 https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
