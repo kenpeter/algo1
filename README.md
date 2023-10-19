@@ -1,10 +1,12 @@
-# start point to end point path
+# start point to end point, contrib
 
 https://leetcode.com/problems/unique-paths/ * (start -> end + 1, bottom_up; g_cache, !g_seen)
 https://leetcode.com/problems/unique-paths-ii/ * (start -> end +1, bottom_up, with block, g_cache, !g_seen)
 https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (multi start -> end+1, bottom_up; g_cache, g_seen)
 https://leetcode.com/problems/unique-paths-iii/ * (start+1 -> end, top down, !l_cache, l_seen)
-https://leetcode.com/problems/minimum-path-sum/ *
+
+# start pt to end pt, path len 
+https://leetcode.com/problems/minimum-path-sum/ * (1. unique-paths: contrib; 2. this one path len, getMaxH pattern, re tmp+1)
 https://leetcode.com/problems/minimum-path-cost-in-a-grid/
 https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/description/
