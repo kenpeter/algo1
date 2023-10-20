@@ -6,7 +6,8 @@ https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-
 https://leetcode.com/problems/unique-paths-iii/ * (start+1 -> end, top down, !l_cache, l_seen)
 
 # start pt to end pt, path len 
-https://leetcode.com/problems/minimum-path-sum/ * (1. unique-paths: contrib; 2. this one path len, getMaxH pattern, re tmp+1)
+https://leetcode.com/problems/minimum-path-sum/ * (start -> end, path len, min path)
+https://leetcode.com/problems/word-search/ * (start+ -> end+, path len, match each step)
 https://leetcode.com/problems/minimum-path-cost-in-a-grid/
 https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/description/
@@ -16,7 +17,7 @@ https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 
 https://gist.github.com/kanglicheng/75ae38967dc7e10a744ebb79bca2b335 *
 https://www.geeksforgeeks.org/unique-paths-covering-every-non-obstacle-block-exactly-once-in-a-grid/ *
-https://leetcode.com/problems/word-search/ *
+https://leetcode.com/problems/word-search/ * (start+ -> end+, path len, each step match)
 https://www.hackerrank.com/challenges/possible-path/problem *
 
 https://leetcode.com/discuss/interview-question/301192/Facebook-or-Phone-screen-or-Shortest-Path-with-Obstacles *
