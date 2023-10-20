@@ -11,8 +11,9 @@ https://leetcode.com/problems/unique-paths-iii/ * (start+1 -> end, top down, cov
 https://www.geeksforgeeks.org/unique-paths-covering-every-non-obstacle-block-exactly-once-in-a-grid/ * (start+1 -> end, top down, cover each cell)
 
 # start pt to end pt, path len 
-https://leetcode.com/problems/minimum-path-sum/ * (start -> end, path len, min path)
-https://leetcode.com/problems/word-search/ * (start+ -> end+, path len, match each step)
+https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, path len, min path)
+https://leetcode.com/problems/word-search/ * (dfs, start+ -> end+, path len, match each step)
+https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+, best place)  
 https://leetcode.com/problems/minimum-path-cost-in-a-grid/
 https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/description/
@@ -20,7 +21,7 @@ https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 
 
 
-https://leetcode.com/problems/shortest-path-to-get-food *
+ *
 
 
  
