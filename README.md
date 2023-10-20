@@ -1,8 +1,9 @@
 # start point to end point, contrib
 
-https://leetcode.com/problems/unique-paths/ * (start -> end + 1)
-https://leetcode.com/problems/unique-paths-ii/ * (start -> end +1, with block)
-https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (multi start -> end+1, cover each cell)
+https://leetcode.com/problems/unique-paths/ * (start -> end + 1, contrib)
+https://leetcode.com/problems/unique-paths-ii/ * (start -> end +1, with block, contrib)
+https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (start at each cell -> end+1, contrib)
+https://gist.github.com/kanglicheng/75ae38967dc7e10a744ebb79bca2b335 * (start at each cell -> end+1, contrib)
 https://leetcode.com/problems/unique-paths-iii/ * (start+1 -> end, top down, cover each cell)
 https://www.geeksforgeeks.org/unique-paths-covering-every-non-obstacle-block-exactly-once-in-a-grid/ * (start+1 -> end, top down, cover each cell)
 
@@ -15,10 +16,7 @@ https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k
 https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 
 
-
-https://gist.github.com/kanglicheng/75ae38967dc7e10a744ebb79bca2b335 *
 https://www.hackerrank.com/challenges/possible-path/problem *
-
 https://leetcode.com/discuss/interview-question/301192/Facebook-or-Phone-screen-or-Shortest-Path-with-Obstacles *
 https://leetcode.com/discuss/interview-question/1235202/Amazon-or-Onsite-or-Determine-Path *
 https://leetcode.com/problems/shortest-path-to-get-food *
