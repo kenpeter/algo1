@@ -1,9 +1,9 @@
 # start point to end point, contrib
 
-https://leetcode.com/problems/unique-paths/ * (start -> end + 1, bottom_up; g_cache, !g_seen)
-https://leetcode.com/problems/unique-paths-ii/ * (start -> end +1, bottom_up, with block, g_cache, !g_seen)
-https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (multi start -> end+1, bottom_up; g_cache, g_seen)
-https://leetcode.com/problems/unique-paths-iii/ * (start+1 -> end, top down, !l_cache, l_seen)
+https://leetcode.com/problems/unique-paths/ * (start -> end + 1)
+https://leetcode.com/problems/unique-paths-ii/ * (start -> end +1, with block)
+https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (multi start -> end+1, cover each cell)
+https://leetcode.com/problems/unique-paths-iii/ * (start+1 -> end, top down, cover each cell)
 https://www.geeksforgeeks.org/unique-paths-covering-every-non-obstacle-block-exactly-once-in-a-grid/ *
 
 # start pt to end pt, path len 
