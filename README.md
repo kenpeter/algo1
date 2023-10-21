@@ -10,11 +10,16 @@ https://gist.github.com/kanglicheng/75ae38967dc7e10a744ebb79bca2b335 * (start at
 https://leetcode.com/problems/unique-paths-iii/ * (start+1 -> end, top down, cover each cell)
 https://www.geeksforgeeks.org/unique-paths-covering-every-non-obstacle-block-exactly-once-in-a-grid/ * (start+1 -> end, top down, cover each cell)
 
-# start pt to end pt, path len 
-https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, path len, min path)
-https://leetcode.com/problems/word-search/ * (dfs, start+ -> end+, path len, match each step)
-https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+, path len, bfs best place)  
-https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ * (dfs, start+ -> end+, path len, num inc)
+# start -> end pt, path len 
+https://leetcode.com/problems/word-search/ * (dfs, start+ -> end+, match each step)
+https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+, best place, min step)
+https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, min step)
+
+# start -> end, inc/desc
+https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ * (dfs, start+ -> end+, num inc)
+https://leetcode.com/problems/path-with-maximum-gold/ * (dfs, start+ -> end+, num inc)
+
+
 https://leetcode.com/problems/minimum-path-cost-in-a-grid/
 https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/description/
@@ -23,8 +28,6 @@ https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 
 # path inc; path with val
 
-https://leetcode.com/problems/path-with-maximum-gold/ *
-https://leetcode.com/problems/minimum-path-sum/ *
 https://leetcode.com/problems/shortest-path-in-binary-matrix/ *
 
 https://leetcode.com/problems/out-of-boundary-paths/ *
