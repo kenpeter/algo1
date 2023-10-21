@@ -17,8 +17,8 @@ https://leetcode.com/problems/word-search/ * (dfs, start+ -> end+, match each st
 https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ * (dfs, start+ -> end+, inc each step)
 
 # start+ -> end+, bfs best place
-https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+, best place, min step)
-https://leetcode.com/problems/shortest-path-in-binary-matrix/ * (bfs, start -> end, best place, along dist, min step)
+https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+, best place)
+https://leetcode.com/problems/shortest-path-in-binary-matrix/ * (bfs, start -> end, best place, along dist)
 
 # start+ -> end+, total len
 https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, g_cache(*), g_seen(*), total len)
