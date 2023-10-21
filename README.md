@@ -16,8 +16,8 @@ https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+,
 https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, min step)
 
 # start -> end, inc/desc
-https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ * (dfs, start+ -> end+, num inc)
-https://leetcode.com/problems/path-with-maximum-gold/ * (dfs, start+ -> end+, num inc)
+https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ * (dfs, start+ -> end+, g_cache, g_seen, num inc)
+https://leetcode.com/problems/path-with-maximum-gold/ * (dfs, start+ -> end+, g_cache(x), g_seen, num inc)
 
 
 https://leetcode.com/problems/minimum-path-cost-in-a-grid/
