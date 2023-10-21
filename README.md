@@ -1,4 +1,4 @@
-# start point to end point, contrib
+# start+ -> end+, dfs contrib
 
 https://leetcode.com/problems/unique-paths/ * (start -> end + 1, contrib)
 https://leetcode.com/problems/unique-paths-ii/ * (start -> end +1, with block, contrib)
@@ -10,14 +10,18 @@ https://gist.github.com/kanglicheng/75ae38967dc7e10a744ebb79bca2b335 * (start at
 https://leetcode.com/problems/unique-paths-iii/ * (start+1 -> end, top down, cover each cell)
 https://www.geeksforgeeks.org/unique-paths-covering-every-non-obstacle-block-exactly-once-in-a-grid/ * (start+1 -> end, top down, cover each cell)
 
-# start -> end pt, path len 
+# start+ -> end+, dfs, each step 
 https://leetcode.com/problems/word-search/ * (dfs, start+ -> end+, match each step)
-https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+, best place, min step)
-https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, min step)
+https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ * (dfs, start+ -> end+, inc each step)
 
-# start -> end, inc/desc
-https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ * (dfs, start+ -> end+, g_cache, g_seen, num inc)
-https://leetcode.com/problems/path-with-maximum-gold/ * (dfs, start+ -> end+, g_cache(x), g_seen, num inc)
+# start+ -> end+, bfs best place (shortest dist)
+https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+, best place, min step)
+https://leetcode.com/problems/shortest-path-in-binary-matrix/ * (bfs, start -> end, best place, along dist, min step)
+
+# start+ -> end+, total len
+https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, g_cache(*), g_seen(*), total len)
+https://leetcode.com/problems/path-with-maximum-gold/ * (dfs, start+ -> end+, g_cache(x), g_seen(*), total len)
+
 
 
 https://leetcode.com/problems/minimum-path-cost-in-a-grid/
@@ -27,8 +31,6 @@ https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 
 
 # path inc; path with val
-
-https://leetcode.com/problems/shortest-path-in-binary-matrix/ *
 
 https://leetcode.com/problems/out-of-boundary-paths/ *
 https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/ *
