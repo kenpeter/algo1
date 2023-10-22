@@ -18,7 +18,7 @@ https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ * (dfs, start
 
 # start+ -> end+, bfs best place
 https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+, best place)
-https://leetcode.com/problems/shortest-path-in-binary-matrix/ * (bfs, start -> end, best place, along dist)
+https://leetcode.com/problems/shortest-path-in-binary-matrix/ * (bfs, start -> end, best place)
 
 # start+ -> end+, total len
 https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, g_cache(*), g_seen(*), total len)
