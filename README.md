@@ -5,7 +5,7 @@ https://leetcode.com/problems/unique-paths-ii/ * (start -> end +1, block, contri
 https://www.hackerrank.com/challenges/possible-path/problem * (x start -> x end +1, contrib)
 https://leetcode.com/discuss/interview-question/301192/Facebook-or-Phone-screen-or-Shortest-Path-with-Obstacles * (x start -> x end+1, contrib)
 https://leetcode.com/discuss/interview-question/1235202/Amazon-or-Onsite-or-Determine-Path * (x start -> x end+1, contrib)
-https://leetcode.com/problems/out-of-boundary-paths/ * (start -> end, contrib, out_bound_1, )
+https://leetcode.com/problems/out-of-boundary-paths/ * (start -> end, contrib, struct_dep_state)
 
 # start+ -> end+, dfs contrib, each cell
 https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (start each cell -> end+1, contrib)
