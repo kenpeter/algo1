@@ -7,7 +7,7 @@ https://leetcode.com/discuss/interview-question/301192/Facebook-or-Phone-screen-
 https://leetcode.com/discuss/interview-question/1235202/Amazon-or-Onsite-or-Determine-Path * (x start -> x end+1, contrib)
 https://leetcode.com/problems/out-of-boundary-paths/ * (start -> end, contrib, struct_dep_state)
 
-# start+ -> end+, dfs contrib, each cell
+# start+ -> end+, dfs contrib, start each cell
 https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (start each cell -> end+1, contrib)
 https://gist.github.com/kanglicheng/75ae38967dc7e10a744ebb79bca2b335 * (start each cell -> end+1, contrib)
 https://leetcode.com/problems/unique-paths-iii/ * (start+1 -> end, top down, each cell)
@@ -17,9 +17,10 @@ https://www.geeksforgeeks.org/unique-paths-covering-every-non-obstacle-block-exa
 https://leetcode.com/problems/word-search/ * (dfs, start+ -> end+, match each step)
 https://leetcode.com/problems/longest-increasing-path-in-a-matrix/ * (dfs, start+ -> end+, inc each step)
 
-# start+ -> end+, bfs best place
+# start+ -> end+, total len, bfs best place
 https://leetcode.com/problems/shortest-path-to-get-food * (bfs, x start -> end+, best place)
 https://leetcode.com/problems/shortest-path-in-binary-matrix/ * (bfs, start -> end, best place)
+https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid * (bfs, start -> end, best place, curr_cell connect future_cell)
 
 # start+ -> end+, total len
 https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, g_cache(*), g_seen(*), total len)
