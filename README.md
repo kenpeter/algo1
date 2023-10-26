@@ -26,6 +26,9 @@ https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid * (bfs, s
 https://leetcode.com/problems/minimum-path-sum/ * (dfs, start -> end, g_cache(*), g_seen(*), total len)
 https://leetcode.com/problems/path-with-maximum-gold/ * (dfs, start+ -> end+, g_cache(x), g_seen(*), total len)
 
+# start+ -> end, 4_dir, connect puzzle
+https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/ * (bfs, start+ -> end+, g_cache(x), g_seen(*), 4_dir VS connect puzzle
+
 
 
 https://leetcode.com/problems/minimum-path-cost-in-a-grid/
@@ -35,7 +38,6 @@ https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 
 
 # path inc; path with val
-https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/ *
 https://leetcode.com/problems/swim-in-rising-water/ *
 
  
