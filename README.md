@@ -5,7 +5,10 @@ https://leetcode.com/problems/unique-paths-ii/ * (start -> end +1, block, contri
 https://www.hackerrank.com/challenges/possible-path/problem * (x start -> x end +1, contrib)
 https://leetcode.com/discuss/interview-question/301192/Facebook-or-Phone-screen-or-Shortest-Path-with-Obstacles * (x start -> x end+1, contrib)
 https://leetcode.com/discuss/interview-question/1235202/Amazon-or-Onsite-or-Determine-Path * (x start -> x end+1, contrib)
-https://leetcode.com/problems/out-of-boundary-paths/ * (start -> end, contrib, struct_dep_state)
+https://leetcode.com/problems/out-of-boundary-paths/ * (start -> end+1, contrib, struct_dep_state)
+https://leetcode.com/problems/swim-in-rising-water/ * (start -> end+1, contrib, start multi times)
+https://leetcode.com/problems/the-maze/ * (start -> end+condi, contrib)
+https://leetcode.com/problems/the-maze-ii * (similar method to maze i, start -> end+condi, dist_mem saturate)
 
 # start+ -> end+, dfs contrib, start each cell
 https://leetcode.com/discuss/interview-question/2024008/Similar-to-unique-paths-Interview-Question * (start each cell -> end+1, contrib)
@@ -35,10 +38,6 @@ https://leetcode.com/problems/minimum-path-cost-in-a-grid/
 https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/description/
 https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
-
-
-# path inc; path with val
-https://leetcode.com/problems/swim-in-rising-water/ *
 
  
 
