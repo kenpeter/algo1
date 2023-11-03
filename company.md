@@ -28,13 +28,13 @@ amazon
 
 * bag of rice
 
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice (orig; "square num times" add up === acc; acc)
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice (orig; dp_fu[i] = dp_cu[i] + dp_fu[i*i]; acc)
 
-* https://leetcode.com/problems/perfect-squares/ ("square num" add up === final; curr_cell = left_out + op)
+* https://leetcode.com/problems/perfect-squares/ (dp_fu[i] = dp_cu[i] VS dp_left_out[i - j*j] + 1_op; vs)
+
+* * https://leetcode.com/problems/ugly-number-ii/ (dp_fu[i] = dp_cu[i]*2_op VS dp_cu[i]*3_op VS dp_cu[i]*5_op; vs)
 
 * https://leetcode.com/problems/count-primes/description/
-
-* https://leetcode.com/problems/ugly-number-ii/
 
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
