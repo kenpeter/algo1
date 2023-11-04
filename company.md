@@ -32,13 +32,16 @@ amazon
 
 * https://leetcode.com/problems/perfect-squares/ (dp_fu[i] = dp_cu[i] VS dp_left_out[i - j*j] + 1_op; vs)
 
-* * https://leetcode.com/problems/ugly-number-ii/ (dp_fu[i] = dp_cu[i]*2_op VS dp_cu[i]*3_op VS dp_cu[i]*5_op; vs)
+* https://leetcode.com/problems/ugly-number-ii/ (dp_fu[i] = dp_cu[i]*2_op VS dp_cu[i]*3_op VS dp_cu[i]*5_op; vs)
 
-* https://leetcode.com/problems/count-primes/description/
+* https://leetcode.com/problems/count-primes/description/ (x)
 
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
 * https://leetcode.com/problems/valid-perfect-square/
+
+
+* https://leetcode.com/problems/ugly-number (orig; num consumed left out) 
 
  
 
