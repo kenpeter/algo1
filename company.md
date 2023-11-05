@@ -1,6 +1,4 @@
-microsoft
-
-==
+# microsoft
 
 * https://leetcode.com/discuss/interview-experience/4226180/Microsoft (orig)
 
@@ -14,9 +12,7 @@ microsoft
 
  
 
-amazon
-
-==
+# amazon
 
 * https://www.1point3acres.com/bbs/thread-936988-1-1.html (all)
 
@@ -26,25 +22,28 @@ amazon
 
  
 
-* bag of rice
+## single loop -> dp
 
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice (orig; dp_fu[i] = dp_cu[i] + dp_fu[i*i]; acc)
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice (orig; single loop input -> dp)
+* https://leetcode.com/problems/ugly-number-ii/ (single loop 1_to_n -> dp)
 
-* https://leetcode.com/problems/perfect-squares/ (dp_fu[i] = dp_cu[i] VS dp_left_out[i - j*j] + 1_op; vs)
 
-* https://leetcode.com/problems/ugly-number-ii/ (dp_fu[i] = dp_cu[i]*2_op VS dp_cu[i]*3_op VS dp_cu[i]*5_op; vs)
+## 2D loop -> dp[i]
+* https://leetcode.com/problems/perfect-squares/ (outer_loop, i -> tar ====> inner_loop j -> i, dp[i])
+
+
+## 2D loop -> dp[tar]
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/ (outer_loop, i -> tar ====> inner_loop j -> i, dp[tar])
+
 
 * https://leetcode.com/problems/count-primes/description/ (x)
-
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-
 * https://leetcode.com/problems/valid-perfect-square/
 
 
+## num consumed left out
 * https://leetcode.com/problems/ugly-number (orig; num consumed left out) 
 
  
-
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
 
 * https://leetcode.com/problems/maximum-subarray/
