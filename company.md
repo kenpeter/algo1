@@ -57,6 +57,26 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/description/
 https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 https://leetcode.com/problems/number-of-great-partitions/
 
+# include / !include
+* https://leetcode.com/problems/perfect-squares/
+* include j*j / !include j*j, compare
+* inner: i -> each
+* outter: tar -> 1
+* dp ind: single tar -> dp[i]
+
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* include pow / !include pow, acc
+* inner: i -> each
+* outter: tar -> 1
+* dp ind: multi tar -> dp[tar]
+
+* https://leetcode.com/problems/partition-equal-subset-sum/
+* include num / !include num, compare
+* inner: i -> each
+* outter: tar -> 1
+* dp ind: multi tar -> dp[tar]
+
+
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
 
