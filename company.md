@@ -1,3 +1,13 @@
+# note
+
+* https://leetcode.com/problems/target-sum/solutions/455024/dp-is-easy-5-steps-to-think-through-dp-questions/
+* category:
+* 0/1 Knapsack
+* Unbounded Knapsack
+* Shortest Path (eg: Unique Paths I/II)
+* Fibonacci Sequence (eg: House Thief, Jump Game)
+* Longest Common Substring/Subsequeunce
+
 # microsoft
 
 * https://leetcode.com/discuss/interview-experience/4226180/Microsoft (orig)
@@ -57,6 +67,8 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/description/
 https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 https://leetcode.com/problems/number-of-great-partitions/
 
+
+
 # include / !include
 * https://leetcode.com/problems/perfect-squares/
 * include j*j / !include j*j, compare
@@ -81,3 +93,4 @@ https://leetcode.com/problems/number-of-great-partitions/
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
 
 * https://leetcode.com/problems/maximum-subarray/
+  
