@@ -82,11 +82,11 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 # 2D loop -> dp[i]
-* https://leetcode.com/problems/perfect-squares/ (outer_loop, i -> tar ====> inner_loop j -> i, dp[i])
+* https://leetcode.com/problems/perfect-squares/ (outer: i -> each_item =====> inner: tar -> 1 ====> dp ind: key: tar, val: times -> dp[tar])
 
 
 # 2D loop -> dp[tar]
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/ (outer_loop, i -> tar ====> inner_loop j -> i, dp[tar])
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/ (outer: i -> each_item ======> inner: tar -> 1 =====> dp ind: key: tar, val: times -> dp[tar])
 
 
 * https://leetcode.com/problems/count-primes/description/ (x)
