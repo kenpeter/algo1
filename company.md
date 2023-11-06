@@ -131,7 +131,12 @@ https://leetcode.com/problems/number-of-great-partitions/
 
 
 # dp step: cat -> state -> decision -> base -> cache
-https://leetcode.com/problems/target-sum/ ()
+* https://leetcode.com/problems/target-sum/
+* 1. cat (1. 0/1 item once; 2. item !once; 3. path; 4. fabio; 5. subseq)
+* 2. state (index, tar)
+* 3. choose (+/-)
+* 4. base (bound, tar, etc)
+* 5. cache (hash)
 
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
