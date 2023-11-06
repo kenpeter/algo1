@@ -77,7 +77,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 # single loop -> dp
 
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice (orig; single loop input -> dp)
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice (in; single loop input -> dp)
 * https://leetcode.com/problems/ugly-number-ii/ (single loop 1_to_n -> dp)
 
 
@@ -110,8 +110,7 @@ https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-ta
 https://leetcode.com/problems/number-of-great-partitions/
 
 
-
-# include / !include
+# 0/1 knapsack, include / !include 
 * https://leetcode.com/problems/perfect-squares/
 * include j*j / !include j*j, compare
 * inner: i -> each
@@ -130,6 +129,9 @@ https://leetcode.com/problems/number-of-great-partitions/
 * outter: tar -> 1
 * dp ind: multi tar -> dp[tar]
 
+
+# dp step: cat -> state -> decision -> base -> cache
+https://leetcode.com/problems/target-sum/ ()
 
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
