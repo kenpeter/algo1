@@ -82,7 +82,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 # 2D loop -> dp[i]
-* https://leetcode.com/problems/perfect-squares/ (outer: i -> each_item =====> inner: tar -> pow ====> dp ind: key: tar, val: times -> dp[tar])
+* https://leetcode.com/problems/perfect-squares/ (outer: i -> each_item =====> inner: tar -> square ====> dp ind: key: number, val: times -> dp[i])
 
 
 # 2D loop -> dp[tar]
@@ -114,7 +114,7 @@ https://leetcode.com/problems/number-of-great-partitions/
 * https://leetcode.com/problems/perfect-squares/
 * relat to Q: include j*j / !include j*j, compare
 * inner: i -> each item
-* outter: tar -> pow
+* outter: tar -> square
 * dp ind: key: tar, val: times -> dp[tar]
 
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
