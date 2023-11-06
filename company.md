@@ -112,21 +112,27 @@ https://leetcode.com/problems/number-of-great-partitions/
 
 # 0/1 knapsack, include / !include 
 * https://leetcode.com/problems/perfect-squares/
-* include j*j / !include j*j, compare
-* inner: i -> each
-* outter: tar -> 1
+* relat to Q: include j*j / !include j*j, compare
+* inner: i -> each item
+* outter: tar -> pow
 * dp ind: single tar -> dp[i]
 
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* include pow / !include pow, acc
-* inner: i -> each
-* outter: tar -> 1
+* relate to Q: include pow / !include pow, acc
+* inner: i -> each item
+* outter: tar -> pow
 * dp ind: multi tar -> dp[tar]
 
 * https://leetcode.com/problems/partition-equal-subset-sum/
-* include num / !include num, compare
-* inner: i -> each
-* outter: tar -> 1
+* relate to Q: include num / !include num, compare
+* inner: i -> each item
+* outter: tar -> item_n
+* dp ind: multi tar -> dp[tar]
+
+* https://leetcode.com/problems/target-sum
+* relate to Q
+* inner: 0 -> each item
+* outter: tar -> item_n
 * dp ind: multi tar -> dp[tar]
 
 
