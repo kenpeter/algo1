@@ -113,26 +113,35 @@ https://leetcode.com/problems/number-of-great-partitions/
 # 0/1 knapsack, include / !include 
 * https://leetcode.com/problems/perfect-squares/
 * relat to Q: include j*j / !include j*j, compare
-* inner: i -> each item
-* outter: tar -> square
+* outter: i -> each item
+* inner: tar -> bound(square)
 * dp ind: key: tar, val: times -> dp[tar]
 
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * relate to Q: include pow / !include pow, acc
-* inner: i -> each item
-* outter: tar -> pow
+* outter: i -> each item
+* inner: tar -> bound(pow)
 * dp ind: key: tar, val: times -> dp[tar]
 
 * https://leetcode.com/problems/partition-equal-subset-sum/
 * relate to Q: include num / !include num, compare
-* inner: i -> each item
-* outter: tar -> item_n
+* outter: i -> each item
+* inner: tar -> bound(single_n)
 * dp ind: key: tar, val: times -> dp[tar]
 
 * https://leetcode.com/problems/target-sum
-* relate to Q
-* inner: 0 -> each item
-* outter: tar -> item_n
+* relate to Q: include item / !include item
+* outter: 0 -> each item
+* inner: tar -> bound(single_n)
+* dp ind: key: tar, val: times -> dp[tar]
+
+
+# outer loop (0 -> each) ===> outer loop (...) ===> ... outer loop (tar -> bound) ===> inner loop (...) ===> ..  loops in logic sequence order
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
+* relate to Q: solve / !solve
+* outter: 0 -> each item
+* inner: tar -> bound(0)
+* inner: 1 -> quantity
 * dp ind: key: tar, val: times -> dp[tar]
 
 
