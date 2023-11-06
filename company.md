@@ -82,11 +82,11 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 # 2D loop -> dp[i]
-* https://leetcode.com/problems/perfect-squares/ (outer: i -> each_item =====> inner: tar -> 1 ====> dp ind: key: tar, val: times -> dp[tar])
+* https://leetcode.com/problems/perfect-squares/ (outer: i -> each_item =====> inner: tar -> pow ====> dp ind: key: tar, val: times -> dp[tar])
 
 
 # 2D loop -> dp[tar]
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/ (outer: i -> each_item ======> inner: tar -> 1 =====> dp ind: key: tar, val: times -> dp[tar])
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/ (outer: i -> each_item ======> inner: tar -> pow =====> dp ind: key: tar, val: times -> dp[tar])
 
 
 * https://leetcode.com/problems/count-primes/description/ (x)
@@ -115,25 +115,25 @@ https://leetcode.com/problems/number-of-great-partitions/
 * relat to Q: include j*j / !include j*j, compare
 * inner: i -> each item
 * outter: tar -> pow
-* dp ind: single tar -> dp[i]
+* dp ind: key: tar, val: times -> dp[tar]
 
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * relate to Q: include pow / !include pow, acc
 * inner: i -> each item
 * outter: tar -> pow
-* dp ind: multi tar -> dp[tar]
+* dp ind: key: tar, val: times -> dp[tar]
 
 * https://leetcode.com/problems/partition-equal-subset-sum/
 * relate to Q: include num / !include num, compare
 * inner: i -> each item
 * outter: tar -> item_n
-* dp ind: multi tar -> dp[tar]
+* dp ind: key: tar, val: times -> dp[tar]
 
 * https://leetcode.com/problems/target-sum
 * relate to Q
 * inner: 0 -> each item
 * outter: tar -> item_n
-* dp ind: multi tar -> dp[tar]
+* dp ind: key: tar, val: times -> dp[tar]
 
 
 # dp step: cat -> state -> decision -> base -> cache
