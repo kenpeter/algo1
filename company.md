@@ -157,6 +157,17 @@ https://leetcode.com/problems/number-of-great-partitions/
 * 3. decision (digit 9->1)
 * 4. base (tar < 0, tar === 0)
 * 5. cache
+ 
+
+# dfs bottom up build num; compare from right to left
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+
+# cat -> state -> decision (repeat from start, ind no use) -> ...
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+# cat -> state -> decision (peer compete in loop) -> 
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
