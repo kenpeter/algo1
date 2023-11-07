@@ -103,10 +103,8 @@ Edit Distance: Problems that involve converting one string into another using mi
 ->Minimum subset sum difference
 ->Count the number of subset with a given difference
 ->Target sum
-https://leetcode.com/problems/partition-equal-subset-sum/description/
-https://leetcode.com/problems/ones-and-zeroes/
-https://leetcode.com/problems/number-of-ways-to-earn-points/description/
-https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+https://leetcode.com/problems/ones-and-zeroes/ (x)
 https://leetcode.com/problems/number-of-great-partitions/
 
 
@@ -152,6 +150,13 @@ https://leetcode.com/problems/number-of-great-partitions/
 * 3. choose (+/-)
 * 4. base (bound, tar, etc)
 * 5. cache (hash)
+ 
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+* 1. cat (1/0; unbound_item_reuse; ...)
+* 2. state (tar, no ind, as repeated)
+* 3. decision (digit 9->1)
+* 4. base (tar < 0, tar === 0)
+* 5. cache
 
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
