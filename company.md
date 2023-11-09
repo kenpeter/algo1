@@ -129,13 +129,13 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 * inner: tar -> bound(pow)
 * dp ind: key: tar, val: times -> dp[tar]
 
-* https://leetcode.com/problems/partition-equal-subset-sum/
+* https://leetcode.com/problems/partition-equal-subset-sum/ (2 subsets)
 * relate to Q: include num / !include num, compare
 * outter: i -> each item
 * inner: tar -> bound(single_n)
 * dp ind: key: tar, val: times -> dp[tar]
 
-* https://leetcode.com/problems/target-sum
+* https://leetcode.com/problems/target-sum (2 subsets)
 * relate to Q: include item / !include item
 * outter: 0 -> each item
 * inner: tar -> bound(single_n)
