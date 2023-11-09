@@ -105,7 +105,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 ->Target sum
 
 https://leetcode.com/problems/ones-and-zeroes/ (x)
-https://leetcode.com/problems/number-of-great-partitions/
+https://leetcode.com/problems/number-of-great-partitions/ (x)
 
 
 # 0/1 knapsack, max/min
@@ -140,6 +140,8 @@ https://leetcode.com/problems/number-of-great-partitions/
 * outter: 0 -> each item
 * inner: tar -> bound(single_n)
 * dp ind: key: tar, val: times -> dp[tar]
+
+* https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/?
 
 
 # outer loop (0 -> each) ===> outer loop (...) ===> ... outer loop (tar -> bound) ===> inner loop (...) ===> ..  loops in logic sequence order
