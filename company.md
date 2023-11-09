@@ -108,13 +108,21 @@ https://leetcode.com/problems/ones-and-zeroes/ (x)
 https://leetcode.com/problems/number-of-great-partitions/
 
 
-# 0/1 knapsack, include / !include 
+# 0/1 knapsack, max/min
 * https://leetcode.com/problems/perfect-squares/
-* relat to Q: include j*j / !include j*j, compare
+* relate to Q: include j*j / !include j*j, compare
 * outter: i -> each item
 * inner: tar -> bound(square)
-* dp ind: key: tar, val: times -> dp[tar]
+* dp ind: key: tar, val: min -> dp[tar]
 
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+* relate to Q:
+* outter: i -> tar
+* inner: 0 -> cost_item (imply other ind)
+* dp ind: key tar, val: min
+
+
+# 0/1 knapsack, times
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * relate to Q: include pow / !include pow, acc
 * outter: i -> each item
