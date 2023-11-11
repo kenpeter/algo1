@@ -141,7 +141,12 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 * inner: tar -> bound(single_n)
 * dp ind: key: tar, val: times -> dp[tar]
 
-* https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/?
+* https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/ ====> https://leetcode.com/problems/partition-equal-subset-sum/ (2 subsets)
+* https://leetcode.com/discuss/interview-question/1271034/count-no-of-subsets-with-given-difference-dp ====> https://leetcode.com/problems/partition-equal-subset-sum/ (2 subsets)
+* arr[0] === 0 -> dp[0][0] = 2
+* arr[0] !== 0 -> dp[0][0] = 1
+* in range -> dp[0][arr[0]] = 1
+
 
 
 # outer loop (0 -> each) ===> outer loop (...) ===> ... outer loop (tar -> bound) ===> inner loop (...) ===> ..  loops in logic sequence order
