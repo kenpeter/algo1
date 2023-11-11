@@ -97,12 +97,9 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/ugly-number (num consumed left out) 
 
 # knapsack
-->Subset sum
-->Equal sum partition
-->Count of subsets sum with a given sum
-->Minimum subset sum difference
-->Count the number of subset with a given difference
-->Target sum
+* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+* Minimum subset sum difference (x)
+
 
 https://leetcode.com/problems/ones-and-zeroes/ (x)
 https://leetcode.com/problems/number-of-great-partitions/ (x)
