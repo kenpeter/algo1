@@ -188,6 +188,24 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 # cat -> state -> decision (peer compete in loop) -> 
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
+
+# 2D can switch, no problem
+# 2D outter: tar ---> inner: n, same
+# 2D outter: n ----> inner: tar, same
+* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+
+
+# compress n, not tar
+# 2D outter: n ---> inner: tar (uncompress)
+# 1D outter: n ---> inner: tar (compress)
+* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+
+
+# 1D, inner tar asc (with help)
+# 1D, inner tar desc (no help curr, prev)
+# 1D, inner tar, asc (with help curr, prev)
+* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+ 
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
 
