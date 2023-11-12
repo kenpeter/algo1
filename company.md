@@ -113,10 +113,17 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 * dp ind: key: tar, val: min -> dp[tar]
 
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-* relate to Q:
+* relate to Q: include / !include
 * outter: i -> tar
 * inner: 0 -> cost_item (imply other ind)
 * dp ind: key tar, val: min
+
+
+
+# 0/1 knapsack, true/false
+* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+* related to Q: include / !include, equal tar
+
 
 
 # 0/1 knapsack, times
