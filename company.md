@@ -96,8 +96,8 @@ Edit Distance: Problems that involve converting one string into another using mi
 # num consumed left out
 * https://leetcode.com/problems/ugly-number (num consumed left out) 
 
+
 # knapsack
-* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
 * Minimum subset sum difference (x)
 
 
