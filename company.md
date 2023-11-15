@@ -156,10 +156,17 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 # outer loop (0 -> each) ===> outer loop (...) ===> ... outer loop (tar -> bound) ===> inner loop (...) ===> ..  loops in logic sequence order
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
 * relate to Q: solve / !solve
-* outter: 0 -> each item
+* outter: 1 -> each_item
 * inner: tar -> bound(0)
 * inner: 1 -> quantity
 * dp ind: key: tar, val: times -> dp[tar]
+
+* https://leetcode.com/problems/ones-and-zeroes/
+* relate to Q: take / !take
+* outter: 1 -> each_item
+* inner: 0 -> zeros (tar)
+* inner: 0 -> ones (tar)
+* dp ind: multi tar (zeros and ones)
 
 
 # dp step: cat -> state -> decision -> base -> cache
@@ -185,7 +192,7 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 * 5. cache
  
 
-# dfs bottom up build num; compare from right to left
+# how to build number: dfs bottom up; compare from right to left
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
 
@@ -212,6 +219,11 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 # 1D, inner tar desc (no help curr, prev)
 # 1D, inner tar, asc (with help curr, prev)
 * https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+
+
+# tar becomes multi elements (zeros and ones), not just 1 variable
+* https://leetcode.com/problems/ones-and-zeroes/
+
  
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
