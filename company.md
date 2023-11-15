@@ -177,6 +177,13 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 * 4. base (tar < 0, tar === 0)
 * 5. cache
  
+* https://leetcode.com/problems/ones-and-zeroes/
+* 1. cat (0/1, bound)
+* 2. state (ind, #zero, #one)
+* 3. decision take / !take
+* 4. base (ind, #zero, #one)
+* 5. cache
+ 
 
 # dfs bottom up build num; compare from right to left
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
