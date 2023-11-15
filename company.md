@@ -98,10 +98,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 # knapsack
 * Minimum subset sum difference (x)
-
-
-https://leetcode.com/problems/ones-and-zeroes/ (x)
-https://leetcode.com/problems/number-of-great-partitions/ (x)
+* https://leetcode.com/problems/number-of-great-partitions/ (x)
 
 
 # sqr_root bound (knapsack dfs)
@@ -121,9 +118,14 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 
 
 
-
 # sqrt_root (knapsack dp)
 * https://leetcode.com/problems/perfect-squares/
+
+
+
+# leftout_state
+* https://leetcode.com/problems/perfect-squares/
+
 
 
 # 0/1 knapsack, true/false
