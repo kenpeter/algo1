@@ -75,10 +75,12 @@ Edit Distance: Problems that involve converting one string into another using mi
  
 
 
-# single loop -> dp
+# ??
 
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice (in; single loop input -> dp)
-* https://leetcode.com/problems/ugly-number-ii/ (single loop 1_to_n -> dp)
+
+# dp min/max; curr_state * op1 = fu_state VS curr_state * op2 = fu_state VS ..
+* https://leetcode.com/problems/ugly-number-ii/
 
 
 # 2D loop -> dp[i]
