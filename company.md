@@ -79,12 +79,9 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice (in; single loop input -> dp)
 
-# dp min/max; curr_state * op1 = fu_state VS curr_state * op2 = fu_state VS ..
+# variable racing (dp)
 * https://leetcode.com/problems/ugly-number-ii/
 
-
-# 2D loop -> dp[i]
-* https://leetcode.com/problems/perfect-squares/ (outer: i -> each_item =====> inner: tar -> square ====> dp ind: key: number, val: times -> dp[i])
 
 
 # 2D loop -> dp[tar]
@@ -107,7 +104,7 @@ https://leetcode.com/problems/ones-and-zeroes/ (x)
 https://leetcode.com/problems/number-of-great-partitions/ (x)
 
 
-# 0/1 knapsack, max/min
+# sqr_root bound (knapsack dfs)
 * https://leetcode.com/problems/perfect-squares/
 * cat: 0/1, take / !take
 * state: num (no ind)
@@ -115,12 +112,18 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 * base: num
 * cache: num
 
+# build num (knapsack dfs)
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 * relate to Q: include / !include
 * outter: i -> tar
 * inner: 0 -> cost_item (imply other ind)
 * dp ind: key tar, val: min
 
+
+
+
+# sqrt_root (knapsack dp)
+* https://leetcode.com/problems/perfect-squares/
 
 
 # 0/1 knapsack, true/false
