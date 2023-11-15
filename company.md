@@ -224,6 +224,11 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 # tar becomes multi elements (zeros and ones), not just 1 variable
 * https://leetcode.com/problems/ones-and-zeroes/
 
+
+# 3D -> 2D, outer_loop each item, compress it; inner loop revert, so !overwrite
+* https://leetcode.com/problems/ones-and-zeroes/
+
+
  
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
