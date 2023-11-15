@@ -109,10 +109,11 @@ https://leetcode.com/problems/number-of-great-partitions/ (x)
 
 # 0/1 knapsack, max/min
 * https://leetcode.com/problems/perfect-squares/
-* relate to Q: include j*j / !include j*j, compare
-* outter: i -> each item
-* inner: tar -> bound(square)
-* dp ind: key: tar, val: min -> dp[tar]
+* cat: 0/1, take / !take
+* state: num (no ind)
+* decision: try out each num (in bound)
+* base: num
+* cache: num
 
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 * relate to Q: include / !include
