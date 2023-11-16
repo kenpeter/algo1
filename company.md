@@ -116,7 +116,11 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/perfect-squares/
 * cat ..
 * ..
-* decision: bi-deci, few-deci, muti-deci
+* decision: bi-deci, few-deci, muti-deci(*)
+
+
+# bi-deci, few-deci, muti-deci(*)
+* https://leetcode.com/problems/perfect-squares/
 
 
 
