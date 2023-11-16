@@ -95,15 +95,15 @@ Edit Distance: Problems that involve converting one string into another using mi
 * * https://leetcode.com/problems/count-primes/description/ (x)
 
 
-# sqr_root bound (pick/! dfs)
+# pick/! sqrt_root, dfs
 * https://leetcode.com/problems/perfect-squares/
 * cat: 0/1, take / !take
 * state: num (no ind)
-* decision: try out each num (in bound)
+* decision: bi-deci, few-deci, multi-deci(*)
 * base: num
 * cache: num
 
-# build num (pick/! dfs)
+# pick/! build num, dfs
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 * relate to Q: include / !include
 * outter: i -> tar
@@ -112,8 +112,11 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# sqrt_root (pick/! dp)
+# pick/! sqrt_root, dp
 * https://leetcode.com/problems/perfect-squares/
+* cat ..
+* ..
+* decision: bi-deci, few-deci, muti-deci
 
 
 
