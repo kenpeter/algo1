@@ -92,10 +92,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/valid-perfect-square/
 
 
-# num consumed left out
-* https://leetcode.com/problems/ugly-number (num consumed left out) 
-
-
 # knapsack
 * Minimum subset sum difference (x)
 * https://leetcode.com/problems/number-of-great-partitions/ (x)
@@ -237,6 +233,9 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/ones-and-zeroes/
 
 
+
+# num consumed left out
+* https://leetcode.com/problems/ugly-number (num consumed left out)
  
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
