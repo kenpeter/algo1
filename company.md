@@ -95,6 +95,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 * * https://leetcode.com/problems/count-primes/description/ (x)
 
 
+
 # pick/! sqrt_root, dfs
 * https://leetcode.com/problems/perfect-squares/
 * cat: 0/1, take / !take
@@ -110,8 +111,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 * inner: 0 -> cost_item (imply other ind)
 * dp ind: key tar, val: min
 
-
-
 # pick/! sqrt_root, dp
 * https://leetcode.com/problems/perfect-squares/
 * cat ..
@@ -119,13 +118,23 @@ Edit Distance: Problems that involve converting one string into another using mi
 * decision: bi-deci, few-deci, muti-deci(*)
 
 
+
 # bi-deci, few-deci, muti-deci(*)
 * https://leetcode.com/problems/perfect-squares/
+
+
+# 1. tar -> single
+# 2. tar -> multiple
+* https://leetcode.com/problems/ones-and-zeroes/
 
 
 
 # leftout_state === pick
 * https://leetcode.com/problems/perfect-squares/
+
+
+
+
 
 
 
@@ -239,8 +248,13 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
+
+
+
 # num consumed left out
 * https://leetcode.com/problems/ugly-number (num consumed left out)
+
+
 
 # bottom up (to pow)
 # bottom up (to sqr_root)
