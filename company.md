@@ -124,7 +124,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 # 1. tar -> single
-# 2. tar -> multiple
+# 2. tar -> multiple(*)
 * https://leetcode.com/problems/ones-and-zeroes/
 
 
