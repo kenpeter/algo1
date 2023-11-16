@@ -117,7 +117,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# leftout_state
+# leftout_state === pick
 * https://leetcode.com/problems/perfect-squares/
 
 
