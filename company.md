@@ -235,7 +235,10 @@ Edit Distance: Problems that involve converting one string into another using mi
 # num consumed left out
 * https://leetcode.com/problems/ugly-number (num consumed left out)
 
-# bottom up (to sqr)
+# bottom up (to pow)
+# bottom up (to sqr_root)
+# bottom up (to tar/sum)
+# bottom up (to ?)
 * https://leetcode.com/problems/valid-perfect-square/
  
  
