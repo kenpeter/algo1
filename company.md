@@ -86,15 +86,13 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 # 2D loop -> dp[tar]
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/ (outer: i -> each_item ======> inner: tar -> pow =====> dp ind: key: tar, val: times -> dp[tar])
-
-
-* https://leetcode.com/problems/count-primes/description/ (x)
 * https://leetcode.com/problems/valid-perfect-square/
 
 
 # knapsack
 * Minimum subset sum difference (x)
 * https://leetcode.com/problems/number-of-great-partitions/ (x)
+* * https://leetcode.com/problems/count-primes/description/ (x)
 
 
 # sqr_root bound (knapsack dfs)
