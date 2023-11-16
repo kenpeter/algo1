@@ -86,7 +86,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 # 2D loop -> dp[tar]
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/ (outer: i -> each_item ======> inner: tar -> pow =====> dp ind: key: tar, val: times -> dp[tar])
-* https://leetcode.com/problems/valid-perfect-square/
+
 
 
 # knapsack
@@ -234,6 +234,9 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 # num consumed left out
 * https://leetcode.com/problems/ugly-number (num consumed left out)
+
+# bottom up (to sqr)
+* https://leetcode.com/problems/valid-perfect-square/
  
  
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
