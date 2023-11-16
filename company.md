@@ -89,13 +89,13 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# knapsack
+# pick/!
 * Minimum subset sum difference (x)
 * https://leetcode.com/problems/number-of-great-partitions/ (x)
 * * https://leetcode.com/problems/count-primes/description/ (x)
 
 
-# sqr_root bound (knapsack dfs)
+# sqr_root bound (pick/! dfs)
 * https://leetcode.com/problems/perfect-squares/
 * cat: 0/1, take / !take
 * state: num (no ind)
@@ -103,7 +103,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 * base: num
 * cache: num
 
-# build num (knapsack dfs)
+# build num (pick/! dfs)
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 * relate to Q: include / !include
 * outter: i -> tar
@@ -112,7 +112,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# sqrt_root (knapsack dp)
+# sqrt_root (pick/! dp)
 * https://leetcode.com/problems/perfect-squares/
 
 
