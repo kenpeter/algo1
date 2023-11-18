@@ -94,16 +94,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/number-of-great-partitions/ (x)
 * * https://leetcode.com/problems/count-primes/description/ (x)
 
-
-
-# pick/! sqrt_root, dfs
-* https://leetcode.com/problems/perfect-squares/
-* cat: 0/1, take / !take
-* state: num (no ind)
-* decision: bi-deci, few-deci, multi-deci(*)
-* base: num
-* cache: num
-
 # pick/! build num, dfs
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 * relate to Q: include / !include
@@ -111,13 +101,12 @@ Edit Distance: Problems that involve converting one string into another using mi
 * inner: 0 -> cost_item (imply other ind)
 * dp ind: key tar, val: min
 
-# pick/! sqrt_root, dp
+
+
+# 1. dfs: muti-deci
+# 2. 2D dp: inner, outter !matter
+# 3. 1D dp: inner, outter matter; min/max outter tar; times inner tar
 * https://leetcode.com/problems/perfect-squares/
-* cat ..
-* ..
-* decision: bi-deci, few-deci, muti-deci(*)
-
-
 
 # bi-deci, few-deci, muti-deci(*)
 * https://leetcode.com/problems/perfect-squares/
@@ -128,8 +117,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/ones-and-zeroes/
 
 
-
-# leftout_state === pick
+# 0/1 knapsack === pick/! === leftout_state
 * https://leetcode.com/problems/perfect-squares/
 
 
