@@ -82,6 +82,8 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 5. key ?? rela -> ..
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
+# subset rela under fullset
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
 # variable racing (dp)
 * https://leetcode.com/problems/ugly-number-ii/
