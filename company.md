@@ -103,13 +103,13 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-
+# min/max outter tar; times inner tar
 * https://leetcode.com/problems/perfect-squares/
 * 1. dfs: muti-deci
-* 2. 2D dp: need imply tar
+* 2. 2D dp: imply num
 * 3. 1D dp: inner, outter matter; min/max outter tar; times inner tar
 
-# min/max outter; times inner
+# min/max outter tar; times inner tar
 * https://leetcode.com/problems/perfect-squares/
 * 1. dfs: multi-deci
 * 2. 2D dp: inner, outter !matter
