@@ -90,18 +90,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# local_loop === dfs's ind
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-
-# dfs, dp use same arr mem
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-
-
-# Q constraint to dp[][]
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-
-
 # pick/!
 * Minimum subset sum difference (x)
 * https://leetcode.com/problems/number-of-great-partitions/ (x)
@@ -134,11 +122,39 @@ Edit Distance: Problems that involve converting one string into another using mi
 * 2. few-deci
 * 3. multi-deci(*)
 
-# imply num/tar
+# imply dp dimension
 https://leetcode.com/problems/perfect-squares/
 
 
 
+# local_loop === dfs's ind
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
+# dfs, dp use same arr mem
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
+# state: tar, item(ind, num, pow, etc)
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
+
+# multi-deci ind vs dfs param ind
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
+
+# 1. multi-deci ind retart
+# 2. multi-deci ind never smaller
+# 3. dfs param ind restart
+# 4. dfs param ind never smaller
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
+
+  
+
+# Q constraint to dp[][]
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
+  
 
 # 1. tar -> single
 # 2. tar -> multiple(*)
