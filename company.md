@@ -148,6 +148,9 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
 
+# attach MOD to end cal
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+
   
 
 # Q constraint to dp[][]
