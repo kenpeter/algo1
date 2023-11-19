@@ -97,6 +97,11 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
 
+# Q constraint to dp[][]
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
+
 # pick/!
 * Minimum subset sum difference (x)
 * https://leetcode.com/problems/number-of-great-partitions/ (x)
