@@ -90,9 +90,11 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# 2D loop -> dp[tar]
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/ (outer: i -> each_item ======> inner: tar -> pow =====> dp ind: key: tar, val: times -> dp[tar])
+# local_loop === dfs's ind
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
+# dfs, dp use same arr mem
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
 
 # pick/!
