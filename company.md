@@ -89,11 +89,11 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/ugly-number-ii/
 
 
-
 # pick/!
 * Minimum subset sum difference (x)
 * https://leetcode.com/problems/number-of-great-partitions/ (x)
 * * https://leetcode.com/problems/count-primes/description/ (x)
+
 
 # pick/! build num, dfs
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
@@ -151,7 +151,19 @@ https://leetcode.com/problems/perfect-squares/
 # attach MOD to end cal
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 
-  
+
+
+# 1. dfs (tar, item)
+# 2. 2D dp (leftout_state diagnal)
+# 3. 1D dp (compress each_item)
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+
+# 1. dfs (tar, item)
+# 2. 2D dp (leftout_state col)
+# 3. 1D dp (compress each_item)
+* https://leetcode.com/problems/perfect-squares
+
+
 
 # Q constraint to dp[][]
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
