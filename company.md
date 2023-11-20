@@ -89,10 +89,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/ugly-number-ii/
 
 
-# pick/!
-* Minimum subset sum difference (x)
-* https://leetcode.com/problems/number-of-great-partitions/ (x)
-* * https://leetcode.com/problems/count-primes/description/ (x)
 
 
 # pick/! build num, dfs
@@ -183,12 +179,17 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ones-and-zeroes/
 
 
-# 0/1 knapsack === pick/! === leftout_state
-* https://leetcode.com/problems/perfect-squares/
 
 
 
 
+
+
+
+# pick/!
+* Minimum subset sum difference (x)
+* https://leetcode.com/problems/number-of-great-partitions/ (x)
+* * https://leetcode.com/problems/count-primes/description/ (x)
 
 
 
@@ -197,13 +198,6 @@ https://leetcode.com/problems/perfect-squares/
 * related to Q: include / !include, equal tar
 
 
-
-# 0/1 knapsack, times
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* relate to Q: include pow / !include pow, acc
-* outter: i -> each item
-* inner: tar -> bound(pow)
-* dp ind: key: tar, val: times -> dp[tar]
 
 * https://leetcode.com/problems/partition-equal-subset-sum/ (2 subsets)
 * relate to Q: include num / !include num, compare
