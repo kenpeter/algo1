@@ -153,6 +153,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# 1. dp[i-1][tar-?] for times
+# 2. dp[i][tar-?] for max/min
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
+* https://leetcode.com/problems/perfect-squares/
+
+
+
 # 1. dfs (tar, item)
 # 2. 2D dp (leftout_state diagnal)
 # 3. 1D dp (compress each_item)
