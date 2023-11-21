@@ -165,6 +165,10 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# 1. tar -> single
+# 2. tar -> multiple(*)
+* https://leetcode.com/problems/ones-and-zeroes/
+
 # 1. dp[i-1][tar-?] for heavy (times)
 # 2. dp[i][tar-?] for light (min/max)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
@@ -181,14 +185,6 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/perfect-squares
 
 
-
-
-
-  
-
-# 1. tar -> single
-# 2. tar -> multiple(*)
-* https://leetcode.com/problems/ones-and-zeroes/
 
 
 
