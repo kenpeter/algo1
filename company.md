@@ -212,6 +212,34 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# dp step: cat -> state -> state_group -> state_out -> decision -> base -> cache
+* https://leetcode.com/problems/target-sum/
+* 1. cat 
+* 2. state
+* 3. state_group
+* 4. state_out
+* 3. decision 
+* 4. base 
+* 5. cache
+ 
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+* 1. cat: 0/1 unbound
+* 2. state: tar, item
+* 3. state_group: seeking_state, curr_state, leftout_state, fu_state
+* 4. state_out: valid('' or normal) OR invalid('0')
+* 3. decision: take/!
+* 4. base: 
+* 5. cache
+ 
+* https://leetcode.com/problems/ones-and-zeroes/
+* 1. cat 
+* 2. state
+* 3. state_group
+* 4. state_out
+* 3. decision 
+* 4. base 
+* 5. cache
+
 
 
 # pick/!
@@ -263,27 +291,7 @@ https://leetcode.com/problems/perfect-squares/
 * dp ind: multi tar (zeros and ones)
 
 
-# dp step: cat -> state -> decision -> base -> cache
-* https://leetcode.com/problems/target-sum/
-* 1. cat (1. 0/1 item once; 2. item !once; 3. path; 4. fabio; 5. subseq)
-* 2. state (index, tar)
-* 3. choose (+/-)
-* 4. base (bound, tar, etc)
-* 5. cache (hash)
- 
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-* 1. cat (1/0; unbound_item_reuse; ...)
-* 2. state (tar, no ind, as repeated)
-* 3. decision (digit 9->1)
-* 4. base (tar < 0, tar === 0)
-* 5. cache
- 
-* https://leetcode.com/problems/ones-and-zeroes/
-* 1. cat (0/1, bound)
-* 2. state (ind, #zero, #one)
-* 3. decision take / !take
-* 4. base (ind, #zero, #one)
-* 5. cache
+
  
 
 # how to build number: dfs bottom up; compare from right to left
