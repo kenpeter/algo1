@@ -82,21 +82,21 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 5. key ?? rela -> ..
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
+
+
+
 # subset rela under fullset
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+  
+# Q constraint to dp[][]
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
+
+
 
 # variable racing (dp)
 * https://leetcode.com/problems/ugly-number-ii/
-
-
-
-
-# pick/! build num, dfs
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-* relate to Q: include / !include
-* outter: i -> tar
-* inner: 0 -> cost_item (imply other ind)
-* dp ind: key tar, val: min
 
 
 
@@ -163,12 +163,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+
 # 1. dp[i-1][tar-?] for heavy (times)
 # 2. dp[i][tar-?] for light (min/max)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
-
-
 
 # 1. dfs (tar, item)
 # 2. 2D dp (leftout_state diagnal)
@@ -182,9 +181,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# Q constraint to dp[][]
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
 
   
 
