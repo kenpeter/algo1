@@ -127,6 +127,10 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
+# one major ind, other inds dep
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+* e.g. dp[i], cost[i-1]
+
 # dfs, dp use same arr mem
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
