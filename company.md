@@ -95,10 +95,15 @@ Edit Distance: Problems that involve converting one string into another using mi
 # imply dp dimension
 https://leetcode.com/problems/perfect-squares/
 
+# dfs, dp use same arr mem
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
+
 
 
 # variable racing (dp)
 * https://leetcode.com/problems/ugly-number-ii/
+
 
 
 
@@ -114,11 +119,6 @@ https://leetcode.com/problems/perfect-squares/
 * 2. 2D dp: inner, outter !matter
 * 3. 1D dp: inner, outter matter; min/max outter tar; times inner tar
 
-# natural bottom up ---> muti-deci
-* https://leetcode.com/problems/perfect-squares/
-* 1. bi-deci
-* 2. few-deci
-* 3. multi-deci(*)
 
 
 
@@ -132,12 +132,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 * e.g. dp[i], cost[i-1]
 
-# dfs, dp use same arr mem
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
-# state: tar, item(ind, num, pow, etc)
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* https://leetcode.com/problems/perfect-squares/
 
 # 1. multi-deci ind retart
 # 2. multi-deci ind never smaller
@@ -146,11 +141,21 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
 
+# natural bottom up ---> muti-deci
+* https://leetcode.com/problems/perfect-squares/
+* 1. bi-deci
+* 2. few-deci
+* 3. multi-deci(*)
+
+
+
+
 # func return: valid(init / normal) OR invald
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
 # vars present -> param tree
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+
 
 
 
@@ -164,6 +169,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+
+
+
+
+# state: tar, item(ind, num, pow, etc)
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
 
 # 1. tar -> single
 # 2. tar -> multiple(*)
