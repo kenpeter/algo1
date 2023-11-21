@@ -186,6 +186,24 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
 
+
+
+
+# ind_can_stay
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* 1. repeat
+* 2. dfs(i, tar-cost) === ind_can_stay
+* 3. dfs(i-1, tar) 
+  
+# ind_cannot_stay
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* 1. !repeat
+* 2. dfs(i-1, tar-cost)
+* 3. dfs(i-1, tar)
+
+
+
+
 # 1. dfs (tar, item)
 # 2. 2D dp (leftout_state diagnal)
 # 3. 1D dp (compress each_item)
