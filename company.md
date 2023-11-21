@@ -92,6 +92,8 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
+# imply dp dimension
+https://leetcode.com/problems/perfect-squares/
 
 
 
@@ -118,8 +120,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 * 2. few-deci
 * 3. multi-deci(*)
 
-# imply dp dimension
-https://leetcode.com/problems/perfect-squares/
+
 
 
 
