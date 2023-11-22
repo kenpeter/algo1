@@ -107,19 +107,22 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# min/max outter tar; times inner tar
+# dfs -> 2D -> 1D
 * https://leetcode.com/problems/perfect-squares/
 * 1. dfs: muti-deci
-* 2. 2D dp: imply num
-* 3. 1D dp: inner, outter matter; min/max outter tar; times inner tar
+* 2. 2D dp: each_item -> tar
+* 3. 1D dp: compress each_item
 
-# min/max outter tar; times inner tar
+
+
+
+# min/max outter tar
 * https://leetcode.com/problems/perfect-squares/
-* 1. dfs: multi-deci
-* 2. 2D dp: inner, outter !matter
-* 3. 1D dp: inner, outter matter; min/max outter tar; times inner tar
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
-
+# times inner tar
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+* 
 
 
 
