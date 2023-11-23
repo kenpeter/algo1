@@ -82,7 +82,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 5. key ?? rela -> ..
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
-# among key +/-/mul operation -> dp rela
+# among key op -> dp rela
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
 
@@ -169,10 +169,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# 1. multi-deci ind retart
-# 2. multi-deci ind never smaller
-# 3. dfs param ind restart
-# 4. dfs param ind never smaller
+# dfs param ind / local_loop ind ----> con / restart
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
 
