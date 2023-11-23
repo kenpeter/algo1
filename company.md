@@ -133,7 +133,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# min/max -->outter tar
+# min/max --> outter tar
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
@@ -290,6 +290,32 @@ https://leetcode.com/problems/perfect-squares/
 # 2. base tar reach end (*)
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
+
+
+# group item
+* 1. +/- to num -> group them
+* 2. */divide to num -> group them
+* 3. prop to num -> group them
+* https://leetcode.com/problems/target-sum/
+
+
+
+
+# add extra item to cancel
+* https://leetcode.com/problems/target-sum/
+* [s(+) + s(-)] + s(+) - s(-) = tar + [s(+) + s(-)]
+
+
+# +/- add up -> res +/-
+* https://leetcode.com/problems/target-sum
+
+
+# sum each_item < tar
+* https://leetcode.com/problems/target-sum/
+
+
+# brute force test case -> anbs
+* https://leetcode.com/problems/target-sum/
 
 
 # pick/!
