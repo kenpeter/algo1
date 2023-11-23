@@ -157,12 +157,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-# dfs param ind VS local_loop ind
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-
-# ind, other ind align this ind
+# local_loop ind imact other inds
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 * e.g. dp[i], cost[i-1]
@@ -172,8 +167,11 @@ https://leetcode.com/problems/perfect-squares/
 # dfs param ind / local_loop ind ----> con / restart
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
-# natural bottom up ---> muti-deci
+
+
+# natural bottom up ---> local_loop
 * https://leetcode.com/problems/perfect-squares/
 * 1. bi-deci
 * 2. few-deci
