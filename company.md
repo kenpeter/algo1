@@ -82,7 +82,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 5. key ?? rela -> ..
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
-# among key create relation -> dp rela
+# among key +/-/mul operation -> dp rela
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
 
@@ -110,12 +110,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# 1. dfs: leftout
+# 1. dfs: square leftout
 # 2. 2D dp: tar (min/max) -> each_item
 # 3. 1D dp: compress each_item
 * https://leetcode.com/problems/perfect-squares/
 
-# 1. dfs: leftout
+# 1. dfs: pow leftout
 # 2. 2D dp: tar (min/max) -> each_item
 # 3. 1D dp: compress each_item
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
@@ -123,7 +123,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# 1. dfs: leftout
+# 1. dfs: tar leftout
 # 2. 2D dp: each_item (times) -> tar
 # 3. 1D dp: compress each_item
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
@@ -133,13 +133,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# min/max outter tar
+# min/max -->outter tar
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
-# times inner tar
+# times --> inner tar
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
-
+* https://leetcode.com/problems/target-sum/
 
 
 
