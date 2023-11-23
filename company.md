@@ -109,11 +109,26 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# dfs -> 2D -> 1D
+
+# 1. dfs: leftout
+# 2. 2D dp: tar (min/max) -> each_item
+# 3. 1D dp: compress each_item
 * https://leetcode.com/problems/perfect-squares/
-* 1. dfs: muti-deci
-* 2. 2D dp: each_item -> tar
-* 3. 1D dp: compress each_item
+
+# 1. dfs: leftout
+# 2. 2D dp: tar (min/max) -> each_item
+# 3. 1D dp: compress each_item
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+
+
+
+
+# 1. dfs: leftout
+# 2. 2D dp: each_item (times) -> tar
+# 3. 1D dp: compress each_item
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
+
+
 
 
 
