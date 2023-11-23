@@ -122,7 +122,7 @@ https://leetcode.com/problems/perfect-squares/
 
 # times inner tar
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
-* 
+
 
 
 
@@ -131,8 +131,9 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
-# one major ind, other inds dep
+# ind, other ind align this ind
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 * e.g. dp[i], cost[i-1]
 
 
