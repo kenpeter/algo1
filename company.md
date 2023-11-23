@@ -193,13 +193,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# ind_can_stay
+# unbound pick, item !move
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 * 1. repeat
-* 2. dfs(i, tar-cost) === ind_can_stay
+* 2. dfs(i, tar-cost) === unbound pick, item !move
 * 3. dfs(i-1, tar) 
   
-# ind_cannot_stay
+# bound pick, item move
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 * 1. !repeat
 * 2. dfs(i-1, tar-cost)
