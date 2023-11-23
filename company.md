@@ -108,6 +108,15 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# dp key/val
+# 1. dp key/val -> tar: times
+# 2. dp key/val -> tar: min/max
+* https://leetcode.com/problems/target-sum
+
+# dp init
+# 1. dp init val: 1. 1; 2. valid; 3. sth useful; 4. etc
+# w. dp rest val: 1. 0; 2. undef; 3. invalid; 4. inf; 5. etc
+* https://leetcode.com/problems/target-sum/
 
 
 # 1. dfs: square leftout
@@ -127,6 +136,11 @@ https://leetcode.com/problems/perfect-squares/
 # 2. 2D dp: each_item (times) -> tar
 # 3. 1D dp: compress each_item
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
+
+# 1. dfs: tar leftout
+# 2. 2D dp: each_item(times) -. tar
+# 3. 1D dp; compress each_item
+* https://leetcode.com/problems/target-sum/
 
 
 
