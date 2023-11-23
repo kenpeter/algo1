@@ -241,20 +241,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-# 1. dfs (tar, item)
-# 2. 2D dp (leftout_state diagnal)
-# 3. 1D dp (compress each_item)
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
-
-# 1. dfs (tar, item)
-# 2. 2D dp (leftout_state col)
-# 3. 1D dp (compress each_item)
-* https://leetcode.com/problems/perfect-squares
-
-
-
-
 # build num direction
 # 1. build num from R to L, largest digit (greedy)
 # 2. build num from R to L, smallest digit (!greedy, !correct)
