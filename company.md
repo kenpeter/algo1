@@ -186,6 +186,10 @@ https://leetcode.com/problems/perfect-squares/
 # func return: valid(init / normal) OR invald
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
+# abstract func to return state
+* 1. good: state compare
+* 2. bad: couple leftout_state and curr_state
+
 # vars present -> param tree
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
