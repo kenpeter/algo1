@@ -113,10 +113,13 @@ https://leetcode.com/problems/perfect-squares/
 # 2. dp key/val -> tar: min/max
 * https://leetcode.com/problems/target-sum
 
-# dp init
-# 1. dp init val: 1. 1; 2. valid; 3. sth useful; 4. etc
-# w. dp rest val: 1. 0; 2. undef; 3. invalid; 4. inf; 5. etc
+# dp init start
 * https://leetcode.com/problems/target-sum/
+* 1. 1; 2. valid; 3. sth useful; 4. etc
+
+# dp init rest
+* https://leetcode.com/problems/target-sum/
+* 1. 0; 2. invalid; 3. undef; 4. inf; 5. etc
 
 
 # 1. dfs: square leftout
