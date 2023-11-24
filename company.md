@@ -222,6 +222,9 @@ https://leetcode.com/problems/perfect-squares/
 # inner -> ind = 0 / ind = 1
 * https://leetcode.com/problems/target-sum/
 
+# 2D dp[i] (x) vs dp[i][j] (*)
+* https://leetcode.com/problems/target-sum/
+
 
 # state: tar, item(ind, num, pow, etc)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
