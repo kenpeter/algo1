@@ -121,6 +121,9 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/target-sum/
 * 1. 0; 2. invalid; 3. undef; 4. inf; 5. etc
 
+# 2D dp -> 2 loop init -> 1 backup overwrite
+* https://leetcode.com/problems/target-sum/
+
 
 # 1. dfs: square leftout
 # 2. 2D dp: tar (min/max) -> each_item
@@ -213,8 +216,7 @@ https://leetcode.com/problems/perfect-squares/
 # 4. etc
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
-# 2D dp -> 2 loop init -> 1 backup overwrite
-* https://leetcode.com/problems/target-sum/
+
 
 # outer -> ind = 0 / ind = 1
 # inner -> ind = 0 / ind = 1
