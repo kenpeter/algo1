@@ -108,9 +108,9 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# dp key/val
-# 1. dp key/val -> tar: times
-# 2. dp key/val -> tar: min/max
+# dp key: val
+# 1. tar: times
+# 2. tar: min/max
 * https://leetcode.com/problems/target-sum
 
 # dp init start
