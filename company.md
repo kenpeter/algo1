@@ -170,7 +170,8 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# dfs param ind / local_loop ind ----> con / restart
+# 1. dfs param ind -> know which up to
+# 2. dfs internal loop -> always start 
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
