@@ -144,7 +144,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 
 # 1. dfs: tar leftout
-# 2. 2D dp: each_item(times) -. tar
+# 2. 2D dp: each_item(times) -> tar
 # 3. 1D dp; compress each_item
 * https://leetcode.com/problems/target-sum/
 
@@ -337,6 +337,9 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# 1. dfs -> no return -> g_var
+# 2. dfs -> return -> cache
+* https://leetcode.com/problems/target-sum
 
 
 
