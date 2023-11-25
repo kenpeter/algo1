@@ -107,7 +107,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# dp key: val
+# dp, key: val
 # 1. tar: times
 # 2. tar: min/max
 * https://leetcode.com/problems/target-sum
