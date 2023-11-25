@@ -218,11 +218,14 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# outer -> ind = 0 / ind = 1
-# inner -> ind = 0 / ind = 1
+# tar = 0, i=0
+# tar != 0, i=1
+# item = 0, i=0
+# item != 0, i=1
 * https://leetcode.com/problems/target-sum/
 
-# 2D dp[i] (x) vs dp[i][j] (*)
+# 2D -> dp[i][j]
+# 1D -> dp[i]
 * https://leetcode.com/problems/target-sum/
 
 
