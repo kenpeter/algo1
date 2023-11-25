@@ -124,6 +124,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/target-sum/
 
 
+# dfs -> 2D -> 1D (min/max)
 # 1. dfs: square leftout
 # 2. 2D dp: tar (min/max) -> each_item
 # 3. 1D dp: compress each_item
@@ -135,8 +136,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
 
-
-
+# dfs -> 2D -> 1D (times)
 # 1. dfs: tar leftout
 # 2. 2D dp: each_item (times) -> tar
 # 3. 1D dp: compress each_item
