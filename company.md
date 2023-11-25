@@ -227,10 +227,10 @@ https://leetcode.com/problems/perfect-squares/
 # loop, item != 0, i=1
 * https://leetcode.com/problems/target-sum/
 
-# 1. ind = 0, inbound
-# 2. ind = -1, outbound
-# 3. ind = ns.len-1, inbound
-# 4. b: ind = ns.le, outbound
+# 1. base, ind = 0, inbound
+# 2. base, ind = -1, outbound
+# 3. base, ind = ns.len-1, inbound
+# 4. base, ind = ns.le, outbound
 * https://leetcode.com/problems/target-sum
 
 
@@ -251,6 +251,12 @@ https://leetcode.com/problems/perfect-squares/
 # 2. dp[i][tar-?] for light (min/max)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
+
+# 1. item inc, tar inc
+# 2. item inc, tar desc
+# 3. item desc, tar inc
+# 4. item desc, tar desc
+* https://leetcode.com/problems/target-sum
 
 # 1. for op +/-, 0 -> tar
 # 2. for op +, 0 -> tar or tar -> 0
