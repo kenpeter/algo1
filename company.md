@@ -129,6 +129,13 @@ https://leetcode.com/problems/perfect-squares/
 # 4. base, ind = ns.le, outbound
 * https://leetcode.com/problems/target-sum
 
+# diff kind of base
+# 1. build num -> 0
+# 2. build num str -> ''
+# 3. build str -> ''
+# 4. etc
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+
 
 
 
@@ -228,13 +235,6 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 
 
-
-# diff kind of base
-# 1. build num -> 0
-# 2. build num str -> ''
-# 3. build str -> ''
-# 4. etc
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
 
 
