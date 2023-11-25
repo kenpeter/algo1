@@ -79,7 +79,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 2. key pow rela -> dp rela
 # 3. key sqr/sq_root rela -> dp rela
 # 4. key +/- rela -> ..
-# 5. key ?? rela -> ..
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
 # among key op -> dp rela
@@ -87,7 +86,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# subset rela under fullset
+# subset dp under fullset dp
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
   
 # Q constraint to dp[][]
