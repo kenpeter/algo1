@@ -197,6 +197,8 @@ https://leetcode.com/problems/perfect-squares/
 # vars present -> param tree
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
+# param tree -> simplify -> core param (e.g. ind) <----
+* https://leetcode.com/problems/target-sum
 
 
 
@@ -219,11 +221,18 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# tar = 0, i=0
-# tar != 0, i=1
-# item = 0, i=0
-# item != 0, i=1
+# loop, tar = 0, i=0
+# loop, tar != 0, i=1
+# loop, item = 0, i=0
+# loop, item != 0, i=1
 * https://leetcode.com/problems/target-sum/
+
+# 1. ind = 0, inbound
+# 2. ind = -1, outbound
+# 3. ind = ns.len-1, inbound
+# 4. b: ind = ns.le, outbound
+* https://leetcode.com/problems/target-sum
+
 
 # 2D -> dp[i][j]
 # 1D -> dp[i]
@@ -243,6 +252,9 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
 
+# 1. for op +/-, 0 -> tar
+# 2. for op +, 0 -> tar or tar -> 0
+* https://leetcode.com/problems/target-sum
 
 
 
