@@ -248,15 +248,13 @@ https://leetcode.com/problems/perfect-squares/
 
 # repeat pick
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-* 1. repeat
-* 2. dfs(i, tar-cost) === unbound pick, item !move
-* 3. dfs(i-1, tar) 
+* 1. dfs(i, tar-cost) ---> repeat pick
+* 2. dfs(i-1, tar) ---> !inf loop
   
 # !repeat pick
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-* 1. !repeat
-* 2. dfs(i-1, tar-cost)
-* 3. dfs(i-1, tar)
+* 1. dfs(i-1, tar-cost) === !repeat pick
+* 2. dfs(i-1, tar) ---> !inf loop
 
 
 
