@@ -123,6 +123,14 @@ https://leetcode.com/problems/perfect-squares/
 # 2D dp -> 2 loop init -> 1 backup overwrite
 * https://leetcode.com/problems/target-sum/
 
+# 1. base, ind = 0, inbound
+# 2. base, ind = -1, outbound
+# 3. base, ind = ns.len-1, inbound
+# 4. base, ind = ns.le, outbound
+* https://leetcode.com/problems/target-sum
+
+
+
 
 # dfs -> 2D -> 1D (min/max)
 # 1. dfs: square leftout
@@ -162,12 +170,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+
+
+
 # local_loop ind impact
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 * e.g. dp[i], cost[i-1]
-
-
 
 # 1. dfs param ind -> know which up to
 # 2. dfs internal loop -> always start 
@@ -175,7 +184,11 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
-
+# loop, tar = 0, i=0
+# loop, tar != 0, i=1
+# loop, item = 0, i=0
+# loop, item != 0, i=1
+* https://leetcode.com/problems/target-sum/
 
 # natural bottom up ---> local_loop
 * https://leetcode.com/problems/perfect-squares/
@@ -192,6 +205,11 @@ https://leetcode.com/problems/perfect-squares/
 # abstract func to return state
 * 1. good: state compare
 * 2. bad: couple leftout_state and curr_state
+
+
+
+
+
 
 # vars present -> param tree
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
@@ -220,17 +238,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# loop, tar = 0, i=0
-# loop, tar != 0, i=1
-# loop, item = 0, i=0
-# loop, item != 0, i=1
-* https://leetcode.com/problems/target-sum/
-
-# 1. base, ind = 0, inbound
-# 2. base, ind = -1, outbound
-# 3. base, ind = ns.len-1, inbound
-# 4. base, ind = ns.le, outbound
-* https://leetcode.com/problems/target-sum
 
 
 # 2D -> dp[i][j]
