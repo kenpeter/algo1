@@ -249,12 +249,16 @@ https://leetcode.com/problems/perfect-squares/
 # repeat pick
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 * 1. dfs(i, tar-cost) ---> repeat pick
-* 2. dfs(i-1, tar) ---> !inf loop
+* 2. dfs(i-1, tar)
   
 # !repeat pick
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 * 1. dfs(i-1, tar-cost) === !repeat pick
-* 2. dfs(i-1, tar) ---> !inf loop
+* 2. dfs(i-1, tar)
+ 
+# 1. ntake -> dfs(i-1, tar) -> !inf loop
+# 2. ntake -> dfs(i, tar) -> !inf loop
+* https://leetcode.com/problems/target-sum
 
 
 
