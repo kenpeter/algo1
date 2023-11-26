@@ -247,6 +247,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# state: tar, item(ind, num, pow, etc)
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
+
+
+
+
 # func return: valid(init / normal) OR invald
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
@@ -277,16 +284,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-
-
-
-
-
-
-# state: tar, item(ind, num, pow, etc)
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* https://leetcode.com/problems/perfect-squares/
 
 
 
