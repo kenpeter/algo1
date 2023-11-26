@@ -162,7 +162,33 @@ https://leetcode.com/problems/perfect-squares/
 # 3. 1D dp; compress each_item
 * https://leetcode.com/problems/target-sum/
 
-
+# dp step: cat -> state -> state_group -> state_out -> decision -> base -> cache
+* https://leetcode.com/problems/target-sum/
+* 1. cat 
+* 2. state
+* 3. state_group
+* 4. state_out
+* 3. decision 
+* 4. base 
+* 5. cache
+ 
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+* 1. cat: 0/1 unbound
+* 2. state: tar, item
+* 3. state_group: seeking_state, curr_state, leftout_state, fu_state
+* 4. state_out: valid('' or normal) OR invalid('0')
+* 3. decision: take/!
+* 4. base: 
+* 5. cache
+ 
+* https://leetcode.com/problems/ones-and-zeroes/
+* 1. cat 
+* 2. state
+* 3. state_group
+* 4. state_out
+* 3. decision 
+* 4. base 
+* 5. cache
 
 
 
@@ -299,33 +325,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# dp step: cat -> state -> state_group -> state_out -> decision -> base -> cache
-* https://leetcode.com/problems/target-sum/
-* 1. cat 
-* 2. state
-* 3. state_group
-* 4. state_out
-* 3. decision 
-* 4. base 
-* 5. cache
- 
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-* 1. cat: 0/1 unbound
-* 2. state: tar, item
-* 3. state_group: seeking_state, curr_state, leftout_state, fu_state
-* 4. state_out: valid('' or normal) OR invalid('0')
-* 3. decision: take/!
-* 4. base: 
-* 5. cache
- 
-* https://leetcode.com/problems/ones-and-zeroes/
-* 1. cat 
-* 2. state
-* 3. state_group
-* 4. state_out
-* 3. decision 
-* 4. base 
-* 5. cache
+
 
 
 # 1. base ind reach end (x)
