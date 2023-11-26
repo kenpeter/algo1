@@ -162,7 +162,7 @@ https://leetcode.com/problems/perfect-squares/
 # 3. 1D dp; compress each_item
 * https://leetcode.com/problems/target-sum/
 
-# dp step: cat -> state -> state_group -> state_out -> decision -> base -> cache
+# dfs step: cat -> state -> state_group -> state_out -> decision -> base -> cache
 * https://leetcode.com/problems/target-sum/
 * 1. cat 
 * 2. state
