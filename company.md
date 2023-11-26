@@ -253,12 +253,32 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+
+
 # func return: valid(init / normal) OR invald
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
 # abstract func to return state
 * 1. good: state compare
 * 2. bad: couple leftout_state and curr_state
+
+
+
+# vars present -> param tree
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+
+# param tree -> simplify -> core param (e.g. ind) <----
+* https://leetcode.com/problems/target-sum
+
+
+# too big -> str
+# too big -> MOD
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+
+# attach MOD to end cal
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+
 
 
 
@@ -318,21 +338,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# vars present -> param tree
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-
-# param tree -> simplify -> core param (e.g. ind) <----
-* https://leetcode.com/problems/target-sum
-
-
-
-# too big -> str
-# too big -> MOD
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
-
-# attach MOD to end cal
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 
 
 
