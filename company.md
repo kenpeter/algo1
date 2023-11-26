@@ -288,9 +288,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
 
-# 1. tar -> single
-# 2. tar -> multiple(*)
-* https://leetcode.com/problems/ones-and-zeroes/
+
 
 
 
@@ -309,6 +307,11 @@ https://leetcode.com/problems/perfect-squares/
 # 3. item desc, tar inc
 # 4. item desc, tar desc
 * https://leetcode.com/problems/target-sum
+
+# 1. tar -> single
+# 2. tar -> multiple(*)
+* https://leetcode.com/problems/ones-and-zeroes/
+
 
 
 
