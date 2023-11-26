@@ -344,6 +344,10 @@ https://leetcode.com/problems/perfect-squares/
 # 2. for op +, 0 -> tar or tar -> 0
 * https://leetcode.com/problems/target-sum
 
+# +/- add up -> res +/-
+* https://leetcode.com/problems/target-sum
+
+
 
 
 # build num direction
@@ -380,8 +384,7 @@ https://leetcode.com/problems/perfect-squares/
 * [s(+) + s(-)] + s(+) - s(-) = tar + [s(+) + s(-)]
 
 
-# +/- add up -> res +/-
-* https://leetcode.com/problems/target-sum
+
 
 
 # sum each_item < tar
