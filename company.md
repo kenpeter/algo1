@@ -221,6 +221,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# 1. dfs -> no return -> g_var
+# 2. dfs -> return -> cache
+* https://leetcode.com/problems/target-sum
+
+
 
 
 # dfs -> 2D -> 1D (min/max)
@@ -279,9 +284,6 @@ https://leetcode.com/problems/perfect-squares/
 * 5. cache
  
  
-# 1. dfs -> no return -> g_var
-# 2. dfs -> return -> cache
-* https://leetcode.com/problems/target-sum
 
 
 
