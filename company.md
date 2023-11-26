@@ -155,9 +155,17 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
+
 # state: tar, item(ind, num, pow, etc)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
+
+# 1. item inc, tar inc
+# 2. item inc, tar desc
+# 3. item desc, tar inc
+# 4. item desc, tar desc
+* https://leetcode.com/problems/target-sum
+
 
 
 
@@ -328,11 +336,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
 
-# 1. item inc, tar inc
-# 2. item inc, tar desc
-# 3. item desc, tar inc
-# 4. item desc, tar desc
-* https://leetcode.com/problems/target-sum
+
 
 
 
