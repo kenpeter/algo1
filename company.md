@@ -99,12 +99,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# dfs, dp use same arr mem
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-
-# 1. mem arr === faster
-# 2. hash === slower
-* https://leetcode.com/problems/partition-equal-subset-sum/
 
 
 
@@ -147,6 +141,16 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 1. base ind reach end (x)
 # 2. base tar reach end (*)
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+
+
+
+# dfs, dp use same arr mem
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
+# 1. mem arr === faster
+# 2. hash === slower
+* https://leetcode.com/problems/partition-equal-subset-sum/
 
 
 
