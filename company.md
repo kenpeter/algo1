@@ -255,6 +255,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+
 # too big -> str
 # too big -> MOD
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
@@ -263,6 +264,29 @@ https://leetcode.com/problems/perfect-squares/
 # attach MOD to end cal
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 
+
+
+
+# repeat pick
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* 1. dfs(i, tar-cost) ---> repeat pick
+* 2. dfs(i-1, tar)
+  
+# !repeat pick
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* 1. dfs(i-1, tar-cost) === !repeat pick
+* 2. dfs(i-1, tar)
+ 
+# 1. ntake -> dfs(i-1, tar) -> !inf loop
+# 2. ntake -> dfs(i, tar) -> !inf loop
+* https://leetcode.com/problems/target-sum
+
+# 1. for op +/-, 0 -> tar
+# 2. for op +, 0 -> tar or tar -> 0
+* https://leetcode.com/problems/target-sum
+
+# +/- add up -> res +/-
+* https://leetcode.com/problems/target-sum
 
 
 
@@ -323,64 +347,6 @@ https://leetcode.com/problems/perfect-squares/
 * 5. cache
  
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# repeat pick
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-* 1. dfs(i, tar-cost) ---> repeat pick
-* 2. dfs(i-1, tar)
-  
-# !repeat pick
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-* 1. dfs(i-1, tar-cost) === !repeat pick
-* 2. dfs(i-1, tar)
- 
-# 1. ntake -> dfs(i-1, tar) -> !inf loop
-# 2. ntake -> dfs(i, tar) -> !inf loop
-* https://leetcode.com/problems/target-sum
-
-# 1. for op +/-, 0 -> tar
-# 2. for op +, 0 -> tar or tar -> 0
-* https://leetcode.com/problems/target-sum
-
-# +/- add up -> res +/-
-* https://leetcode.com/problems/target-sum
-
-
 
 
 # build num direction
