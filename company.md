@@ -96,8 +96,17 @@ Edit Distance: Problems that involve converting one string into another using mi
 # imply dp dimension
 https://leetcode.com/problems/perfect-squares/
 
+
+
+
+
 # dfs, dp use same arr mem
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
+# 1. mem arr === faster
+# 2. hash === slower
+* https://leetcode.com/problems/partition-equal-subset-sum/
+
 
 
 
