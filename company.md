@@ -157,6 +157,14 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+
+# sum each_item < tar
+* https://leetcode.com/problems/target-sum/
+
+
+
+
+
 # dfs -> 2D -> 1D (min/max)
 # 1. dfs: square leftout
 # 2. 2D dp: tar (min/max) -> each_item
@@ -386,9 +394,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-# sum each_item < tar
-* https://leetcode.com/problems/target-sum/
 
 
 # brute force test case -> ans
