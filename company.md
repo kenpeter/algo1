@@ -266,9 +266,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# 2D -> dp[i][j]
-# 1D -> dp[i]
-* https://leetcode.com/problems/target-sum/
+
 
 
 # state: tar, item(ind, num, pow, etc)
@@ -278,6 +276,13 @@ https://leetcode.com/problems/perfect-squares/
 # 1. tar -> single
 # 2. tar -> multiple(*)
 * https://leetcode.com/problems/ones-and-zeroes/
+
+
+
+
+# 2D -> dp[i][j]
+# 1D -> dp[i]
+* https://leetcode.com/problems/target-sum/
 
 # 1. dp[i-1][tar-?] for heavy (times)
 # 2. dp[i][tar-?] for light (min/max)
@@ -290,9 +295,7 @@ https://leetcode.com/problems/perfect-squares/
 # 4. item desc, tar desc
 * https://leetcode.com/problems/target-sum
 
-# 1. for op +/-, 0 -> tar
-# 2. for op +, 0 -> tar or tar -> 0
-* https://leetcode.com/problems/target-sum
+
 
 
 
@@ -308,6 +311,10 @@ https://leetcode.com/problems/perfect-squares/
  
 # 1. ntake -> dfs(i-1, tar) -> !inf loop
 # 2. ntake -> dfs(i, tar) -> !inf loop
+* https://leetcode.com/problems/target-sum
+
+# 1. for op +/-, 0 -> tar
+# 2. for op +, 0 -> tar or tar -> 0
 * https://leetcode.com/problems/target-sum
 
 
