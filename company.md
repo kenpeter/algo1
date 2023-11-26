@@ -93,10 +93,15 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
+
+
+
 # imply dp dimension
 https://leetcode.com/problems/perfect-squares/
 
-
+# 1. tar -> single
+# 2. tar -> multiple(*)
+* https://leetcode.com/problems/ones-and-zeroes/
 
 
 
@@ -314,9 +319,7 @@ https://leetcode.com/problems/perfect-squares/
 # 4. item desc, tar desc
 * https://leetcode.com/problems/target-sum
 
-# 1. tar -> single
-# 2. tar -> multiple(*)
-* https://leetcode.com/problems/ones-and-zeroes/
+
 
 
 
