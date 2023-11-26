@@ -75,14 +75,7 @@ Edit Distance: Problems that involve converting one string into another using mi
  
 
 
-# key rela -> dp rela
-# 2. key pow rela -> dp rela
-# 3. key sqr/sq_root rela -> dp rela
-# 4. key +/- rela -> ..
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
-# among key op -> dp rela
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
 
 
@@ -109,10 +102,22 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
+
 # dp, key: val
 # 1. tar: times
 # 2. tar: min/max
 * https://leetcode.com/problems/target-sum
+
+# key rela -> dp rela
+# 2. key pow rela -> dp rela
+# 3. key sqr/sq_root rela -> dp rela
+# 4. key +/- rela -> ..
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+
+# among key op -> dp rela
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+
+
 
 # dp init start
 * https://leetcode.com/problems/target-sum/
