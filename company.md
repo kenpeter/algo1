@@ -143,9 +143,35 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 4. etc
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
+
+
+
 # 1. base ind reach end (x)
 # 2. base tar reach end (*)
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+# local_loop ind impact
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+* e.g. dp[i], cost[i-1]
+
+# 1. dfs param ind -> know which up to
+# 2. dfs internal loop -> always start 
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+# loop, tar = 0, i=0
+# loop, tar != 0, i=1
+# loop, item = 0, i=0
+# loop, item != 0, i=1
+* https://leetcode.com/problems/target-sum/
+
+# natural bottom up ---> local_loop
+* https://leetcode.com/problems/perfect-squares/
+* 1. bi-deci
+* 2. few-deci
+* 3. multi-deci(*)
 
 
 
@@ -268,28 +294,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# local_loop ind impact
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
-* e.g. dp[i], cost[i-1]
 
-# 1. dfs param ind -> know which up to
-# 2. dfs internal loop -> always start 
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* https://leetcode.com/problems/perfect-squares/
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-
-# loop, tar = 0, i=0
-# loop, tar != 0, i=1
-# loop, item = 0, i=0
-# loop, item != 0, i=1
-* https://leetcode.com/problems/target-sum/
-
-# natural bottom up ---> local_loop
-* https://leetcode.com/problems/perfect-squares/
-* 1. bi-deci
-* 2. few-deci
-* 3. multi-deci(*)
 
 
 
