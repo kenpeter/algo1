@@ -96,12 +96,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# imply dp dimension
-https://leetcode.com/problems/perfect-squares/
-
-# 1. tar -> single
-# 2. tar -> multiple(*)
-* https://leetcode.com/problems/ones-and-zeroes/
 
 
 
@@ -157,10 +151,22 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# state: tar, item(ind, num, pow, etc)
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
+
+
+
 
 # sum each_item < tar
 * https://leetcode.com/problems/target-sum/
 
+# imply dp dimension
+https://leetcode.com/problems/perfect-squares/
+
+# 1. tar -> single
+# 2. tar -> multiple(*)
+* https://leetcode.com/problems/ones-and-zeroes/
 
 
 
@@ -269,9 +275,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# state: tar, item(ind, num, pow, etc)
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* https://leetcode.com/problems/perfect-squares/
 
 
 
