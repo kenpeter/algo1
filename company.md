@@ -221,9 +221,49 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+
+# 2D -> dp[i][j]
+# 1D -> dp[i]
+* https://leetcode.com/problems/target-sum/
+
+# 1. dp[i-1][tar-?] for heavy (times)
+# 2. dp[i][tar-?] for light (min/max)
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
+* https://leetcode.com/problems/perfect-squares/
+
+
+
+# func return: valid(init / normal) OR invald
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+
+# abstract func to return state
+* 1. good: state compare
+* 2. bad: couple leftout_state and curr_state
+
+
+# vars present -> param tree
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+
+# param tree -> simplify -> core param (e.g. ind) <----
+* https://leetcode.com/problems/target-sum
+
+
 # 1. dfs -> no return -> g_var
 # 2. dfs -> return -> cache
 * https://leetcode.com/problems/target-sum
+
+
+
+
+# too big -> str
+# too big -> MOD
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+
+# attach MOD to end cal
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+
+
 
 
 
@@ -250,35 +290,6 @@ https://leetcode.com/problems/perfect-squares/
 # 2. 2D dp: each_item(times) -> tar
 # 3. 1D dp; compress each_item
 * https://leetcode.com/problems/target-sum/
-
-
-
-
-
-# func return: valid(init / normal) OR invald
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-
-# abstract func to return state
-* 1. good: state compare
-* 2. bad: couple leftout_state and curr_state
-
-
-
-# vars present -> param tree
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-
-# param tree -> simplify -> core param (e.g. ind) <----
-* https://leetcode.com/problems/target-sum
-
-
-# too big -> str
-# too big -> MOD
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
-
-# attach MOD to end cal
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
-
 
 
 
@@ -338,23 +349,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-
-
-
-
-
-
-
-
-# 2D -> dp[i][j]
-# 1D -> dp[i]
-* https://leetcode.com/problems/target-sum/
-
-# 1. dp[i-1][tar-?] for heavy (times)
-# 2. dp[i][tar-?] for light (min/max)
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
-* https://leetcode.com/problems/perfect-squares/
 
 
 
