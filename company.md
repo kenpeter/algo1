@@ -197,6 +197,13 @@ https://leetcode.com/problems/perfect-squares/
 * 3. decision 
 * 4. base 
 * 5. cache
+ 
+ 
+# 1. dfs -> no return -> g_var
+# 2. dfs -> return -> cache
+* https://leetcode.com/problems/target-sum
+
+
 
 
 
@@ -372,11 +379,6 @@ https://leetcode.com/problems/perfect-squares/
 # brute force test case -> ans
 * https://leetcode.com/problems/target-sum/
 
-
-
-# 1. dfs -> no return -> g_var
-# 2. dfs -> return -> cache
-* https://leetcode.com/problems/target-sum
 
 
 
