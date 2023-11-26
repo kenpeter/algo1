@@ -363,12 +363,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-
-
-
-
-
 # group item
 * 1. +/- to num -> group them
 * 2. */divide to num -> group them
