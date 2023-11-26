@@ -187,6 +187,18 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# min/max --> outter tar
+* https://leetcode.com/problems/perfect-squares/
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+# times --> inner tar
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+* https://leetcode.com/problems/target-sum/
+
+
+
+
+
 
 # dfs -> 2D -> 1D (min/max)
 # 1. dfs: square leftout
@@ -253,13 +265,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# min/max --> outter tar
-* https://leetcode.com/problems/perfect-squares/
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-
-# times --> inner tar
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
-* https://leetcode.com/problems/target-sum/
 
 
 
