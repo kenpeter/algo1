@@ -420,6 +420,11 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 
+# who can reduce
+# 1. str.reduce (x)
+# 2. arr.reduce (*)
+* https://leetcode.com/problems/ones-and-zeroes/
+
 
 
 
