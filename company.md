@@ -210,9 +210,10 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 2. base tar reach end (*)
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
-# local_loop ind impact
+# state loop ind impact
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+* https://leetcode.com/problems/ones-and-zeroes
 * e.g. dp[i], cost[i-1]
 
 # 1. dfs param ind -> know which up to
