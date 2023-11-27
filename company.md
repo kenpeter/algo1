@@ -324,7 +324,21 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
 
+# diff way update state
+# 1. multi state compare -> update dp[i][j]
+# 2. update dp[i][j]multi state acc -> update dp[i][j]
+# 3. multi state ???? -> update dp[i][j]
+https://leetcode.com/problems/ones-and-zeroes
 
+# +/- way update state
+# 1. state op +/-, 0 -> tar
+# 2. state op +, 0 -> tar or tar -> 0
+* https://leetcode.com/problems/target-sum
+
+
+
+
+# state ind movement
 # repeat pick ind movement
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 * 1. dfs(i, tar-cost) ---> repeat pick
@@ -337,10 +351,6 @@ https://leetcode.com/problems/perfect-squares/
  
 # 1. ntake -> dfs(i-1, tar) -> !inf loop
 # 2. ntake -> dfs(i, tar) -> !inf loop
-* https://leetcode.com/problems/target-sum
-
-# 1. for op +/-, 0 -> tar
-# 2. for op +, 0 -> tar or tar -> 0
 * https://leetcode.com/problems/target-sum
 
 
