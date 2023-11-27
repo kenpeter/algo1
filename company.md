@@ -159,20 +159,22 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-
-# dp key val relationship
-# 1. tar: times
-# 2. tar: min/max
+# dp arr, key val relationship
+# 1. dp tar -> times
+# 2. dp tar -> min/max
 * https://leetcode.com/problems/target-sum
 
-# key rela -> dp rela
-# 2. key pow rela -> dp rela
-# 3. key sqr/sq_root rela -> dp rela
-# 4. key +/- rela -> ..
+
+# dp key abstract
+# 1. dp key pow abstract
+# 2. dp key sqr/sq_root abstract
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
-# among key op -> dp rela
+# dp key str abstract
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+
+# dp key func abstract (# zero / # one)
+* https://leetcode.com/problems/ones-and-zeroes
 
 
 
