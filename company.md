@@ -123,7 +123,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# dp key val
+# dp key val relationship
 # 1. tar: times
 # 2. tar: min/max
 * https://leetcode.com/problems/target-sum
