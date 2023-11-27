@@ -204,9 +204,13 @@ Edit Distance: Problems that involve converting one string into another using mi
 # imply dp dimension
 https://leetcode.com/problems/perfect-squares/
 
-# 1. tar -> single
-# 2. tar -> multiple(*)
-* https://leetcode.com/problems/ones-and-zeroes/
+# loops order
+# 1. each_item -> tar
+# 2. item A -> item B -> item C
+# 3. item A -> tar -> item B
+* 1. https://leetcode.com/problems/target-sum/
+* 2. https://leetcode.com/problems/ones-and-zeroes
+* 3. https://leetcode.com/problems/number-of-ways-to-earn-points
 
 
 
