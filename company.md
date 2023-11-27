@@ -201,18 +201,17 @@ Edit Distance: Problems that involve converting one string into another using mi
 # sum each_item < tar
 * https://leetcode.com/problems/target-sum/
 
-# imply dp dimension
+# imply dp tar/item val
 https://leetcode.com/problems/perfect-squares/
 
-# loops order
+
+# loops layout
 # 1. each_item -> tar
 # 2. item A -> item B -> item C
 # 3. item A -> tar -> item B
 * 1. https://leetcode.com/problems/target-sum/
 * 2. https://leetcode.com/problems/ones-and-zeroes
 * 3. https://leetcode.com/problems/number-of-ways-to-earn-points
-
-
 
 # min/max --> outter tar
 * https://leetcode.com/problems/perfect-squares/
