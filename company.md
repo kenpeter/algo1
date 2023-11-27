@@ -280,18 +280,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-# post order ops
-# vars present -> param tree
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-
-# param tree -> simplify -> core param (e.g. ind) <----
-* https://leetcode.com/problems/target-sum
-
-
-
-
-
 # state func return
 # state func return: valid(init / normal) OR invald
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
@@ -306,7 +294,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# post order ops
+# vars present -> param tree
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
+# param tree -> simplify -> core param (e.g. ind) <----
+* https://leetcode.com/problems/target-sum
 
 
 # too big -> str
