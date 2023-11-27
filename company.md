@@ -315,6 +315,16 @@ https://leetcode.com/problems/perfect-squares/
 * 1. good: state compare
 * 2. bad: couple leftout_state and curr_state
 
+# build num direction
+# 1. build num from R to L, largest digit (greedy)
+# 2. build num from R to L, smallest digit (!greedy, !correct)
+# 3. build num from L to R, !stable num largest
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+
+# build num len
+# build num len: surprise, exc.len > inc.len use
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+
 
 
 
@@ -371,15 +381,7 @@ https://leetcode.com/problems/perfect-squares/
  
 
 
-# build num direction
-# 1. build num from R to L, largest digit (greedy)
-# 2. build num from R to L, smallest digit (!greedy, !correct)
-# 3. build num from L to R, !stable num largest
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
-# build num len
-# build num len: surprise, exc.len > inc.len use
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
 
 
