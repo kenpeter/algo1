@@ -79,7 +79,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-
+# dp overall architecture
 # dfs step: cat -> state -> state_group -> state_out -> decision -> base -> cache
 * https://leetcode.com/problems/target-sum/
 * 1. cat 
@@ -107,8 +107,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 * 3. decision 
 * 4. base 
 * 5. cache
-
-
 
 
 # group -> subset -> !order -> state -> dp
