@@ -221,24 +221,31 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-
-# dp tar
+# dp item
 # state: tar, item(ind, num, pow, etc)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
 
+
+
+# dp tar
 # 1. item inc, tar inc
 # 2. item inc, tar desc
 # 3. item desc, tar inc
 # 4. item desc, tar desc
 * https://leetcode.com/problems/target-sum
 
+# imply dp tar/item val
+https://leetcode.com/problems/perfect-squares/
+
 
 # sum each_item < tar
 * https://leetcode.com/problems/target-sum/
 
-# imply dp tar/item val
-https://leetcode.com/problems/perfect-squares/
+# +/- add up -> res +/-
+* https://leetcode.com/problems/target-sum
+
+
 
 
 
@@ -279,6 +286,26 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/perfect-squares/
 
 
+# repeat pick ind movement
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* 1. dfs(i, tar-cost) ---> repeat pick
+* 2. dfs(i-1, tar)
+  
+# !repeat pick ind movement
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* 1. dfs(i-1, tar-cost) === !repeat pick
+* 2. dfs(i-1, tar)
+ 
+# 1. ntake -> dfs(i-1, tar) -> !inf loop
+# 2. ntake -> dfs(i, tar) -> !inf loop
+* https://leetcode.com/problems/target-sum
+
+# 1. for op +/-, 0 -> tar
+# 2. for op +, 0 -> tar or tar -> 0
+* https://leetcode.com/problems/target-sum
+
+
+
 
 # state func return
 # state func return: valid(init / normal) OR invald
@@ -287,8 +314,6 @@ https://leetcode.com/problems/perfect-squares/
 # abstract func to return state
 * 1. good: state compare
 * 2. bad: couple leftout_state and curr_state
-
-
 
 
 
@@ -313,26 +338,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# repeat pick
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-* 1. dfs(i, tar-cost) ---> repeat pick
-* 2. dfs(i-1, tar)
-  
-# !repeat pick
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-* 1. dfs(i-1, tar-cost) === !repeat pick
-* 2. dfs(i-1, tar)
- 
-# 1. ntake -> dfs(i-1, tar) -> !inf loop
-# 2. ntake -> dfs(i, tar) -> !inf loop
-* https://leetcode.com/problems/target-sum
-
-# 1. for op +/-, 0 -> tar
-# 2. for op +, 0 -> tar or tar -> 0
-* https://leetcode.com/problems/target-sum
-
-# +/- add up -> res +/-
-* https://leetcode.com/problems/target-sum
 
 
 
