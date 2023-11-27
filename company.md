@@ -132,7 +132,9 @@ Edit Distance: Problems that involve converting one string into another using mi
 * 3. decision 
 * 4. base 
 * 5. cache
- 
+
+
+# diff way simply dp
 # dfs -> 2D -> 1D (min/max)
 # 1. dfs: square leftout
 # 2. 2D dp: tar (min/max) -> each_item
@@ -155,6 +157,10 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 2. 2D dp: each_item(times) -> tar
 # 3. 1D dp; compress each_item
 * https://leetcode.com/problems/target-sum/
+
+
+# dfs -> 3D -> 2D
+https://leetcode.com/problems/ones-and-zeroes
 
 
 
