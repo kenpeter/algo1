@@ -110,8 +110,15 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
+
 # group -> subset -> !order -> state -> dp
 * https://leetcode.com/problems/ones-and-zeroes
+
+# group item
+* 1. +/- to num -> group them
+* 2. */divide to num -> group them
+* 3. prop to num -> group them
+* https://leetcode.com/problems/target-sum/
 
 
 
@@ -373,11 +380,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# group item
-* 1. +/- to num -> group them
-* 2. */divide to num -> group them
-* 3. prop to num -> group them
-* https://leetcode.com/problems/target-sum/
+
 
 
 
