@@ -224,6 +224,10 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# state op
+# 1. min/max -> !fair -> init 0 --> op
+# 2. times/condi -> fair -> init 1 --> !op
+* https://leetcode.com/problems/ones-and-zeroes
 
 # 2D -> dp[i][j]
 # 1D -> dp[i]
@@ -237,7 +241,20 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# func return: valid(init / normal) OR invald
+
+# post order ops
+# vars present -> param tree
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+
+# param tree -> simplify -> core param (e.g. ind) <----
+* https://leetcode.com/problems/target-sum
+
+
+
+
+
+# state func return
+# state func return: valid(init / normal) OR invald
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
 # abstract func to return state
@@ -245,11 +262,6 @@ https://leetcode.com/problems/perfect-squares/
 * 2. bad: couple leftout_state and curr_state
 
 
-# vars present -> param tree
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-
-# param tree -> simplify -> core param (e.g. ind) <----
-* https://leetcode.com/problems/target-sum
 
 
 # 1. dfs -> no return -> g_var
