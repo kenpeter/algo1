@@ -79,6 +79,19 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
+
+# Q grouping -> subset -> state
+# group -> subset -> state -> dp
+* https://leetcode.com/problems/ones-and-zeroes
+
+# diff way to group
+* 1. +/- to num -> group them
+* 2. */divide to num -> group them
+* 3. prop to num -> group them
+* https://leetcode.com/problems/target-sum/
+
+
+
 # dp overall architecture
 # dfs step: cat -> state -> state_group -> state_out -> decision -> base -> cache
 * https://leetcode.com/problems/target-sum/
@@ -107,17 +120,29 @@ Edit Distance: Problems that involve converting one string into another using mi
 * 3. decision 
 * 4. base 
 * 5. cache
+ 
+# dfs -> 2D -> 1D (min/max)
+# 1. dfs: square leftout
+# 2. 2D dp: tar (min/max) -> each_item
+# 3. 1D dp: compress each_item
+* https://leetcode.com/problems/perfect-squares/
+
+# 1. dfs: pow leftout
+# 2. 2D dp: tar (min/max) -> each_item
+# 3. 1D dp: compress each_item
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 
 
-# group -> subset -> !order -> state -> dp
-* https://leetcode.com/problems/ones-and-zeroes
+# dfs -> 2D -> 1D (times)
+# 1. dfs: tar leftout
+# 2. 2D dp: each_item (times) -> tar
+# 3. 1D dp: compress each_item
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 
-# group item
-* 1. +/- to num -> group them
-* 2. */divide to num -> group them
-* 3. prop to num -> group them
+# 1. dfs: tar leftout
+# 2. 2D dp: each_item(times) -> tar
+# 3. 1D dp; compress each_item
 * https://leetcode.com/problems/target-sum/
-
 
 
 
@@ -353,28 +378,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# dfs -> 2D -> 1D (min/max)
-# 1. dfs: square leftout
-# 2. 2D dp: tar (min/max) -> each_item
-# 3. 1D dp: compress each_item
-* https://leetcode.com/problems/perfect-squares/
 
-# 1. dfs: pow leftout
-# 2. 2D dp: tar (min/max) -> each_item
-# 3. 1D dp: compress each_item
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-
-
-# dfs -> 2D -> 1D (times)
-# 1. dfs: tar leftout
-# 2. 2D dp: each_item (times) -> tar
-# 3. 1D dp: compress each_item
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
-
-# 1. dfs: tar leftout
-# 2. 2D dp: each_item(times) -> tar
-# 3. 1D dp; compress each_item
-* https://leetcode.com/problems/target-sum/
 
 
 
