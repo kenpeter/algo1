@@ -134,7 +134,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 * 5. cache
 
 
-# diff way simply dp
+# diff way compress dp
 # dfs -> 2D -> 1D (min/max)
 # 1. dfs: square leftout
 # 2. 2D dp: tar (min/max) -> each_item
