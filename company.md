@@ -222,10 +222,9 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
-# loop, tar = 0, i=0
-# loop, tar != 0, i=1
-# loop, item = 0, i=0
-# loop, item != 0, i=1
+# 1. state loop -> tar = 0 -> ind = 0
+# 2. state loop -> tar != 0 -> ind = 1
+# 3. item similar
 * https://leetcode.com/problems/target-sum/
 
 # natural bottom up ---> local_loop
