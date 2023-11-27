@@ -79,17 +79,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# subset dp under fullset dp
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
-  
-# Q constraint to dp[][]
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-
-
-
-
-
 
 
 
@@ -116,6 +105,14 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 # among key op -> dp rela
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+
+# subset dp under fullset dp
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+  
+# Q constraint to dp[][]
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+
 
 
 
