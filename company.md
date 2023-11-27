@@ -289,6 +289,8 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # loops layout
+
+# diff loop layout
 # 1. each_item -> tar
 # 2. item A -> item B -> item C
 # 3. item A -> tar -> item B
