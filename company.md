@@ -125,7 +125,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# dp, key: val
+# dp key val
 # 1. tar: times
 # 2. tar: min/max
 * https://leetcode.com/problems/target-sum
@@ -139,16 +139,11 @@ Edit Distance: Problems that involve converting one string into another using mi
 # among key op -> dp rela
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
-# subset dp under fullset dp
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
-  
-# Q constraint to dp[][]
-* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
 
 
 
+# dp init
 # dp init start -> valid
 * https://leetcode.com/problems/target-sum/
 * https://leetcode.com/problems/ones-and-zeroes
@@ -175,7 +170,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-
+# dp loop ind
 # 1. base ind reach end (x)
 # 2. base tar reach end (*)
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
@@ -206,6 +201,7 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
+# dp mem/cache
 # dfs, dp use same arr mem
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
@@ -213,10 +209,22 @@ Edit Distance: Problems that involve converting one string into another using mi
 # 2. hash === slower
 * https://leetcode.com/problems/partition-equal-subset-sum/
 
+# 1. dfs -> no return -> g_var
+# 2. dfs -> return -> cache
+* https://leetcode.com/problems/target-sum
+
+# subset dp under fullset dp
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+  
+# Q constraint to dp[][]
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
 
 
 
+
+# dp tar
 # state: tar, item(ind, num, pow, etc)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
@@ -233,6 +241,9 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 # imply dp tar/item val
 https://leetcode.com/problems/perfect-squares/
+
+
+
 
 
 # loops layout
@@ -294,9 +305,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# 1. dfs -> no return -> g_var
-# 2. dfs -> return -> cache
-* https://leetcode.com/problems/target-sum
+
 
 
 
