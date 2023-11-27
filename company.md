@@ -213,37 +213,6 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 
-# dp loop ind
-# 1. base ind reach end (x)
-# 2. base tar reach end (*)
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-
-# state loop ind impact
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
-* https://leetcode.com/problems/ones-and-zeroes
-* e.g. dp[i], cost[i-1]
-
-# 1. dfs param ind -> know which up to
-# 2. dfs internal loop -> always start 
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* https://leetcode.com/problems/perfect-squares/
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-
-# 1. state loop -> tar = 0 -> ind = 0
-# 2. state loop -> tar != 0 -> ind = 1
-# 3. item similar
-* https://leetcode.com/problems/target-sum/
-
-# natural bottom up ---> local_loop
-* https://leetcode.com/problems/perfect-squares/
-* 1. bi-deci
-* 2. few-deci
-* 3. multi-deci(*)
-
-
-
-
 # dp mem/cache
 # dfs, dp use same arr mem
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
@@ -263,32 +232,6 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 
-
-
-
-# dp item
-# state: tar, item(ind, num, pow, etc)
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* https://leetcode.com/problems/perfect-squares/
-
-
-
-# dp tar
-# 1. item inc, tar inc
-# 2. item inc, tar desc
-# 3. item desc, tar inc
-# 4. item desc, tar desc
-* https://leetcode.com/problems/target-sum
-
-# imply dp tar/item val
-https://leetcode.com/problems/perfect-squares/
-
-
-# sum each_item < tar
-* https://leetcode.com/problems/target-sum/
-
-# +/- add up -> res +/-
-* https://leetcode.com/problems/target-sum
 
 
 
@@ -313,6 +256,68 @@ https://leetcode.com/problems/perfect-squares/
 # times --> inner tar
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 * https://leetcode.com/problems/target-sum/
+
+
+
+
+# state loop type
+# natural bottom up ---> local_loop
+* https://leetcode.com/problems/perfect-squares/
+* 1. bi-deci
+* 2. few-deci
+* 3. multi-deci(*)
+ 
+
+
+# dp loop ind
+# 1. base ind reach end (x)
+# 2. base tar reach end (*)
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+# state loop ind impact
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+* https://leetcode.com/problems/ones-and-zeroes
+* e.g. dp[i], cost[i-1]
+
+# 1. dfs param ind -> know which up to
+# 2. dfs internal loop -> always start 
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+
+# 1. state loop -> tar = 0 -> ind = 0
+# 2. state loop -> tar != 0 -> ind = 1
+# 3. item similar
+* https://leetcode.com/problems/target-sum/
+
+
+
+
+# dp item
+# state: tar, item(ind, num, pow, etc)
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
+
+
+
+
+# dp tar
+# 1. item inc, tar inc
+# 2. item inc, tar desc
+# 3. item desc, tar inc
+# 4. item desc, tar desc
+* https://leetcode.com/problems/target-sum
+
+# imply dp tar/item val
+https://leetcode.com/problems/perfect-squares/
+
+
+# sum each_item < tar
+* https://leetcode.com/problems/target-sum/
+
+# +/- add up -> res +/-
+* https://leetcode.com/problems/target-sum
 
 
 
@@ -342,6 +347,7 @@ https://leetcode.com/problems/ones-and-zeroes
 # 1. state op +/-, 0 -> tar
 # 2. state op +, 0 -> tar or tar -> 0
 * https://leetcode.com/problems/target-sum
+
 
 
 
