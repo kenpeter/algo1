@@ -351,6 +351,11 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 
+# state ind op
+# dp key op: who? op who?
+* https://leetcode.com/problems/ones-and-zeroes
+* 1 + dp[j-zero][k-one], who is j, who is one, who is k, who is one
+
 
 # state ind movement
 # repeat pick ind movement
