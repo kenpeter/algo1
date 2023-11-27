@@ -91,6 +91,18 @@ Edit Distance: Problems that involve converting one string into another using mi
 * https://leetcode.com/problems/target-sum/
 
 
+* # add extra item to cancel
+* https://leetcode.com/problems/target-sum/
+* [s(+) + s(-)] + s(+) - s(-) = tar + [s(+) + s(-)]
+
+
+# brute force test case -> ans
+* https://leetcode.com/problems/target-sum/
+
+
+
+
+
 
 # dp overall architecture
 # dfs step: cat -> state -> state_group -> state_out -> decision -> base -> cache
@@ -396,17 +408,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# add extra item to cancel
-* https://leetcode.com/problems/target-sum/
-* [s(+) + s(-)] + s(+) - s(-) = tar + [s(+) + s(-)]
 
-
-
-
-
-
-# brute force test case -> ans
-* https://leetcode.com/problems/target-sum/
 
 
 
