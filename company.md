@@ -119,13 +119,13 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 
 
-# dp init start
+# dp init start -> valid
 * https://leetcode.com/problems/target-sum/
-* 1. 1; 2. valid; 3. sth useful; 4. etc
-
-# dp init rest
+* https://leetcode.com/problems/ones-and-zeroes
+  
+# dp init rest -> invalid
 * https://leetcode.com/problems/target-sum/
-* 1. 0; 2. invalid; 3. undef; 4. inf; 5. etc
+* https://leetcode.com/problems/ones-and-zeroes
 
 # 2D dp -> 2 loop init -> 1 backup overwrite
 * https://leetcode.com/problems/target-sum/
