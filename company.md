@@ -425,6 +425,9 @@ https://leetcode.com/problems/ones-and-zeroes
 # 2. arr.reduce (*)
 * https://leetcode.com/problems/ones-and-zeroes/
 
+# build multi D array -> return
+* https://leetcode.com/problems/ones-and-zeroes/
+
 
 
 
