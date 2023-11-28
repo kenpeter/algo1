@@ -387,10 +387,12 @@ https://leetcode.com/problems/ones-and-zeroes
 * 1. good: state compare
 * 2. bad: couple leftout_state and curr_state
  
-# 1. dfs return same type
-# 2. dfs return multi types (e.g. 0 == good, false == bad)
+# dfs return multi types (e.g. 0 == good, false == bad)
 * https://leetcode.com/problems/ones-and-zeroes
-  
+
+# dfs return condi --> control op / param
+* https://leetcode.com/problems/ones-and-zeroes
+
 
 
 
