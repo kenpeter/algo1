@@ -386,6 +386,13 @@ https://leetcode.com/problems/ones-and-zeroes
 # abstract func to return state
 * 1. good: state compare
 * 2. bad: couple leftout_state and curr_state
+ 
+# 1. dfs return same type
+# 2. dfs return multi types (e.g. 0 == good, false == bad)
+* https://leetcode.com/problems/ones-and-zeroes
+  
+
+
 
 # build num direction
 # 1. build num from R to L, largest digit (greedy)
