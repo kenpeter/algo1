@@ -147,8 +147,6 @@ Edit Distance: Problems that involve converting one string into another using mi
 * cache
 
 
-# state_extend gets more combo
-* https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 
 
@@ -384,7 +382,7 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 * 1. dfs(i, tar-cost) ---> repeat pick
 * 2. dfs(i-1, tar)
-  
+ 
 # !repeat pick ind movement
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 * 1. dfs(i-1, tar-cost) === !repeat pick
@@ -393,6 +391,19 @@ https://leetcode.com/problems/ones-and-zeroes
 # 1. ntake -> dfs(i-1, tar) -> !inf loop
 # 2. ntake -> dfs(i, tar) -> !inf loop
 * https://leetcode.com/problems/target-sum
+
+
+
+# state self
+# state_extend gets more combo
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
+
+# state (quant)
+* quant === vary min and max
+* quant === can compress
+
+
+
 
 
 
