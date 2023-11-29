@@ -107,31 +107,34 @@ Edit Distance: Problems that involve converting one string into another using mi
 # dp overall architecture
 # dfs step: cat -> state -> state_group -> state_out -> decision -> base -> cache
 * https://leetcode.com/problems/target-sum/
-* 1. cat 
-* 2. state
-* 3. state_group
-* 4. state_out
-* 3. decision 
-* 4. base 
-* 5. cache
+* cat 
+* state_raw
+* state_extend
+* state_dp
+* state_out
+* decision 
+* base 
+* cache
  
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-* 1. cat: 0/1 unbound
-* 2. state: tar, item
-* 3. state_group: seeking_state, curr_state, leftout_state, fu_state
-* 4. state_out: valid('' or normal) OR invalid('0')
-* 3. decision: take/!
-* 4. base: 
-* 5. cache
+* cat: 0/1 unbound
+* state_raw: tar, item
+* state_extend: leftout
+* state_dp: seeking_state, curr_state, leftout_state, fu_state
+* state_out: valid('' or normal) OR invalid('0')
+* decision: take/!
+* base
+* cache
  
 * https://leetcode.com/problems/ones-and-zeroes/
-* 1. cat 
-* 2. state
-* 3. state_group
-* 4. state_out
-* 3. decision 
-* 4. base 
-* 5. cache
+* cat 
+* state_raw
+* state_extend
+* state_dp
+* state_out
+* decision 
+* base 
+* cache
 
 
 # diff way compress dp
