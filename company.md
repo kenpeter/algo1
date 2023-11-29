@@ -455,9 +455,8 @@ https://leetcode.com/problems/ones-and-zeroes
 # too big -> MOD
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+* https://leetcode.com/problems/number-of-ways-to-earn-points
 
-# attach MOD to end cal
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 
 
 
