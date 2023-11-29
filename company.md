@@ -289,11 +289,9 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
-# 1. state loop -> tar = 0 -> ind = 0
-# 2. state loop -> tar != 0 -> ind = 1
-# 3. item similar
+# Question constraint ind = 0 / ind = 1
 * https://leetcode.com/problems/target-sum/
-
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 
 
