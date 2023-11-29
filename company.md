@@ -214,8 +214,15 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/target-sum/
 * https://leetcode.com/problems/ones-and-zeroes
 
+# times/condi -> dp init === 1 -> no op below
+# min/max -> dp init === 0 -> op below
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
+* https://leetcode.com/problems/ones-and-zeroes
+
 # 2D dp -> 2 loop init -> 1 backup overwrite
 * https://leetcode.com/problems/target-sum/
+
+
 
 
 # ind = -1, outbound
@@ -343,10 +350,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # state op
-# 1. min/max -> !fair -> init 0 --> op
-# 2. times/condi -> fair -> init 1 --> !op
-* https://leetcode.com/problems/ones-and-zeroes
-
 # 2D -> dp[i][j]
 # 1D -> dp[i]
 * https://leetcode.com/problems/target-sum/
