@@ -399,9 +399,10 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 # state self
-# state_extend any logical combo
+# state_extend: any logical combo
+# state_extend: any hidden state
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
-
+* num_of_q, curr_mark = num_of_q * point_each_q, leftout = tar - curr_mark
 
 # state (quant)
 # quant === state_val_vary
