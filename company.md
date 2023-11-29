@@ -402,9 +402,13 @@ https://leetcode.com/problems/ones-and-zeroes
 # state_extend any logical combo
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
 
+
 # state (quant)
-* quant === vary min and max
-* quant === can compress
+# quant === state_val_vary
+# quant === can compress
+* https://leetcode.com/problems/number-of-ways-to-earn-points
+* tar (qu, va), types (qu, va), max_num_of_q (qu, va), point_each_q (!qu)
+
 
 
 
