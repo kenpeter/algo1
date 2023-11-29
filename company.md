@@ -198,10 +198,9 @@ https://leetcode.com/problems/ones-and-zeroes
 # 2D dp -> 2 loop init -> 1 backup overwrite
 * https://leetcode.com/problems/target-sum/
 
-# 1. base, ind = 0, inbound
-# 2. base, ind = -1, outbound
-# 3. base, ind = ns.len-1, inbound
-# 4. base, ind = ns.le, outbound
+
+# ind = -1, outbound
+# ind = ns.le, outbound
 * https://leetcode.com/problems/target-sum
 
 # diff kind of base
