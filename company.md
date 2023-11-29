@@ -399,7 +399,7 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 # state self
-# state_extend gets more combo
+# state_extend any logical combo
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 # state (quant)
