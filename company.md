@@ -136,6 +136,16 @@ Edit Distance: Problems that involve converting one string into another using mi
 * base 
 * cache
 
+* https://leetcode.com/problems/number-of-ways-to-earn-points
+* cat: 0/1, unbound
+* state_raw: question type, max question, tar, single_q_mark
+* state_extend: curr_mark = single_q_mark * correct_question_num, leftout = tar - curr_mark
+* state_dp: seeking_s, curr_s, leftout_s, fu_s
+* state_out: times (num of ways)
+* decision: take/!
+* base: q_type, max_q, tar
+* cache
+
 
 # diff way compress dp
 # dfs -> 2D -> 1D (min/max)
