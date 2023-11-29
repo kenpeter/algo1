@@ -264,12 +264,10 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 
-# loops layout
-
-# diff loop layout
+# loops layout: follow semantic
 # 1. each_item -> tar
 # 2. item A -> item B -> item C
-# 3. item A -> tar -> item B
+# 3. item A -> tar -> curr_mark (combo)
 * 1. https://leetcode.com/problems/target-sum/
 * 2. https://leetcode.com/problems/ones-and-zeroes
 * 3. https://leetcode.com/problems/number-of-ways-to-earn-points
