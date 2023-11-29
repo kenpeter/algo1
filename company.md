@@ -147,6 +147,14 @@ Edit Distance: Problems that involve converting one string into another using mi
 * cache
 
 
+# state_extend gets more combo
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
+
+
+
+
+
+
 # diff way compress dp
 # dfs -> 2D -> 1D (min/max)
 # 1. dfs: square leftout
