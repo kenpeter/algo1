@@ -7,20 +7,22 @@
 ## dp[i][j][k] = dp[i][j - coins[i]][k - 1];
 
 
-* i curr_coin (*)
+* i curr_coin
 * i-1 prev coin
 * i+1 next coin
+* s: curr_coin
 
 
 * j == tar
-* j - curr_coin == take item == no move criti_ind (*)
+* j - curr_coin == take item == no move criti_ind
 * j + curr_coin (x)
-* j - curr_coin * freq (x); -1 coin; no curr_coin * freq; [k-1] covers curr_coin * freq
+* s: j - curr_coin * freq (x); -1 coin; no curr_coin * freq; [k-1] covers curr_coin * freq
 
 
 * k == freq
 * k - 1 == take item == !move criti_ind (*);  
 * k + 1 == (!possible)
+* s: similar to tar - curr
 
 
 
