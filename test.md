@@ -3,11 +3,8 @@
 
 
 
-https://leetcode.com/problems/number-of-ways-to-earn-points/description/
-
-
-
-* dp[i][j][k] = dp[i][j - coins[i]][k - 1];
+# https://leetcode.com/problems/number-of-ways-to-earn-points/description/
+## dp[i][j][k] = dp[i][j - coins[i]][k - 1];
 
 
 * i curr_coin (*)
@@ -16,8 +13,9 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/description/
 
 
 * j == tar
-* j - curr_item == take item == no move criti_ind (*)
-* j + curr_item (!possible)
+* j - curr_coin == take item == no move criti_ind (*)
+* j + curr_coin (x)
+* j - curr_coin * freq (x), but have [k-1]
 
 
 * k == freq
@@ -41,11 +39,7 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/description/
 
 
 
-
-
-
-
-* dp[i][j][k] = (dp[i][j][k] + dp[i - 1][j][freqs[i - 1]]);
+## dp[i][j][k] = (dp[i][j][k] + dp[i - 1][j][freqs[i - 1]]);
 
 
 * i curr_coin (*)
