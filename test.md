@@ -15,7 +15,7 @@
 * j == tar
 * j - curr_coin == take item == no move criti_ind (*)
 * j + curr_coin (x)
-* j - curr_coin * freq (x), but have [k-1]
+* j - curr_coin * freq (x); -1 coin; no curr_coin * freq; has [k-1]
 
 
 * k == freq
