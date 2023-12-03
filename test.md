@@ -8,21 +8,21 @@
 
 
 * i curr_coin
-* i-1 prev coin
-* i+1 next coin
+* i-1 prev
+* i+1 next
 * s: take curr coin, i must use
 
 
 * j == tar
-* j - curr_coin == take item == no move criti_ind
+* j - curr_coin prev
 * j + curr_coin (x)
-* s: j - curr_coin (*); j - curr_coin * freq (*); freq later cover; As long as represent state
+* s: j - curr_coin (single_coin, ALA rep state); freq later cover;
 * s: i == curr_coin (diff), j - curr (similar), k - 1 (similar)
 
 
 * k == freq
-* k - 1 == take item == !move criti_ind (*);  
-* k + 1 == (!possible)
+* k - 1 prev  
+* k + 1 (x)
 * s: i == curr_coin (diff), j - curr (similar), k - 1 (similar)
 
 
