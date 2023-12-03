@@ -44,7 +44,7 @@
 * i curr_coin
 * i-1 prev coin
 * i+1 next coin
-* s: !take curr_coin, i must !use, so prev_coin
+* s: !take curr_coin, i must !use, so prev_coin contrib
 
 
 * j == tar
