@@ -18,22 +18,19 @@
 * j + curr_coin (x)
 * s: j - curr_coin * freq (x);
 * s: j - curr_coin (*), freq later cover. As long as represent state
+* s: i == curr_coin (diff), j - curr (similar), k - 1 (similar)
 
 
 * k == freq
 * k - 1 == take item == !move criti_ind (*);  
 * k + 1 == (!possible)
-* s: similar to tar - curr
+* s: i == curr_coin (diff), j - curr (similar), k - 1 (similar)
 
 
 
 * op + dp[i][j] (op)
 * dp[i][j] (no op)
 
-
-* relation of dp[][][]
-* seeking_s: all curr
-* leftout_s: i == curr_coin (diff), j - curr == leftout (similar), k - 1 == leftout (similar)
 
 
 
