@@ -1,53 +1,22 @@
-* each iteration --> 1 state
-* coin_change extend, coin has max_freq
+
+# https://leetcode.com/problems/number-of-ways-to-earn-points/description/
+
+## dp[i][j - coins[i]][k - 1];
+## dp[i - 1][j][freqs[i - 1]]
+
+* take -> i -> rest dimension leftout
+* !take -> i-1 -> rest dimension orig
+
+
+## if take possible, dp[i][j][k] = take + !take
+## if take !possible, dp[i][j][k] = orig + !take
+
+
+## some has op, some doesn't
 * op + dp[i][j] (op)
 * dp[i][j] (no op)
 
-
-# https://leetcode.com/problems/number-of-ways-to-earn-points/description/
-## dp[i][j - coins[i]][k - 1];
+## each iteration --> 1 state
 
 
-* i curr
-* i-1 prev
-* i+1 next
-* s: take -> i (curr item)
-
-
-* j == tar
-* j - curr prev
-* j + curr next 
-* s: take -> j - curr (leftout)
-
-
-* k == freq
-* k - 1 prev
-* k + 1 next
-* s: take -> k-1 (leftout)
-
-
-
-
-## dp[i - 1][j][freqs[i - 1]]
-
-
-* i curr
-* i-1 prev
-* i+1 next
-* s: !take -> i-1 (prev item)
-
-
-* j == tar
-* j - curr prev
-* j + curr next 
-* s: !take -> j (orig)
-
-
-* k == freq
-* k - 1 prev
-* k + 1 next
-* s: !take -> k (orig, freq_max)
-
-
-
-## why take coin update dp[i][j][k]?
+## coin_change extend, coin has max_freq
