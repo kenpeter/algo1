@@ -10,13 +10,14 @@
 * i curr_coin
 * i-1 prev coin
 * i+1 next coin
-* s: curr_coin
+* s: take curr coin, no move ind
 
 
 * j == tar
 * j - curr_coin == take item == no move criti_ind
 * j + curr_coin (x)
-* s: j - curr_coin * freq (x); -1 coin; no curr_coin * freq; [k-1] covers curr_coin * freq
+* s: j - curr_coin * freq (x);
+* s: j - curr_coin (*), freq later cover. As long as represent state
 
 
 * k == freq
