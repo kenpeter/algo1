@@ -50,7 +50,7 @@
 * j == tar
 * j - curr_coin == take item == no move criti_ind
 * j + curr_coin (x)
-* s: !take curr_coin, no j - curr_coin
+* s: !take curr_coin, no j - curr_coin; j remain
 
 
 * k == freq
