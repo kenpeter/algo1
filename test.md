@@ -16,8 +16,7 @@
 * j == tar
 * j - curr_coin == take item == no move criti_ind
 * j + curr_coin (x)
-* s: j - curr_coin * freq (x);
-* s: j - curr_coin (*), freq later cover. As long as represent state
+* s: j - curr_coin (*); j - curr_coin * freq (*); freq later cover; As long as represent state
 * s: i == curr_coin (diff), j - curr (similar), k - 1 (similar)
 
 
@@ -45,15 +44,13 @@
 * i curr_coin
 * i-1 prev coin
 * i+1 next coin
-* s: don't take curr_coin, i must !use, so prev_coin
+* s: !take curr_coin, i must !use, so prev_coin
 
 
 * j == tar
 * j - curr_coin == take item == no move criti_ind
 * j + curr_coin (x)
-* s: j - curr_coin * freq (x);
-* s: j - curr_coin (*), freq later cover. As long as represent state
-* s: i == curr_coin (diff), j - curr (similar), k - 1 (similar)
+* s: !take curr_coin, no j - curr_coin
 
 
 * k == freq
