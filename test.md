@@ -17,14 +17,13 @@
 * j == tar
 * j - curr prev
 * j + curr next 
-* s: take -> j - curr (leftout, similar)
-* s: j - curr * freq (x, for 1D)
+* s: take -> j - curr (leftout)
 
 
 * k == freq
 * k - 1 prev
 * k + 1 next
-* s: take -> k-1 (leftout, similar)
+* s: take -> k-1 (leftout)
 
 
 
