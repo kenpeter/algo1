@@ -8,8 +8,13 @@
 * !take -> i-1 -> rest dimension orig
 
 
-## if take possible, dp[i][j][k] = take + !take
-## if take !possible, dp[i][j][k] = orig + !take
+## special
+## 1st update: if take poss, dp[i][j][k] = take
+## 2nd update: if take poss/!, dp[i][j][k] = orig + !take
+
+## normal
+## 1st update: if take poss, dp[i][j] = orig + take
+## else update: if take !poss, dp[i][j] = dp[i-1][j]
 
 
 ## some has op, some doesn't
