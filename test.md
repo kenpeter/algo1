@@ -1,60 +1,54 @@
 * each iteration --> 1 state
 * coin_change extend, coin has max_freq
-
-
-
-# https://leetcode.com/problems/number-of-ways-to-earn-points/description/
-## dp[i][j][k] = dp[i][j - coins[i]][k - 1];
-
-
-* i curr_coin
-* i-1 prev
-* i+1 next
-* s: take curr coin, i must use
-
-
-* j == tar
-* j - curr_coin prev
-* j + curr_coin (x)
-* s: j - curr_coin (single_coin, ALA rep state); freq later cover;
-* s: i == curr_coin (diff), j - curr (similar), k - 1 (similar)
-
-
-* k == freq
-* k - 1 prev  
-* k + 1 (x)
-* s: i == curr_coin (diff), j - curr (similar), k - 1 (similar)
-
-
-
 * op + dp[i][j] (op)
 * dp[i][j] (no op)
 
 
+# https://leetcode.com/problems/number-of-ways-to-earn-points/description/
+## dp[i][j - coins[i]][k - 1];
 
 
-
-* why take coin update dp[i][j][k]?
-
-
-
-## dp[i][j][k] = (dp[i][j][k] + dp[i - 1][j][freqs[i - 1]]);
-
-
-* i curr_coin
-* i-1 prev coin
-* i+1 next coin
-* s: !take curr_coin, i must !use, so prev_coin contrib
+* i curr
+* i-1 prev
+* i+1 next
+* s: take -> i (curr item)
 
 
 * j == tar
-* j - curr_coin == take item == no move criti_ind
-* j + curr_coin (x)
-* s: !take curr_coin, no j - curr_coin; j remain
+* j - curr prev
+* j + curr next 
+* s: take -> j - curr (leftout, similar)
+* s: j - curr * freq (x, for 1D)
 
 
 * k == freq
-* k - 1 == take item == !move criti_ind (*);  
-* k + 1 == (!possible)
-* s: i == curr_coin (diff), j - curr (similar), k - 1 (similar)
+* k - 1 prev
+* k + 1 next
+* s: take -> k-1 (leftout, similar)
 
+
+
+
+## dp[i - 1][j][freqs[i - 1]]
+
+
+* i curr
+* i-1 prev
+* i+1 next
+* s: !take -> i-1 (prev item)
+
+
+* j == tar
+* j - curr prev
+* j + curr next 
+* s: !take -> j (orig)
+
+
+* k == freq
+* k - 1 prev
+* k + 1 next
+* s: !take -> k (orig, freq_max)
+
+
+
+## why take coin update dp[i][j][k]?
