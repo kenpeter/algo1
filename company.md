@@ -365,15 +365,16 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/
 # 4. item desc, tar desc
 * https://leetcode.com/problems/target-sum
 
+# tar extend, sub max_freq
+* https://leetcode.com/problems/number-of-ways-to-earn-points (coin problem extend)
+
 # imply dp tar/item val
 https://leetcode.com/problems/perfect-squares/
-
 
 # sum each_item < tar
 * https://leetcode.com/problems/target-sum/
 
-# +/- add up -> res +/-
-* https://leetcode.com/problems/target-sum
+
 
 
 
