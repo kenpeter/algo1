@@ -214,6 +214,15 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/target-sum/
 * https://leetcode.com/problems/ones-and-zeroes
 
+
+# dp init tar -> valid
+# dp[i][0][j] = 1
+# dp[i][j][0] = 1
+# dp[i][0] = 1
+# dp[0] = 1
+* https://leetcode.com/problems/number-of-ways-to-earn-points/description/
+
+
 # dp init === 0 -> op below
 # dp init === 1 -> no op below
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
@@ -221,6 +230,8 @@ https://leetcode.com/problems/ones-and-zeroes
 
 # 2D dp -> 2 loop init -> 1 backup overwrite
 * https://leetcode.com/problems/target-sum/
+
+
 
 
 
