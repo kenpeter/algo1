@@ -388,14 +388,16 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/perfect-squares/
 
 # diff way update state
-# 1. multi state compare -> update dp[i][j]
-# 2. update dp[i][j]multi state acc -> update dp[i][j]
-# 3. multi state ???? -> update dp[i][j]
-https://leetcode.com/problems/ones-and-zeroes
+# 1. update dp[i][j] = multi state compare
+# 2. update dp[i][j] = multi state acc
+# 3. if dp[i][j] = orig + take; else dp[i][j] = dp[i-1][j] (normal)
+# 4. 1st, dp[i][j][k] = take; 2nd, dp[i][j][k] = take + !take (special)
+* https://leetcode.com/problems/ones-and-zeroes
+* https://leetcode.com/problems/number-of-ways-to-earn-points
 
 # +/- way update state
-# 1. state op +/-, 0 -> tar
-# 2. state op +, 0 -> tar or tar -> 0
+# 1. state op +/-, 0 -> tar, always positive
+# 2. state op +, 0 -> tar or tar -> 0, may be positive
 * https://leetcode.com/problems/target-sum
 
 
