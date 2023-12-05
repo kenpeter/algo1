@@ -190,15 +190,30 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/target-sum
 
 
-# dp key abstract
+
 # dp key gen new key
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
+
+# dp each D rela
+# take: i -> rest D leftout
+# !take: i-1 -> rest D curr_max (normal)
+* https://leetcode.com/problems/ones-and-zeroes
+
+# take: i -> rest D leftout
+# !take: i-1 -> rest D prev_max (special)
+* https://leetcode.com/problems/number-of-ways-to-earn-points
+
+
+
+# dp key abstract
 # dp key str abstract
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
 # dp key func abstract (# zero / # one)
 * https://leetcode.com/problems/ones-and-zeroes
+
+
 
 
 
