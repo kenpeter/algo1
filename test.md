@@ -1,14 +1,15 @@
 
 # https://leetcode.com/problems/number-of-ways-to-earn-points/description/
 
+
 ## dp[i][j - coins[i]][k - 1];
 ## dp[i - 1][j][freqs[i - 1]]
 
-* take: i -> rest dimension leftout
-* !take: i-1 -> rest dimension orig
+# take: i -> rest D leftout
+# !take: i-1 -> rest D orig
 
 
-## special
+## special 
 ## 1st update, dp[i][j][k] = take
 ## 2nd update, dp[i][j][k] = take + !take
 
