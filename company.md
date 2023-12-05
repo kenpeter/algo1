@@ -294,21 +294,16 @@ https://leetcode.com/problems/ones-and-zeroes
 # * each_item -> tar -> freq (times)
 # * tar -> each_item (min/max)
 # * item A -> item B -> item C
-* 1. https://leetcode.com/problems/target-sum/
-* 2. https://leetcode.com/problems/ones-and-zeroes
-* 3. https://leetcode.com/problems/number-of-ways-to-earn-points
-
-# min/max --> outter tar
-* https://leetcode.com/problems/perfect-squares/
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-
-# times --> inner tar
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 * https://leetcode.com/problems/target-sum/
+* https://leetcode.com/problems/ones-and-zeroes
+* https://leetcode.com/problems/number-of-ways-to-earn-points
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 
-
-
-# loop layout ind (impact each other)
+# loop layout ind (impact each)
+# 1st loop and 3rd loop ind=0
+* each_item loop (i=0) ---> tar loop (j=1) ---> freq loop (k=0);
+* https://leetcode.com/problems/number-of-ways-to-earn-points
 
 
 
