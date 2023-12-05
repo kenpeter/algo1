@@ -6,7 +6,7 @@
 ## dp[i - 1][j][freqs[i - 1]]
 
 # take: i -> rest D leftout
-# !take: i-1 -> rest D orig
+# !take: i-1 -> rest D max
 
 
 ## special dp action
