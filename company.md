@@ -237,8 +237,8 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/number-of-ways-to-earn-points/description/
 
 
-# dp init === 0 -> op below
-# dp init === 1 -> no op below
+# dp init === 0 --> op below --> op + dp[i][j]
+# dp init === 1 --> no op below --> dp[i][j]
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
 * https://leetcode.com/problems/ones-and-zeroes
 
