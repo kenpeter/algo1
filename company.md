@@ -323,10 +323,6 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 # dp loop ind
-# 1. base ind reach end (x)
-# 2. base tar reach end (*)
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-
 # state loop ind impact
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
