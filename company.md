@@ -191,8 +191,7 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 # dp key abstract
-# 1. dp key pow abstract
-# 2. dp key sqr/sq_root abstract
+# dp key gen new key
 * https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
 
 # dp key str abstract
