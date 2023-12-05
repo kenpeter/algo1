@@ -289,7 +289,7 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 
-# loops layout: follow semantic
+# loop layout: follow semantic
 # * each_item -> tar (times)
 # * each_item -> tar -> freq (times)
 # * tar -> each_item (min/max)
@@ -308,21 +308,11 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 
-
-# state loop type
-# natural bottom up ---> local_loop
-* https://leetcode.com/problems/perfect-squares/
-* 1. bi-deci
-* 2. few-deci
-* 3. multi-deci(*)
- 
-# recur === 1 state loop
-* https://leetcode.com/problems/ones-and-zeroes
- 
- 
+# loop layout ind (impact each other)
 
 
-# dp loop ind
+
+# dp single loop ind
 # state loop ind impact
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
@@ -344,13 +334,28 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 
 
-# dp item
+
+
+# state loop type
+# natural bottom up ---> local_loop
+* https://leetcode.com/problems/perfect-squares/
+* 1. bi-deci
+* 2. few-deci
+* 3. multi-deci(*)
+
+
+
+# recur === 1 state loop
+* https://leetcode.com/problems/ones-and-zeroes
+
+
+
+# dp each_item
 # state: tar, item(ind, num, pow, etc)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
 
-# each iteration --> state of that time --> less max_state
-* https://leetcode.com/problems/number-of-ways-to-earn-points
+
 
 
 
@@ -437,7 +442,8 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/number-of-ways-to-earn-points
 * tar (qu, va), types (qu, va), max_num_of_q (qu, va), point_each_q (!qu)
 
-
+# each iteration --> state of that time --> less max_state
+* https://leetcode.com/problems/number-of-ways-to-earn-points
 
 
 
