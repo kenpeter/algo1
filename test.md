@@ -21,7 +21,8 @@
 * op + dp[i][j] (op)
 * dp[i][j] (no op)
 
-## each iteration --> 1 state
+
+## each iteration --> state of that time --> cannot use max_state
 
 
 ## coin_change extend, coin has max_freq
