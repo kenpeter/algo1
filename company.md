@@ -214,8 +214,8 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/target-sum/
 * https://leetcode.com/problems/ones-and-zeroes
 
-# times/condi -> dp init === 1 -> no op below
-# min/max -> dp init === 0 -> op below
+# dp init === 0 -> op below
+# dp init === 1 -> no op below
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
 * https://leetcode.com/problems/ones-and-zeroes
 
