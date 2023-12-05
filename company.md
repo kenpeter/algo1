@@ -265,9 +265,10 @@ https://leetcode.com/problems/ones-and-zeroes
 
 
 # loops layout: follow semantic
-# 1. each_item -> tar
-# 2. item A -> item B -> item C
-# 3. item A -> tar -> curr_mark (combo)
+# * each_item -> tar (times)
+# * each_item -> tar -> freq (times)
+# * tar -> each_item (min/max)
+# * item A -> item B -> item C
 * 1. https://leetcode.com/problems/target-sum/
 * 2. https://leetcode.com/problems/ones-and-zeroes
 * 3. https://leetcode.com/problems/number-of-ways-to-earn-points
