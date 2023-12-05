@@ -353,6 +353,8 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/perfect-squares/
 
+# each iteration --> state of that time --> less max_state
+* https://leetcode.com/problems/number-of-ways-to-earn-points
 
 
 
