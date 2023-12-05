@@ -4,17 +4,17 @@
 ## dp[i][j - coins[i]][k - 1];
 ## dp[i - 1][j][freqs[i - 1]]
 
-* take -> i -> rest dimension leftout
-* !take -> i-1 -> rest dimension orig
+* take: i -> rest dimension leftout
+* !take: i-1 -> rest dimension orig
 
 
 ## special
-## 1st update: if take poss, dp[i][j][k] = take
-## 2nd update: if take poss/!, dp[i][j][k] = orig + !take
+## 1st update, dp[i][j][k] = take
+## 2nd update, dp[i][j][k] = take + !take
 
 ## normal
-## 1st update: if take poss, dp[i][j] = orig + take
-## else update: if take !poss, dp[i][j] = dp[i-1][j]
+## if dp[i][j] = orig + take
+## else dp[i][j] = dp[i-1][j]
 
 
 ## some has op, some doesn't
