@@ -493,8 +493,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # return dp[i][j][k]
-# 1. dp[n][half] --> dp[bound][tar]
-# 2. dp[n-1][tar][freqs[n-1]] --> dp[last_item][tar][last_item] (ind=0)
+# 1. dp[tar] --> dp[tar]
+# 2. dp[n][half] --> dp[bound][tar]
+# 3. dp[n-1][tar][freqs[n-1]] --> dp[last_item][tar][last_item] (ind=0)
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
 * https://leetcode.com/problems/target-sum
 * https://leetcode.com/problems/number-of-ways-to-earn-points
 
