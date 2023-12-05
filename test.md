@@ -9,11 +9,11 @@
 # !take: i-1 -> rest D orig
 
 
-## special 
+## special dp action
 ## 1st update, dp[i][j][k] = take
 ## 2nd update, dp[i][j][k] = take + !take
 
-## normal
+## normal dp action
 ## if dp[i][j] = orig + take
 ## else dp[i][j] = dp[i-1][j]
 
