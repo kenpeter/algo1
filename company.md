@@ -303,9 +303,14 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 
-# loop layout ind (impact each)
-# 1st loop and 3rd loop ind=0
+
+# loop layout ind
+# 3D: 1st loop, 3rd loop ind=0 (sync each)
 * each_item loop (i=0) ---> tar loop (j=1) ---> freq loop (k=0);
+* https://leetcode.com/problems/number-of-ways-to-earn-points
+
+# 2D: 1st loop ind=1, 2nd loop ind=0
+* each_item loop (i=1) ---> tar loop (j=0)
 * https://leetcode.com/problems/number-of-ways-to-earn-points
 
 
