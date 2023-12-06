@@ -355,8 +355,22 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 
 
+# dp item
+# state: tar, item(ind, num, pow, etc)
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
+
 
 # dp tar
+# imply dp tar/item val
+https://leetcode.com/problems/perfect-squares/
+
+# sum each_item < tar
+* https://leetcode.com/problems/target-sum/
+
+
+
+# dp item and dp tar
 
 # dfs item inc, tar desc
 # 1. item inc, tar desc (normal)
@@ -364,19 +378,7 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/
 # 3. ....
 * https://leetcode.com/problems/target-sum
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
-
-# imply dp tar/item val
-https://leetcode.com/problems/perfect-squares/
-
-# sum each_item < tar
-* https://leetcode.com/problems/target-sum/
-
-# dp each_item
-# state: tar, item(ind, num, pow, etc)
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* https://leetcode.com/problems/perfect-squares/
-
-
+* 
 
 
 # state op
