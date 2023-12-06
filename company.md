@@ -394,11 +394,12 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
 
-# diff way update state
+# multi states update seeking_state
 # 1. update dp[i][j] = multi state compare
 # 2. update dp[i][j] = multi state acc
 # 3. if dp[i][j] = orig + take; else dp[i][j] = dp[i-1][j] (normal)
-# 4. 1st, dp[i][j][k] = take; 2nd, dp[i][j][k] = take + !take (special)
+# 4. acc + ntake + take_if --> step1: acc + ntake --> step2: acc + take_if
+# 5. 1st, dp[i][j][k] = take; 2nd, dp[i][j][k] = take + !take (special)
 * https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/number-of-ways-to-earn-points
 
