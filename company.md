@@ -229,11 +229,14 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/ones-and-zeroes
 
 
-# dp init tar -> valid
-# dp[i][0][j] = 1
-# dp[i][j][0] = 1
-# dp[i][0] = 1
-# dp[0] = 1
+# dp init tar, in loop
+# dp[i][0][j] = 1, in loop
+# dp[i][0] = 1, in loop
+# dp[0] = 1, in loop
+* https://leetcode.com/problems/number-of-ways-to-earn-points/description/
+
+# dp init tar, once
+# dp[0][0] = 1, once
 * https://leetcode.com/problems/number-of-ways-to-earn-points/description/
 
 
