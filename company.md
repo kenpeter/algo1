@@ -348,15 +348,9 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 
 
+
 # recur === 1 state loop
 * https://leetcode.com/problems/ones-and-zeroes
-
-
-
-# dp each_item
-# state: tar, item(ind, num, pow, etc)
-* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
-* https://leetcode.com/problems/perfect-squares/
 
 
 
@@ -378,7 +372,10 @@ https://leetcode.com/problems/perfect-squares/
 # sum each_item < tar
 * https://leetcode.com/problems/target-sum/
 
-
+# dp each_item
+# state: tar, item(ind, num, pow, etc)
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/
+* https://leetcode.com/problems/perfect-squares/
 
 
 
