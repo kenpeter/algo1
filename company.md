@@ -235,7 +235,7 @@ https://leetcode.com/problems/ones-and-zeroes
 # dp[0] = 1, in loop
 * https://leetcode.com/problems/number-of-ways-to-earn-points/description/
 
-# dp init tar, once
+# dp init tar, once (normal)
 # dp[0][0] = 1, once
 * https://leetcode.com/problems/number-of-ways-to-earn-points/description/
 
