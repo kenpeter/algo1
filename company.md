@@ -386,8 +386,9 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/target-sum/
 
 # 1. acc: dp[i][j]
-# 1. ntake: dp[i-1][j]
-# 2. take: dp[i-1][j-curr] (normal)
+# 2. ntake: dp[i-1][j]
+# 3. take: dp[i-1][j-curr] (normal)
+# 4. take: dp[i][j-curr] (special)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/number-of-ways-to-earn-points
