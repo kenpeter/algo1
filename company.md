@@ -357,11 +357,13 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 
 # dp tar
-# 1. item inc, tar inc
-# 2. item inc, tar desc
-# 3. item desc, tar inc
-# 4. item desc, tar desc
+
+# dfs item inc, tar desc
+# 1. item inc, tar desc (normal)
+# 2. ....
+# 3. ....
 * https://leetcode.com/problems/target-sum
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 # tar extend, sub max_freq
 * https://leetcode.com/problems/number-of-ways-to-earn-points (coin problem extend)
