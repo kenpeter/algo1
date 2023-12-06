@@ -257,7 +257,17 @@ https://leetcode.com/problems/ones-and-zeroes
 # ind = ns.le, outbound
 * https://leetcode.com/problems/target-sum
 
-# diff kind of base
+
+
+
+# dfs base
+# 1. tar top, !involve ind
+# 2. ind top, involve ind
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
+
+
+
+# dp base
 # 1. build num -> 0
 # 2. build num str -> ''
 # 3. build str -> ''
