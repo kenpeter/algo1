@@ -365,9 +365,6 @@ https://leetcode.com/problems/number-of-ways-to-earn-points/
 * https://leetcode.com/problems/target-sum
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
 
-# tar extend, sub max_freq
-* https://leetcode.com/problems/number-of-ways-to-earn-points (coin problem extend)
-
 # imply dp tar/item val
 https://leetcode.com/problems/perfect-squares/
 
