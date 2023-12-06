@@ -385,11 +385,12 @@ https://leetcode.com/problems/perfect-squares/
 # 1D -> dp[i]
 * https://leetcode.com/problems/target-sum/
 
-# 1. dp[i-1][tar-?] for heavy (times)
-# 2. dp[i-1][tar-?] for heavy (condi)
-# 3. dp[i][tar-?] for light (min/max)
+# 1. acc: dp[i][j]
+# 1. ntake: dp[i-1][j]
+# 2. take: dp[i-1][j-curr] (normal)
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
+* https://leetcode.com/problems/number-of-ways-to-earn-points
 
 # multi states update seeking_state
 # 1. update dp[i][j] = multi state compare
