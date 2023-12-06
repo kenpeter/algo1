@@ -404,12 +404,12 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/number-of-ways-to-earn-points
 
-# multi states update seeking_state
-# 1. update dp[i][j] = multi state compare
-# 2. update dp[i][j] = multi state acc
-# 3. if dp[i][j] = orig + take; else dp[i][j] = dp[i-1][j] (normal)
-# 4. acc + ntake + take_if --> step1: acc + ntake --> step2: acc + take_if
-# 5. 1st, dp[i][j][k] = take; 2nd, dp[i][j][k] = take + !take (special)
+# state op diff way
+# 1. state = multi state acc
+# 2. state = multi state compare
+# 3. state = orig + take; else state = dp[i-1][j] (normal)
+# 4. 2D: state = step1: acc + ntake; step2: acc + take_if
+# 5. 3D: state = step1: dp[i][j][k] = take; step2: dp[i][j][k] = take + !take (special)
 * https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/number-of-ways-to-earn-points
 
