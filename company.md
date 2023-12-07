@@ -407,16 +407,16 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # how to update state
-# if prev vs take, else prev
+# full D, if prev vs take, else prev
 * https://leetcode.com/problems/ones-and-zeroes/
 * https://leetcode.com/problems/perfect-squares/
 
-# if prev + take, else prev
+# full D, if prev + take, else prev
 * https://leetcode.com/problems/target-sum/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 * https://leetcode.com/discuss/interview-question/2353856/Amazon-or-India-or-SDE-2-or-OA-or-JULY-or-2022
 
-# loop_take + ntake
+# full D, loop_take + ntake
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 
