@@ -407,15 +407,18 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # how to update state
-# full_d prev, rest_d orig
+# !compress: ntake == prev; compress: ntake == orig
 
 # simple or 1D: 1 or 2 way
 # complex or ND: N way / seq update / param tree
 
+# loop_take --> full_d / dfs, acc + take
+
+
 * https://leetcode.com/problems/ones-and-zeroes
 * dfs: take vs ntake --> (1 way)
 
-* 3D: if ntake (prev) vs take; else ntake (prev) --> (2 way)
+* 3D_full: if ntake (prev) vs take; else ntake (prev) --> (2 way)
 
 * 2D: if ntake (orig) vs take; else ntake (orig) --> (2 way)
 
@@ -426,7 +429,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/perfect-squares
 * dfs: take vs ntake --> (1 w)
 
-* 2D: ntake (prev) vs take; else ntake --> (2 w)
+* 2D_full: ntake (prev) vs take; else ntake --> (2 w)
 
 * 1D: ntake (orig) vs take --> (1 w)
 
@@ -435,7 +438,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/target-sum
 * dfs: take + ntake --> (1 w)
 
-* 2D: ntake (prev) vs take; else ntake (prev) --> (2 w)
+* 2D_full: ntake (prev) vs take; else ntake (prev) --> (2 w)
 
 * 1D: ntake (orig) + take --> (1 w)
 
@@ -445,7 +448,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
 * dfs: (param tree)
 
-* 2D: o_state = take; else o_state = ntake (orig, str) --> (2 w)
+* 2D_full: o_state = take; else o_state = ntake (orig, str) --> (2 w)
 
 * 1D: o_state = take; else o_state = ntake (orig) --> (2 w)
 
@@ -466,7 +469,7 @@ https://leetcode.com/problems/perfect-squares/
  
 * dfs: ?
  
-* 2D: if ntake (prev) + take; else ntake (prev) --> (2 w)
+* 2D_full: if ntake (prev) + take; else ntake (prev) --> (2 w)
 
 * 1D: ntake (orig) + take --> (1 w)
 
@@ -477,21 +480,21 @@ https://leetcode.com/problems/perfect-squares/
 
 * dfs:
 * s1: res = acc + ntake
-* s2: res = acc + take (loop) --> (seq update)
+* s2: res = acc + take (loop) --> (loop_take, seq update)
 
 
-* 3D:
+* 3D_full:
 * s1: o_state = take 
-* s2: o_state = o_state + ntake --> (seq up)
+* s2: o_state = orig + ntake --> (loop_take, seq up)
 
  
-* 2D:
-* s1: o_state = o_state + ntake
-* s2: o_state = o_state + take (loop) --> (seq up)
+* 2D_full:
+* s1: o_state = orig + ntake
+* s2: o_state = orig + take (loop) --> (loop_take, seq up)
 
  
 * 1D:
-* o_state = o_state + take --> (1 way)
+* o_state = ntake (orig) + take --> (1 way)
 
 
 
