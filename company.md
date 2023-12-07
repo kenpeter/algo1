@@ -410,13 +410,13 @@ https://leetcode.com/problems/perfect-squares/
 # full_d use prev
 # rest_d use orig
 
-# simple / 1D: 1 or 2 way
-# complex / N_D: N way / seq update
+# simple (1D): 1 or 2 way
+# complex (ND): N way / seq update / param tree
 
 * https://leetcode.com/problems/ones-and-zeroes
 * dfs: take vs ntake --> (1 way)
 
-* full_3D: if ntake (prev) vs take; else ntake (prev) --> (2 way)
+* 3D: if ntake (prev) vs take; else ntake (prev) --> (2 way)
 
 * 2D: if ntake (orig) vs take; else ntake (orig) --> (2 way)
 
@@ -425,12 +425,30 @@ https://leetcode.com/problems/perfect-squares/
 
 
 * https://leetcode.com/problems/perfect-squares
-* dfs: take vs ntake --> (1 way)
+* dfs: take vs ntake --> (1 w)
 
-* full_2D: ntake (prev) vs take; else ntake --> (2 way)
+* 2D: ntake (prev) vs take; else ntake --> (2 w)
 
-* 1D: ntake (orig) vs take --> (1 way)
+* 1D: ntake (orig) vs take --> (1 w)
 
+
+
+* https://leetcode.com/problems/target-sum
+* dfs: take + ntake --> (1 w)
+
+* 2D: ntake (prev) vs take; else ntake (prev) --> (2 w)
+
+* 1D: ntake (orig) + take --> (1 w)
+
+
+
+
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* dfs: param tree
+
+* 2D: o_state = take; else o_state = ntake (orig, str) --> (2 w)
+
+* 1D: o_state = take; else o_state = ntake (orig) --> (2 w)
 
 
 
