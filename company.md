@@ -407,8 +407,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # how to update state
-# full_d use prev
-# rest_d use orig
+# full_d prev, rest_d orig
 
 # simple (1D): 1 or 2 way
 # complex (ND): N way / seq update / param tree
