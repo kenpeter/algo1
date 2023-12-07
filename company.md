@@ -407,17 +407,31 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # how to update state
-# full D, if prev vs take, else prev
-* https://leetcode.com/problems/ones-and-zeroes/
-* https://leetcode.com/problems/perfect-squares/
+# full_d use prev
+# rest_d use orig
 
-# full D, if prev + take, else prev
-* https://leetcode.com/problems/target-sum/
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-* https://leetcode.com/discuss/interview-question/2353856/Amazon-or-India-or-SDE-2-or-OA-or-JULY-or-2022
+# simple / 1D: 1 or 2 way
+# complex / N_D: N way / seq update
 
-# full D, loop_take + ntake
-* https://leetcode.com/problems/number-of-ways-to-earn-points/
+* https://leetcode.com/problems/ones-and-zeroes
+* dfs: take vs ntake --> (1 way)
+
+* full_3D: if ntake (prev) vs take; else ntake (prev) --> (2 way)
+
+* 2D: if ntake (orig) vs take; else ntake (orig) --> (2 way)
+
+* 1D: x, because tar splits into 2
+
+
+
+* https://leetcode.com/problems/perfect-squares
+* dfs: take vs ntake --> (1 way)
+
+* full_2D: ntake (prev) vs take; else ntake --> (2 way)
+
+* 1D: ntake (orig) vs take --> (1 way)
+
+
 
 
 
