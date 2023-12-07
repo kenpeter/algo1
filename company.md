@@ -409,8 +409,8 @@ https://leetcode.com/problems/perfect-squares/
 # how to update state
 # full_d prev, rest_d orig
 
-# simple (1D): 1 or 2 way
-# complex (ND): N way / seq update / param tree
+# simple or 1D: 1 or 2 way
+# complex or ND: N way / seq update / param tree
 
 * https://leetcode.com/problems/ones-and-zeroes
 * dfs: take vs ntake --> (1 way)
@@ -443,11 +443,55 @@ https://leetcode.com/problems/perfect-squares/
 
 
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
-* dfs: param tree
+* dfs: (param tree)
 
 * 2D: o_state = take; else o_state = ntake (orig, str) --> (2 w)
 
 * 1D: o_state = take; else o_state = ntake (orig) --> (2 w)
+
+
+
+* https://leetcode.com/discuss/interview-question/2688170/New-OA-Question:-Bags-of-Rice
+* dfs: ?
+
+* 2D: ?
+
+* 1D: o_state = ntake (orig) + take --> (1 w)
+
+
+
+
+* https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+
+ 
+* dfs: ?
+ 
+* 2D: if ntake (prev) + take; else ntake (prev) --> (2 w)
+
+* 1D: ntake (orig) + take --> (1 w)
+
+
+
+
+* https://leetcode.com/problems/number-of-ways-to-earn-points
+
+* dfs:
+* s1: res = acc + ntake
+* s2: res = acc + take (loop) --> (seq update)
+
+
+* 3D:
+* s1: o_state = take 
+* s2: o_state = o_state + ntake --> (seq up)
+
+ 
+* 2D:
+* s1: o_state = o_state + ntake
+* s2: o_state = o_state + take (loop) --> (seq up)
+
+ 
+* 1D:
+* o_state = o_state + take --> (1 way)
 
 
 
