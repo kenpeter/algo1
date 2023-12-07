@@ -495,6 +495,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# dp state !rela, out of state loop
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
+
+# dfs #param  === # state loop
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
+  
 
 # +/- way update state
 # 1. state op +/-, 0 -> tar, always positive
