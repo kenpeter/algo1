@@ -404,14 +404,22 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/number-of-ways-to-earn-points
 
-# state op diff way
-# 1. state = multi state acc
-# 2. state = multi state compare
-# 3. state = orig + take; else state = dp[i-1][j] (normal)
-# 4. 2D: state = step1: acc + ntake; step2: acc + take_if
-# 5. 3D: state = step1: dp[i][j][k] = take; step2: dp[i][j][k] = take + !take (special)
-* https://leetcode.com/problems/ones-and-zeroes
-* https://leetcode.com/problems/number-of-ways-to-earn-points
+
+
+# how to update state
+# if prev vs take, else prev
+* https://leetcode.com/problems/ones-and-zeroes/
+* https://leetcode.com/problems/perfect-squares/
+
+# if prev + take, else prev
+* https://leetcode.com/problems/target-sum/
+* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
+* https://leetcode.com/discuss/interview-question/2353856/Amazon-or-India-or-SDE-2-or-OA-or-JULY-or-2022
+
+# loop_take + ntake
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
+
+
 
 # +/- way update state
 # 1. state op +/-, 0 -> tar, always positive
