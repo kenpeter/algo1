@@ -396,10 +396,8 @@ https://leetcode.com/problems/perfect-squares/
 # 1D -> dp[i]
 * https://leetcode.com/problems/target-sum/
 
-# 1. acc: dp[i][j]
-# 2. ntake: dp[i-1][j]
-# 3. take: dp[i-1][j-curr] (normal)
-# 4. take: dp[i][j-curr] (special)
+# 1. full_d, take === prev each_item
+# 2. rest_d, take === curr each_item
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/
 * https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/number-of-ways-to-earn-points
