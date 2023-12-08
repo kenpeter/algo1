@@ -599,6 +599,10 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 * https://leetcode.com/problems/number-of-ways-to-earn-points
 
+# 1. dfs % MOD (x)
+# 2. (a+dfs) % MOD ---> when cal MOD
+* https://leetcode.com/problems/number-of-ways-to-earn-points/
+
 
 
 # return dp[i][j][k]
