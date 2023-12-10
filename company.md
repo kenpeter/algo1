@@ -15,11 +15,8 @@
 # microsoft
 
 * https://leetcode.com/discuss/interview-experience/4226180/Microsoft (orig)
-
 * https://leetcode.com/problems/subarray-sums-divisible-by-k/
-
 * https://leetcode.com/problems/reorganize-string/
-
 * https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 
  
@@ -37,7 +34,7 @@
 
 
 # meta
-* https://leetcode.com/discuss/interview-question/4384198/Meta-phone-screen-(US)-E4E5
+* https://leetcode.com/discuss/interview-question/4384198/Meta-phone-screen-(US)-E4E5 (orig)
 * https://leetcode.com/problems/valid-palindrome-ii/description/
 * https://leetcode.com/problems/kth-largest-element-in-an-array/description/
  
