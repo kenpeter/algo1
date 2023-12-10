@@ -34,6 +34,16 @@
 
 
 
+
+
+* Max Length of Valid Server Cluster
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+* https://www.youtube.com/watch?v=7rP2ys1DcxQ
+
+
+
+
+
 # meta
 * https://leetcode.com/discuss/interview-question/4384198/Meta-phone-screen-(US)-E4E5 (orig)
 * https://leetcode.com/problems/valid-palindrome-ii/description/
@@ -45,6 +55,31 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# dp
 
 
 # variable racing (dp)
