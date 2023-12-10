@@ -12,44 +12,6 @@
 
 
 
-* another cat
-* Optimization Goals:
-Maximum/Minimum Value: Problems where the goal is to maximize or minimize a certain value, such as the maximum sum, minimum cost, etc.
-Counting: Problems where the goal is to count the number of ways to achieve a certain target or satisfy a condition.
-Longest/Shortest: Problems that aim to find the longest or shortest sequence, path, or subsequence.
-
-* Constraints:
-Knapsack Problems: Problems involving selecting items to maximize or minimize a value while adhering to certain capacity constraints.
-Subset Sum Problems: Problems where the goal is to find subsets of elements that sum up to a given target value.
-Coin Change Problems: Problems where the goal is to find the minimum number of coins or ways to make change for a given amount.
-
-* Number of States:
-1D DP Problems: Problems where only one parameter (usually an array index) is used to represent the state in the DP table.
-2D DP Problems: Problems that require two parameters to represent the state, often used in grid-based problems or with two sequences.
-
-* Dependent/Independent Subproblems:
-Dependent Subproblems: Problems where the solution of one subproblem depends on the solutions of previously solved subproblems.
-Independent Subproblems: Problems where subproblems are not related to each other, and their solutions can be computed independently.
-
-* Overlapping Subproblems:
-Memoization: Problems that can be solved efficiently using a top-down approach with memoization to avoid redundant computations.
-Tabulation: Problems that can be solved using a bottom-up approach with a DP table to store the solutions of subproblems.
-
-* State Transition:
-Unbounded Knapsack: Problems where multiple transitions to the same state are allowed, indicating that the same item can be used multiple times.
-Bounded Knapsack: Problems where each item can be used a limited number of times.
-
-* Grid-Based Problems:
-Grid Traversal: Problems involving movement or pathfinding on a grid, like finding the shortest path or counting paths between two points.
-
-* String-Based Problems:
-Longest Common Subsequence: Problems where the goal is to find the longest common subsequence between two strings.
-Edit Distance: Problems that involve converting one string into another using minimum operations (e.g., insertions, deletions, substitutions).
-
-
-
-
-
 # microsoft
 
 * https://leetcode.com/discuss/interview-experience/4226180/Microsoft (orig)
@@ -72,7 +34,20 @@ Edit Distance: Problems that involve converting one string into another using mi
 
 * https://www.1point3acres.com/bbs/thread-923632-1-1.html (all)
 
+
+
+# meta
+* https://leetcode.com/discuss/interview-question/4384198/Meta-phone-screen-(US)-E4E5
+* https://leetcode.com/problems/valid-palindrome-ii/description/
+* https://leetcode.com/problems/kth-largest-element-in-an-array/description/
  
+
+
+
+
+
+
+
 
 # variable racing (dp)
 * https://leetcode.com/problems/ugly-number-ii/
