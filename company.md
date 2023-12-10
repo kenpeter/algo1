@@ -233,7 +233,8 @@ https://leetcode.com/problems/ones-and-zeroes
 # dp[i][0][j] = 1, in loop
 # dp[i][0] = 1, in loop
 # dp[0] = 1, in loop
-* https://leetcode.com/problems/number-of-ways-to-earn-points/description/
+* https://leetcode.com/problems/number-of-ways-to-earn-points
+* * https://www.geeksforgeeks.org/subset-sum-problem-dp-25/ (2D dp)
 
 # dp init tar, once (normal)
 # dp[0][0] = 1, once
