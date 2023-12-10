@@ -26,6 +26,7 @@
 # amazon
 
 * https://www.1point3acres.com/bbs/thread-936988-1-1.html (all)
+* https://docs.google.com/document/d/1GL6w0hbcEsJQa6IWnFZiKXcqvwkDfUOB/edit
 
 * https://www.1point3acres.com/bbs/thread-898653-1-1.html (all)
 
