@@ -388,7 +388,7 @@ https://leetcode.com/problems/perfect-squares/
 # 3. ....
 * https://leetcode.com/problems/target-sum
 * https://leetcode.com/problems/number-of-ways-to-earn-points/
-* 
+  
 
 
 # state op
@@ -628,17 +628,13 @@ https://leetcode.com/problems/perfect-squares/
 # 2. arr.reduce (*)
 * https://leetcode.com/problems/ones-and-zeroes/
 
-# build multi D array -> return
-* https://leetcode.com/problems/ones-and-zeroes/
-
-
 
 
 
 # pick/!
 * Minimum subset sum difference (x)
 * https://leetcode.com/problems/number-of-great-partitions/ (x)
-* * https://leetcode.com/problems/count-primes/description/ (x)
+* https://leetcode.com/problems/count-primes/description/ (x)
 
 
 
@@ -648,17 +644,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-* https://leetcode.com/problems/partition-equal-subset-sum/ (2 subsets)
-* relate to Q: include num / !include num, compare
-* outter: i -> each item
-* inner: tar -> bound(single_n)
-* dp ind: key: tar, val: times -> dp[tar]
-
-* https://leetcode.com/problems/target-sum (2 subsets)
-* relate to Q: include item / !include item
-* outter: 0 -> each item
-* inner: tar -> bound(single_n)
-* dp ind: key: tar, val: times -> dp[tar]
 
 * https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/ ====> https://leetcode.com/problems/partition-equal-subset-sum/ (2 subsets)
 * https://leetcode.com/discuss/interview-question/1271034/count-no-of-subsets-with-given-difference-dp ====> https://leetcode.com/problems/partition-equal-subset-sum/ (2 subsets)
@@ -666,36 +651,6 @@ https://leetcode.com/problems/perfect-squares/
 * arr[0] !== 0 -> dp[0][0] = 1
 * in range -> dp[0][arr[0]] = 1
 
-
-
-# outer loop (0 -> each) ===> outer loop (...) ===> ... outer loop (tar -> bound) ===> inner loop (...) ===> ..  loops in logic sequence order
-* https://leetcode.com/problems/number-of-ways-to-earn-points/
-* relate to Q: solve / !solve
-* outter: 1 -> each_item
-* inner: tar -> bound(0)
-* inner: 1 -> quantity
-* dp ind: key: tar, val: times -> dp[tar]
-
-* https://leetcode.com/problems/ones-and-zeroes/
-* relate to Q: take / !take
-* outter: 1 -> each_item
-* inner: 0 -> zeros (tar)
-* inner: 0 -> ones (tar)
-* dp ind: multi tar (zeros and ones)
-
-
-
- 
-
-# how to build number: dfs bottom up; compare from right to left
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-
-
-# cat -> state -> decision (repeat from start, ind no use) -> ...
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
-
-# cat -> state -> decision (peer compete in loop) -> 
-* https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 
 
 # 2D can switch, no problem
@@ -714,15 +669,6 @@ https://leetcode.com/problems/perfect-squares/
 # 1D, inner tar desc (no help curr, prev)
 # 1D, inner tar, asc (with help curr, prev)
 * https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
-
-
-# tar becomes multi elements (zeros and ones), not just 1 variable
-* https://leetcode.com/problems/ones-and-zeroes/
-
-
-# 3D -> 2D, outer_loop each item, compress it; inner loop revert, so !overwrite
-* https://leetcode.com/problems/ones-and-zeroes/
-
 
 
 
