@@ -353,9 +353,73 @@ https://leetcode.com/problems/ones-and-zeroes
 # 1D dp always uses tar ind
 https://leetcode.com/problems/number-of-ways-to-earn-points/
 
-# Question constraint ind = 0 / ind = 1
-* https://leetcode.com/problems/target-sum/
-* https://leetcode.com/problems/number-of-ways-to-earn-points/
+
+
+
+# dp ind: item, tar, bound
+sm:
+* item
+* tar
+* bound
+
+sm:
+* item ind=0; dfs_ind = 1
+* item ind=0; other use ind=0
+* can be missing
+
+* tar can 0/1, dep constraint
+* constraint_tar = 1, tar = 0 (special)
+  
+* curr_item / natural_item / special_item as bound
+
+
+https://leetcode.com/problems/ones-and-zeroes
+* 3D_full
+* for(let i=1; i<=len; ++i); item ind; dfs_ind = 1
+* for(let j=m; j>=0; --j); j_tar; ind can 0
+* for(let k=n; k>=0; --k); k_tar; ind can 0
+
+* 2D
+* same
+
+
+https://leetcode.com/problems/perfect-squares
+* 2D_full
+* no item ind
+* for(let i=1; i<=tar; ++i); natural_num as bound
+* for(j=item_num; j>=1; --j); sqr_root_item as bound
+
+* 1D
+* same
+
+
+https://leetcode.com/problems/target-sum/
+* 2D_full
+* for(let i=1; i<=n; ++i); item ind, dfs_ind = 1
+* for(let j=0; j<=half; ++j); tar; ind can 0
+
+* 1D
+* for(let j=half; j>=curr_item; --j); curr_item as bound
+
+
+https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target
+* 1D
+* for(let i=1; i<=tar; ++i); tar ind can't 0
+* for(let j=0; j<arr.length; ++j); item ind can 0, other use ind=0
+
+
+https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
+* 1D
+* no item ind
+* for(let i=1; i<=n; ++i); natural_num as bound
+* for(let j=tar; j>=1; --j); tar; ind can't 0
+
+
+* https://leetcode.com/problems/number-of-ways-to-earn-points
+* 2D_full
+* for(let i=1; i<=n; ++i); item ind, dfs_ind = 1
+* for(let j=0; j<=tar; ++j); tar; ind can 0 (special)
+* for(let k=1; k<=max_freq; ++k); natual_num as bound
 
 
 
