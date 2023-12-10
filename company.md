@@ -354,7 +354,9 @@ https://leetcode.com/problems/ones-and-zeroes
 https://leetcode.com/problems/number-of-ways-to-earn-points/
 
 
-
+# dp init ind=0 already, state loop use ind=1
+* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+  
 
 # dp ind: item, tar, bound
 sm:
