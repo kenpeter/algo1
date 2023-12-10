@@ -314,6 +314,9 @@ https://leetcode.com/problems/ones-and-zeroes
 * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
 * https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers
 
+# 2D tar item switch
+* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+
 
 # loop layout ind
 # 3D: 1st loop, 3rd loop ind=0 (sync each)
@@ -639,11 +642,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# 0/1 knapsack, true/false
-* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
-* related to Q: include / !include, equal tar
-
-
 
 
 * https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/ ====> https://leetcode.com/problems/partition-equal-subset-sum/ (2 subsets)
@@ -654,10 +652,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# 2D can switch, no problem
-# 2D outter: tar ---> inner: n, same
-# 2D outter: n ----> inner: tar, same
-* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+
 
 
 # compress n, not tar
@@ -666,10 +661,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
 
 
-# 1D, inner tar asc (with help)
-# 1D, inner tar desc (no help curr, prev)
-# 1D, inner tar, asc (with help curr, prev)
-* https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+
 
 
 
