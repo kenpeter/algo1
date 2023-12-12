@@ -756,4 +756,50 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/substring-with-largest-variance/ (orig)
 
 * https://leetcode.com/problems/maximum-subarray/
+
+
+
+
+
+
+
+
+
+
+
+# slide window
+
+
+# max queue
+# 1. max_queue === ambigious order
+# 2. big num will crush small
+# 3. small cannot move far
+# 4. max on left edge, no care rest
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
   
+
+
+# sync
+# max_queue <-> win <-> rest
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+
+# expand: max_queue then win; shrink: max_queue then win;
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+
+
+
+
+# r
+# win r ~= substr exclude end, cal dist
+# r+1 for next iteration
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+
+# trigger
+# 1. r_expand trigger l_shrink
+# 2. l_shrink !trigger r_expand
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+
+
+# win_size
+# after 1 iteration, test win_size
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
