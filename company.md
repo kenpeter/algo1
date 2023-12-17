@@ -811,7 +811,8 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# r_expand trigger l_shrink
+# expand (win max size) -> hit limit -> shrink (max clean up)
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
 
