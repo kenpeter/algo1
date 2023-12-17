@@ -794,24 +794,34 @@ https://leetcode.com/problems/perfect-squares/
 # sync
 # max_x_queue <-> win subset <-> rest
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget
 
-# expand: max_queue then win; shrink: max_queue then win;
+# 1. when expand: max_x_queue -> win
+# 2. when shrink: max_x_queue -> win
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget
+
+
+
+
+# win r ~= substr exclude end, cal dist
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
 
 
 
-# r
-# win r ~= substr exclude end, cal dist
+
+# r_expand trigger l_shrink
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+
+
+
+
 # r+1 for next iteration
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
-# trigger
-# 1. r_expand trigger l_shrink
-# 2. l_shrink !trigger r_expand
-* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
 
-# win_size
+
 # after 1 iteration, test win_size
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
