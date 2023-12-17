@@ -850,3 +850,9 @@ https://leetcode.com/problems/perfect-squares/
 # 3. sort -> { a-b } -> nothing return
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
 
+
+
+# 1. max_p_queue.front() === ind
+# 2. charge[max_p_queue.front()] === val
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget
+
