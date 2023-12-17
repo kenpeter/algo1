@@ -818,6 +818,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# 1. max_p_queue: store by ind -> later cut
+# 2. max_p_queue: sort by val -> ind random
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget
+  
+
+
 # r+1 for next iteration
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
