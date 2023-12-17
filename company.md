@@ -815,6 +815,14 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
+# max win size
+# 1. win subset > tar(*): no equal, max win size
+# 2. win subset >= tar(x): equal, eat 1 win size
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget
+
+# max clean up
+# 1. max_p_q_ind < win_start(x): no equal, later ++win_start
+# 2. max_p_q_ind <= win_start(*): equal, later ++win_start
 
 
 
