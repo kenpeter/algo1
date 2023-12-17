@@ -770,17 +770,29 @@ https://leetcode.com/problems/perfect-squares/
 # slide window
 
 
-# max queue
-# 1. max_queue === ambigious order
+# manual max_queue VS auto max_piority_queue
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster (manual)
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget (auto)
+
+
+# manual max queue
+# 1. manual max_queue === ambigious order
 # 2. big num will crush small
 # 3. small cannot move far
 # 4. max on left edge, no care rest
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+
+# auto max_piority_queue
+# 1. compare: func
+# 2. q.enqueue
+# 3. q.dequeue
+# 4. q.front
+# 5. q.size
   
 
 
 # sync
-# max_queue <-> win <-> rest
+# max_x_queue <-> win subset <-> rest
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
 # expand: max_queue then win; shrink: max_queue then win;
