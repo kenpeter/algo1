@@ -838,6 +838,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# slide_win layout
+# expand (queue, win, etc) -> shirnk (queue, win, etc)
+* https://leetcode.com/problems/sliding-window-maximum/
+
+
+
 # shirnk while (condi), update in loop body
 * https://leetcode.com/problems/sliding-window-maximum/
 
