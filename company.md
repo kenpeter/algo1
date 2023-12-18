@@ -791,13 +791,15 @@ https://leetcode.com/problems/perfect-squares/
   
 
 
-# sync
-# max_x_queue <-> win subset <-> rest
+# !sync
+# 1. max_x_queue !sync win_subset
+# 2. max_x_queue just retain max
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
 
-# 1. when expand: max_x_queue -> win
-# 2. when shrink: max_x_queue -> win
+# 1. when expand: max_x_queue !sync win
+# 2. when shrink: max_x_queue !sync win
+# 3. max_x_queue just retain max
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
 
