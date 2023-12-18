@@ -813,19 +813,28 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# expand (win max size) -> hit limit -> shrink (max clean up)
+
+# expand -> check limit (win_subset vs tar), equal (output) -> shrink (clean up max_p_q)
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
-# max win size
-# 1. win subset > tar(*): no equal, max win size
-# 2. win subset >= tar(x): equal, eat 1 win size
+# expand
+* https://leetcode.com/problems/sliding-window-maximum/
+
+# check limit (win_subset vs tar)
+# 1. win_subset > tar(*): no equal, max win size
+# 2. win_subset >= tar(x): equal, eat 1 win size
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
 
-# max clean up
+# equal (output)
+* https://leetcode.com/problems/sliding-window-maximum/
+
+# shrink (clean up max_p_q)
 # 1. max_p_q_ind < win_start(x): no equal, later ++win_start
 # 2. max_p_q_ind <= win_start(*): equal, later ++win_start
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
+
+
 
 
 # 1. max_p_queue: store by ind -> later cut
@@ -849,10 +858,28 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
+# slide_win type
 # 1. slide_win
 # 2. max_p_queue + slide_win
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
+
+
+
+# slide_win: expand, equal, shrink
+* https://leetcode.com/problems/sliding-window-maximum/
+
+# expand
+# ...
+* https://leetcode.com/problems/sliding-window-maximum/
+
+# equal
+# shrink loop, include equal, can pick output
+* https://leetcode.com/problems/sliding-window-maximum/
+
+# shrink
+# ...
+* https://leetcode.com/problems/sliding-window-maximum/
+
 
 
 # 1. sort -> { return a-b } -> asc
