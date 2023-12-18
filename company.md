@@ -837,6 +837,10 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# shirnk while (condi), update in loop body
+* https://leetcode.com/problems/sliding-window-maximum/
+
+
 # 1. max_p_queue: store by ind -> later cut
 # 2. max_p_queue: sort by val -> ind random
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
