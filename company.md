@@ -784,10 +784,11 @@ https://leetcode.com/problems/perfect-squares/
 
 # auto max_piority_queue
 # 1. compare: func
-# 2. q.enqueue
-# 3. q.dequeue
+# 2. q.enqueue (push)
+# 3. q.dequeue (pop)
 # 4. q.front
 # 5. q.size
+* https://leetcode.com/problems/sliding-window-maximum/
   
 
 
