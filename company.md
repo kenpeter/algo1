@@ -878,6 +878,9 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 
+
+
+
 # slide_win: expand, equal, shrink
 * https://leetcode.com/problems/sliding-window-maximum/
 
@@ -892,6 +895,24 @@ https://leetcode.com/problems/perfect-squares/
 # shrink
 # ...
 * https://leetcode.com/problems/sliding-window-maximum/
+
+
+
+# how much shrink
+# 1. shrink 1 by 1
+# 2. shrink by range
+* https://leetcode.com/problems/sliding-window-maximum/
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+
+
+
+# slide_win, n pointers
+# 1. l == start_win, r == new income
+# 2. l == start_win, r == new income, hash[c] == repeat
+* https://leetcode.com/problems/sliding-window-maximum/
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
 
 
 # 1. max_p_queue.front() === ind
