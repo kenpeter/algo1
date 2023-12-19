@@ -869,11 +869,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# slide_win type
+# slide_win combo
 # 1. slide_win
-# 2. max_p_queue + slide_win
+# 2. slide_win + max_p_queue (auto)
+# 3. slide_win + arr (manual)
+# 4. slide_win + hash
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
-
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 
 # slide_win: expand, equal, shrink
@@ -892,6 +894,16 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/sliding-window-maximum/
 
 
+# 1. max_p_queue.front() === ind
+# 2. charge[max_p_queue.front()] === val
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget
+
+
+
+
+
+
+
 
 # 1. sort -> { return a-b } -> asc
 # 2. sort -> { return b-a } -> desc
@@ -900,7 +912,5 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# 1. max_p_queue.front() === ind
-# 2. charge[max_p_queue.front()] === val
-* https://leetcode.com/problems/maximum-number-of-robots-within-budget
+
 
