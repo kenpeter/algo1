@@ -805,6 +805,13 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
 
 
+# sync
+# 1. start_win sync hash
+# 2. start_win !syc max_p_q
+* https://leetcode.com/problems/longest-substring-without-repeating-characters
+* abcdefca (keep adding mem) --> c again -> (abc)defca (clean up prev mem) -> defca -> (a again, prev mem out, no concern)
+
+
 
 
 # win r ~= substr exclude end, cal dist
@@ -924,6 +931,14 @@ https://leetcode.com/problems/perfect-squares/
 # 1. max_p_queue.front() === ind
 # 2. charge[max_p_queue.front()] === val
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
+
+
+
+# clean up mem VS retain mem
+# 1. clean up prev mem, can repeat process
+# 2. no clean up, consider start_win >/</= repeat
+* https://leetcode.com/problems/longest-substring-without-repeating-characters
+* abcdefca (keep adding mem) --> c again -> (abc)defca (clean up prev mem) -> defca -> (a again, prev mem out, no concern)
 
 
 
