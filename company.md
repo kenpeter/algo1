@@ -907,14 +907,24 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# slide_win, n pointers
+
+
+# how many pointer pt slide_win
 # 1. l == start_win, r == new income
 # 2. l == start_win, r == new income, hash[c] == repeat
 * https://leetcode.com/problems/sliding-window-maximum/
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 
+# l position repeat
+# 1. l before repeat: find repeat, then skip 1
+# 2. l equal repeat: find repeat, then skip 1
+# 1. l after repeat: as usual
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
+
+
+# max_p_q store key
 # 1. max_p_queue.front() === ind
 # 2. charge[max_p_queue.front()] === val
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
@@ -923,6 +933,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+
+
+# diff way to use hash
+# 1. hash[key] = visited
+# 2. hash[val] = position
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 
 
