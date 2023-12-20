@@ -821,6 +821,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# slide win layout
+# 1. start -> expand -> shrink
+# 2. start -> shrink -> expand
+* https://leetcode.com/problems/longest-substring-without-repeating-characters
+
 
 
 # expand -> shrink (max win_size) -> max clean_up
@@ -864,10 +869,25 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
 
+# inc r vs win_size_check
+# 1. inc r before size check (x)
+# 2. inc r after size check (*)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters
+
+
+
+
+# when to check win_size
+# 1. each time expand, check win_size
+# 2. when finish shrink, check win_size
+* https://leetcode.com/problems/longest-substring-without-repeating-characters
 
 
 # after 1 iteration, test win_size
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+
+
+
 
 
 
@@ -943,13 +963,18 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-
-
 # diff way to use hash
 # 1. hash[key] = visited
 # 2. hash[val] = position
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+
+
+# set.del
+set.delete(ele) === del curr repeat
+set.delete(s[l]) === del all pre-head
+* https://leetcode.com/problems/longest-substring-without-repeating-characters
+
 
 
 
