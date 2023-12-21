@@ -905,9 +905,9 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 
-# slide_win scan
-# 1. scan once
-# 2. scan multi (e.g substr)
+# how slide_win scan
+# 1. right expand, left shrink
+# 2. set up bound, scan -> new bound, scan
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
 
 
