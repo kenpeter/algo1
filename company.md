@@ -880,9 +880,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # when to check win_size
-# 1. each time expand, check win_size
+# 1. 1 expand, 1 check win_size
 # 2. when finish shrink, check win_size
+# 3. when finish shrink, check win_size
 * https://leetcode.com/problems/longest-substring-without-repeating-characters
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
 
 
 # after 1 iteration, test win_size
