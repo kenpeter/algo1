@@ -892,7 +892,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# slide_win + x
+# slide_win type
 # 1. slide_win
 # 2. slide_win + max_p_queue (auto)
 # 3. slide_win + arr (manual)
@@ -900,6 +900,11 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
+
+# slide_win scan
+# 1. scan once
+# 2. scan multi (e.g substr)
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
 
 
 
@@ -946,6 +951,14 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 
+# win l and r are ind, not bound
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+# 1. n-1 === ele ind
+# 2. n === bound (*)
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+
 
 # max_p_q store key
 # 1. max_p_queue.front() === ind
@@ -985,5 +998,7 @@ set.delete(s[l]) === del all pre-head
 
 
 
-
-
+# when see arr of word
+# 1. scan arr
+# 2. scan trie
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
