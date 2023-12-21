@@ -907,6 +907,12 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
 
 
+# how to scan substr
+# 1. start from right -> scan right -> see pollution -> immediate stop -> new range (*)
+# 2. start from left ->  scan right -> see pollution -> find start char to cut (x)
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+
+  
 
 
 # slide_win: expand, equal, shrink
@@ -1007,6 +1013,7 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
 # see arr of word
 # 1. scan arr
 # 2. scan trie
@@ -1014,7 +1021,16 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
 # how to deal substr
 # 1. outloop: each time new range
 # 2. inloop: scan
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+
+
+
+
+# loop bound
+# 1. loop bound === constant
+# 2. loop bound === variable (update on the fly)
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
