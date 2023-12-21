@@ -998,7 +998,16 @@ set.delete(s[l]) === del all pre-head
 
 
 
-# when see arr of word
+
+
+# see arr of word
 # 1. scan arr
 # 2. scan trie
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+
+
+
+# how to deal substr
+# 1. outloop: each time new range
+# 2. inloop: scan
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
