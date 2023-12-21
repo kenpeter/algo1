@@ -10,7 +10,9 @@
 * Longest Common Substring/Subsequeunce
 
 
-
+# full interview
+* https://www.1point3acres.com/bbs/thread-1034698-1-1.html
+  
 
 # microsoft
 
