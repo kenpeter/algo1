@@ -959,6 +959,13 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
 
 
+# what to maintain window
+# 1. maintain l and r
+# 2. also maintain real win
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+  
+
+
 
 # max_p_q store key
 # 1. max_p_queue.front() === ind
