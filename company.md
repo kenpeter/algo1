@@ -1038,3 +1038,39 @@ set.delete(s[l]) === del all pre-head
 # 1. loop bound === constant
 # 2. loop bound === variable (update on the fly)
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+
+
+
+
+# trie
+
+
+# trie === util + node
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+# trie node attr
+# 1. children
+# 2. count
+# 3. end
+# etc
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+# trie node children === next === edge
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+# create node process
+# init root -> access root -> to group -> to individual -> to next
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+# in 1st node
+# 1. root in 1st node
+# 2. children in 1st node
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+# var pt to what var pt to
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+
+
+
+  
