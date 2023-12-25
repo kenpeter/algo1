@@ -1043,6 +1043,13 @@ set.delete(s[l]) === del all pre-head
 # 2. loop bound === variable (update on the fly)
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
 
+# win right bound will update in process
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+
+
+
+
 
 
 
