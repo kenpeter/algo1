@@ -1058,9 +1058,22 @@ set.delete(s[l]) === del all pre-head
 # trie node children === next === edge
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
 
+
+
 # create node process
 # init root -> access root -> to group -> to individual -> to next
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+# node mirror char journey
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+# node jourey: 1. create; 2. blocked; 3. end
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+# some var ahead, end loop still valid
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+
 
 # in 1st node
 # 1. root in 1st node
