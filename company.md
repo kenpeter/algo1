@@ -911,10 +911,13 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
 
 
-# how to scan substr 1
-# 1. start from right -> scan right -> see pollution -> immediate stop (-1 skip) -> new range (*)
-# 2. start from left ->  scan right -> see pollution -> find start char to cut (x)
+# how to scan substr
+# 1. start right -> scan right -> see pollution -> immediate stop (-1 skip) -> new range (*)
+# 2. start right -> scan right (guarantee good)
+# 3. start right -> scan right (history good, 1 extra: 1. if good, full_len; 2. if bad, continue)
+# 4. start left ->  scan right -> see pollution -> find start char to cut (x)
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+
 
 
   
@@ -1062,6 +1065,7 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
 # create node process
 # init root -> access root -> to group -> to individual -> to next
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
@@ -1075,13 +1079,21 @@ set.delete(s[l]) === del all pre-head
 # some var ahead, end loop still valid
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
 
+# 1. node advance
+# 2. char advance
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
+
 
 
 # travel node process
 # access root -> to group -> to individual -> to next
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
 
-  
+# 1. node advance
+# 2. char advance
+* https://leetcode.com/problems/length-of-the-longest-valid-substring
+
 
 
 
