@@ -858,6 +858,20 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/sliding-window-maximum/
 
 
+
+# the reason of expand
+# 1. can see k elements each time
+* https://leetcode.com/problems/sliding-window-maximum/
+
+
+# the purpose of win
+# 1. get max num within k elements
+# 2. longest substr not contain words
+* https://leetcode.com/problems/sliding-window-maximum/
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/
+
+
+
 # 1. max_p_queue: store by ind -> later cut
 # 2. max_p_queue: sort by val -> ind random
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
