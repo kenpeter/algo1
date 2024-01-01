@@ -785,11 +785,13 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
 # auto max_piority_queue
-# 1. compare: func
-# 2. q.enqueue (push)
-# 3. q.dequeue (pop)
-# 4. q.front
-# 5. q.size
+# 1. compare: func (2 ele)
+# 2. priority: func (1 ele)
+# 3. q.enqueue (push)
+# 4. q.dequeue (pop)
+# 5. q.front.element
+# 7. q.back.element
+# 7. q.size
 * https://leetcode.com/problems/sliding-window-maximum/
   
 
@@ -1060,6 +1062,14 @@ set.delete(s[l]) === del all pre-head
 # win right bound will update in process
 * https://leetcode.com/problems/length-of-the-longest-valid-substring
 
+
+
+
+
+
+# priority queue
+
+# 
 
 
 
