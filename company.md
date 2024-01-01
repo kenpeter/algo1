@@ -1069,7 +1069,36 @@ set.delete(s[l]) === del all pre-head
 
 # priority queue
 
-# 
+# min_start into p_q
+# 1. every min_start: min range
+# 2. put max_end: !control range
+# 3. put everything: !control range 
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+# min_starts cover range
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
+
+# p_q: store which list, which ele (2D)
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
+# queue front and back
+# 1. m_p_q (queue) -> front (posi) -> element (obj)
+# 2. m_p_q (queue) -> back (posi) -> element (obj)
+
+
+
+
+
+  
+# queue init, so can run
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
+
+
 
 
 
