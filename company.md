@@ -784,15 +784,7 @@ https://leetcode.com/problems/perfect-squares/
 # 4. max on left edge, no care rest
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
-# auto max_piority_queue
-# 1. compare: func (2 ele)
-# 2. priority: func (1 ele)
-# 3. q.enqueue (push)
-# 4. q.dequeue (pop)
-# 5. q.front.element
-# 7. q.back.element
-# 7. q.size
-* https://leetcode.com/problems/sliding-window-maximum/
+
   
 
 
@@ -1067,7 +1059,23 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
+
+
 # priority queue
+
+
+# p_q full props
+# 1. compare: func (2 ele)
+# 2. priority: func (1 ele)
+# 3. q.enqueue (end)
+# 4. q.dequeue (start)
+# 5. q.front.element (obj)
+# 6. q.back.element (obj)
+# 7. q.size
+* https://leetcode.com/problems/sliding-window-maximum/
+
+  
 
 # min_start into p_q
 # 1. every min_start: min range
@@ -1095,6 +1103,9 @@ set.delete(s[l]) === del all pre-head
   
 # queue init, so can run
 * https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
+
 
 
 
