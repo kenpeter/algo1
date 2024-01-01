@@ -1179,4 +1179,45 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
+
+
+
+
+
+
+# multi lists
+
+
+# order list
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
+# each ele in list, represent list
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
+# next ele in list, may be candidate
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
+
+# p_q dequeue list, next ele may impact range
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
+# p_q enqeue list, auto sort, diff inject position, impact range
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
+
+
+
+
+# loop body
+
+# while loop body, best update min/max
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
   
