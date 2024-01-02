@@ -772,6 +772,17 @@ https://leetcode.com/problems/perfect-squares/
 # slide window
 
 
+# how to detect slide win
+# 1. substring: (1) no repeat; (2) bad word
+# 2. see len k
+
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/
+* https://leetcode.com/problems/sliding-window-maximum/
+
+
+  
+
 # manual (max_queue) VS auto (max_piority_queue)
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster (manual)
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget (auto)
@@ -1063,6 +1074,11 @@ set.delete(s[l]) === del all pre-head
 
 
 # priority queue
+
+
+# how to detect priority queue
+# 1. min_start in queue
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 
 
 # p_q full props
