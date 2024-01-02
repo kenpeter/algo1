@@ -775,10 +775,12 @@ https://leetcode.com/problems/perfect-squares/
 # how to detect slide win
 # 1. substring: (1) no repeat; (2) bad word
 # 2. see len k
+# 3. all ele in win equal
 
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/
 * https://leetcode.com/problems/sliding-window-maximum/
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
 
   
