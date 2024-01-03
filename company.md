@@ -785,6 +785,15 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
 
+
+
+# op within win range
+# 1. fill smaller eles match max
+# 2. get single max
+# 3. substr
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+
+
   
 
 # manual (max_queue) VS auto (max_piority_queue)
@@ -1254,7 +1263,7 @@ set.delete(s[l]) === del all pre-head
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
 
-# condi && use
+# guard then use
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
   
