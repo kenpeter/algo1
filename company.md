@@ -815,11 +815,15 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget
 
+# start_win !syc max_p_q
+* https://leetcode.com/problems/longest-substring-without-repeating-characters
+
+
 
 # sync
 # 1. start_win sync hash
-# 2. start_win !syc max_p_q
-# 3. left and right update 1st -> use them
+# 2. left and right update 1st -> use them
+# 3. win_size <-> queue_size <-> left and right
 * https://leetcode.com/problems/longest-substring-without-repeating-characters
 * abcdefca (keep adding mem) --> c again -> (abc)defca (clean up prev mem) -> defca -> (a again, prev mem out, no concern)
 
