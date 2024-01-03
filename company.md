@@ -778,12 +778,18 @@ https://leetcode.com/problems/perfect-squares/
 # 2. diff / same ele slide win
 # 3. containt win range, do op
 # 4. substring: (1) no repeat; (2) bad word
-
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/
 * https://leetcode.com/problems/sliding-window-maximum/
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
+
+
+# how to diff dfs and slide_win
+# 1. both relate to operation
+# 2. both relate to min/max
+# 3. slide_win focus on continous window
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
 
 
