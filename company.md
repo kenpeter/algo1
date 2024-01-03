@@ -773,12 +773,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # how to detect slide win
-# 1. substring: (1) no repeat; (2) bad word
-# 2. sorted slide win
-# 3. unsorted slide win
-# 4. diff ele slide win
-# 5. same ele slide win
-# 6. containt in a win range, do op
+
+# 1. sorted / unsorted slide win
+# 2. diff / same ele slide win
+# 3. containt win range, do op
+# 4. substring: (1) no repeat; (2) bad word
 
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/
@@ -906,9 +905,12 @@ https://leetcode.com/problems/perfect-squares/
 # when to check win_size
 # 1. 1 expand, 1 check win_size
 # 2. when finish shrink, check win_size
-# 3. when finish shrink, check win_size
+# 3. when finish expand, check win_size
 * https://leetcode.com/problems/longest-substring-without-repeating-characters
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+
+# r - l + 1 appear max win size
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
 
 # after 1 iteration, test win_size
