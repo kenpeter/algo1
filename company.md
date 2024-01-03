@@ -1243,4 +1243,13 @@ set.delete(s[l]) === del all pre-head
 * https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
 
 
+
+# meaning of sort
+# similar kind in subarr
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+
+
+# condi && use
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+
   
