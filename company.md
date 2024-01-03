@@ -774,8 +774,11 @@ https://leetcode.com/problems/perfect-squares/
 
 # how to detect slide win
 # 1. substring: (1) no repeat; (2) bad word
-# 2. see len k
-# 3. all ele in win equal
+# 2. sorted slide win
+# 3. unsorted slide win
+# 4. diff ele slide win
+# 5. same ele slide win
+# 6. containt in a win range, do op
 
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/
