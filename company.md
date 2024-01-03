@@ -819,6 +819,7 @@ https://leetcode.com/problems/perfect-squares/
 # sync
 # 1. start_win sync hash
 # 2. start_win !syc max_p_q
+# 3. left and right update 1st -> use them
 * https://leetcode.com/problems/longest-substring-without-repeating-characters
 * abcdefca (keep adding mem) --> c again -> (abc)defca (clean up prev mem) -> defca -> (a again, prev mem out, no concern)
 
