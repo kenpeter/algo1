@@ -1251,10 +1251,15 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
+
+
 # loop body
 
 # while loop body, best update min/max
 * https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
 
 
 
@@ -1263,7 +1268,20 @@ set.delete(s[l]) === del all pre-head
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
 
+
+
+
 # guard then use
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+
+
+
+
+
+
+
+# how to think
+# 1. think good condition -> then back to constraint
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
   
