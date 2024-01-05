@@ -1059,8 +1059,9 @@ https://leetcode.com/problems/perfect-squares/
 # what to maintain window
 # 1. maintain l and r
 # 2. also maintain real win
+# 3. l <= r
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
-  
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/ (l <= r)  
 
 
 
