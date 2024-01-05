@@ -1347,12 +1347,18 @@ set.delete(s[l]) === del all pre-head
 
 
 
+# code has diff scenarios, compare each
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/submissions/1136566585/
+
+
+
 # think test case
 # 1. special case
 # 2. not enough
 # 3. enough
 # 4. diff moves
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+
 
 
 
