@@ -793,6 +793,22 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+
+
+# slide_win portion
+# 1. full arr = slide_win + right_side
+# 2. full arr = left_side + slide_win
+# 3. full arr = left_side + slide_win + right_side
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+
+# work on mid portion or work on left/right portion
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+
+
+
+
+
+
 # op within win range
 # 1. fill smaller eles match max
 # 2. get single max
@@ -1251,6 +1267,8 @@ set.delete(s[l]) === del all pre-head
 
 # p_q enqeue list, auto sort, diff inject position, impact range
 * https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
+
+
 
 
 
