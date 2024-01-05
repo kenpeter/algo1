@@ -868,16 +868,48 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# slide win layout
+# slide win code layout
 # 1. start -> expand -> shrink
 # 2. start -> shrink -> expand
 * https://leetcode.com/problems/longest-substring-without-repeating-characters
 
 
 
-# expand -> shrink (max win_size) -> max clean_up
-* https://leetcode.com/problems/maximum-number-of-robots-within-budget
-* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
+
+# how slide_win scan
+# 1. right expand, left shrink
+# 2. set up bound, scan -> new bound, scan
+# 3. i stable -> slide_win (j_loop)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (left, right)
+* https://leetcode.com/problems/sliding-window-maximum/ (left, right)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (left, right)
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/ (left, right)
+* https://leetcode.com/problems/length-of-the-longest-valid-substring (i stable, j loop)
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/ (can be i stable, j loop)
+
+  
+
+# how to scan substr
+# 1. start right -> scan right -> see pollution -> immediate stop (-1 skip) -> new range (*)
+# 2. start right -> scan right (guarantee good)
+# 3. start right -> scan right (history good, 1 extra: 1. if good, full_len; 2. if bad, continue)
+# 4. start left ->  scan right -> see pollution -> find start char to cut (x)
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+
+
+
+# when to shrink
+# 1. > sum
+# 2. > len
+# 3. seen (hash)
+# 4. imply formula
+# 4. multi combo formula
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero (> sum)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (seen)
+* https://leetcode.com/problems/sliding-window-maximum (> len)
+* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists (imply formula)
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget (combo formula)
+* https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster (combo formula)
 
 
 
@@ -967,18 +999,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 
-# how slide_win scan
-# 1. right expand, left shrink
-# 2. set up bound, scan -> new bound, scan
-* https://leetcode.com/problems/length-of-the-longest-valid-substring
 
-
-# how to scan substr
-# 1. start right -> scan right -> see pollution -> immediate stop (-1 skip) -> new range (*)
-# 2. start right -> scan right (guarantee good)
-# 3. start right -> scan right (history good, 1 extra: 1. if good, full_len; 2. if bad, continue)
-# 4. start left ->  scan right -> see pollution -> find start char to cut (x)
-* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
 
 
 
