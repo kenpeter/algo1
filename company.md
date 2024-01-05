@@ -801,8 +801,10 @@ https://leetcode.com/problems/perfect-squares/
 # 3. full arr = left_side + slide_win + right_side
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
-# work on mid portion or work on left/right portion
+# mid portion OR left/right portion
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+
+
 
 
 
@@ -910,6 +912,16 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists (imply formula)
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget (combo formula)
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster (combo formula)
+
+
+
+
+# how much to shrink
+# 1. shrink 1 by 1
+# 2. shrink by range
+* https://leetcode.com/problems/sliding-window-maximum/
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
 
 
 
@@ -1022,12 +1034,6 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/sliding-window-maximum/
 
 
-
-# how much shrink
-# 1. shrink 1 by 1
-# 2. shrink by range
-* https://leetcode.com/problems/sliding-window-maximum/
-* https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 
 
@@ -1333,6 +1339,13 @@ set.delete(s[l]) === del all pre-head
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
 
+
+# think test case
+# 1. special case
+# 2. not enough
+# 3. enough
+# 4. diff moves
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
 
 
