@@ -1323,6 +1323,13 @@ set.delete(s[l]) === del all pre-head
 # while loop body, best update min/max
 * https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/
 
+# multi loops use route to break outmost
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/submissions/1136566585/
+
+# copy prev var, use inloop, later no impact
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/submissions/1136566585/
+
+
 
 
 
