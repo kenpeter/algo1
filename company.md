@@ -1257,6 +1257,18 @@ set.delete(s[l]) === del all pre-head
 
 
 
+# prefix sum
+# 1. loop -> a[i] = a[i] + a[i-1] (cal prefix sum)
+# 2. range: 0 -> nth (cal range)
+# 2.1. range: [i, j] -> a[j] - a[i-1] (cal range)
+* https://www.youtube.com/watch?v=pVS3yhlzrlQ
+
+
+
+
+
+
+
 
 
 
@@ -1287,7 +1299,10 @@ set.delete(s[l]) === del all pre-head
 
 
 # how to think
-# 1. think good condition -> then back to constraint
+# think good condition -> then back to constraint
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+
+# not think straight, but think opposite
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
   
