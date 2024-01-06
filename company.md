@@ -871,9 +871,10 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # slide win code layout
-# 1. start -> expand -> shrink
-# 2. start -> shrink -> expand
-* https://leetcode.com/problems/longest-substring-without-repeating-characters
+# 1. expand -> loop shrink
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (loop shrink)
+* https://leetcode.com/problems/sliding-window-maximum/ (loop shrink)
+* 
 
 
 
@@ -1273,7 +1274,8 @@ set.delete(s[l]) === del all pre-head
 
 
 
-
+# 1st char of bad word -> not in tire -> good word
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/
 
 
 
