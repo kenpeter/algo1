@@ -874,7 +874,8 @@ https://leetcode.com/problems/perfect-squares/
 # 1. expand -> loop shrink
 * https://leetcode.com/problems/longest-substring-without-repeating-characters (loop shrink)
 * https://leetcode.com/problems/sliding-window-maximum/ (loop shrink)
-* 
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (loop shrink)
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/ (loop shrink)
 
 
 
