@@ -983,6 +983,47 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster
 
 
+
+
+# how cal win_len
+# 1. r - l + 1 (most of time)
+# 2. r - l (e.g. [1, 1, 1] -> rm 1 -> len 2)
+# 3. r - l - 1 (e.g. [0, 1, 1, 0] -> 1st 0 !contrib, 2nd 0 invalid+1, rm -> len 2)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (most of time)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (r - l OR r - l - 1)
+
+
+# 1st zero, 2nd zero
+# 1. 1st zero !contrib len
+# 2. 2nd+ zero contrib len, but force left pt invalid+1
+
+* [0, 0, 0, 0] -> always invalid+1 -> len just 0
+* [0] -> 1st 0 !contrib -> len 0
+* [1] -> rm 1 -> len 0
+* [1, 0] -> 1st 0 !contrib -> len 1
+* [1, 1] -> rm 1 -> len 1
+* [1, 0, 1] -> 1st 0 !contrib -> len 2
+* [1, 1, 1] -> rm 1 -> len 2
+* [0, 1, 1, 0] -> 1st 0 !contrib, 2nd 0 invalid+1 -> len 2
+  
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element
+
+
+
+# when cal win_len
+# 1. when l change, check
+# 2. when r change, check
+# 3. l and r change, !check
+* https://leetcode.com/problems/longest-substring-without-repeating-characters
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+
+# when !cal win_len
+# 1. the ele cannot count in
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (!count in)
+
+
+
+
 # inc r vs win_size_check
 # 1. inc r before size check (x)
 # 2. inc r after size check (*)
@@ -990,13 +1031,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-# when to check win_size
-# 1. 1 expand, 1 check win_size
-# 2. when finish shrink, check win_size
-# 3. when finish expand, check win_size
-* https://leetcode.com/problems/longest-substring-without-repeating-characters
-* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
 
 # r - l + 1 appear max win size
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
@@ -1383,6 +1417,8 @@ set.delete(s[l]) === del all pre-head
 
 # think simple 1st
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
-* 
+
+# think lots of test case
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element
 
   
