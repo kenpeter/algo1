@@ -1049,9 +1049,9 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# how many pointer pt slide_win
+# how many pointers
 # 1. l == start_win, r == new income
-# 2. l == start_win, r == new income, hash[c] == repeat
+# 2. l == start_win, r == new income, track var (1. hash[c] == repeat; 2. invalid+1)
 * https://leetcode.com/problems/sliding-window-maximum/
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
