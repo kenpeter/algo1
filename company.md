@@ -900,16 +900,17 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# when to shrink
-# 1. > sum
-# 2. > len
+# win_state
+# 1. under certain sum, too big, shrink
+# 2. under certain len, too long, shrink
 # 3. seen (hash)
-# 4. imply formula
-# 4. multi combo formula
+# 4. contain certain ele, too many, shrink
+# 5. under formula, !formula, shrink
+# 6. retain good state, !good state, change
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero (> sum)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters (seen)
 * https://leetcode.com/problems/sliding-window-maximum (> len)
-* https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists (imply formula)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ (contain ele)
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget (combo formula)
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster (combo formula)
 
