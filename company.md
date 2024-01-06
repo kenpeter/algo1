@@ -917,12 +917,18 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# how much to shrink
-# 1. shrink 1 by 1
-# 2. shrink by range
-* https://leetcode.com/problems/sliding-window-maximum/
-* https://leetcode.com/problems/longest-substring-without-repeating-characters/
+# how to control left pt
+# 1. shrink 1 by 1 (normal)
+# 2. invalid + 1 -> valid (jump) 
+* https://leetcode.com/problems/sliding-window-maximum/ (1 by 1)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/ (invalid+1)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ (invalid+1)
 
+
+# how to control right pt
+# 1. inc each cycle
+# 2. ...
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ (each cycle)
 
 
 
