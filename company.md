@@ -1371,4 +1371,8 @@ set.delete(s[l]) === del all pre-head
 # not think straight, but think opposite
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
+# think simple 1st
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
+* 
+
   
