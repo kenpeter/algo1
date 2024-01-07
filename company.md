@@ -1409,6 +1409,12 @@ set.delete(s[l]) === del all pre-head
 
 
 # how to think
+
+# single phase -> group / on the road of group
+* ......
+
+
+
 # think good condition -> then back to constraint
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
