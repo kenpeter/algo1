@@ -1378,10 +1378,15 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
+
 # meaning of sort
 # similar kind in subarr
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
+# 1. inject ind to struct, after sort, know who is who
+# 2. injected ind (real) VS loop i (fake)
+* https://leetcode.com/problems/count-zero-request-servers
 
 
 
