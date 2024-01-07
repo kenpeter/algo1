@@ -1429,6 +1429,16 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
+
+# what is active
+# 1. ele 1 action -> 1 active
+# 2. ele 1+ action -> 1 active
+# 3. ele 0 action -> inactive
+* https://leetcode.com/problems/count-zero-request-servers
+
+
+
 # guard then use
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
