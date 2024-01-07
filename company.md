@@ -1429,9 +1429,10 @@ set.delete(s[l]) === del all pre-head
 
 # when empty
 # 1. count
-# 2. leetcode
-# 3. read
-# 4. exercise
-# 5. chat / forum
+# 2. chat / forum
+# 3. leetcode
+# 4. read
+# 5. exercise
+
 
   
