@@ -1390,6 +1390,13 @@ set.delete(s[l]) === del all pre-head
 
 
 
+# map
+# 1. arr.map -> return new struct
+# 2. arr.map -> callback -> param: item ind -> new struct
+* https://leetcode.com/problems/count-zero-request-servers
+  
+
+
 
 # guard then use
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
