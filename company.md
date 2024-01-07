@@ -1423,6 +1423,10 @@ set.delete(s[l]) === del all pre-head
 * https://leetcode.com/problems/count-zero-request-servers
 
 
+# when loop mutable / immutable
+# 1. immutale, each iteration new start
+# 2. mutable, each iteration share
+* https://leetcode.com/problems/count-zero-request-servers
 
 
 
