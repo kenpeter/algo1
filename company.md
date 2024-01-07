@@ -1357,6 +1357,11 @@ set.delete(s[l]) === del all pre-head
 
 
 
+# array
+# 1. 0 base
+# 2. 1 base
+* https://leetcode.com/problems/count-zero-request-servers (1 base)
+
 
 
 
@@ -1373,6 +1378,8 @@ set.delete(s[l]) === del all pre-head
 # the log questions
 # 1. same ele can repeat in logs, diff time
 * https://leetcode.com/problems/count-zero-request-servers
+
+
 
 
 
