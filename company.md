@@ -1347,6 +1347,7 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
 # prefix sum
 # 1. loop -> a[i] = a[i] + a[i-1] (cal prefix sum)
 # 2. range: 0 -> nth (cal range)
@@ -1356,6 +1357,22 @@ set.delete(s[l]) === del all pre-head
 
 
 
+
+
+
+
+
+# the question has query and source
+# 1. query and source pair
+# 2. query and source pair sorted
+* https://leetcode.com/problems/count-zero-request-servers
+
+
+
+
+# the log questions
+# 1. same ele can repeat in logs, diff time
+* https://leetcode.com/problems/count-zero-request-servers
 
 
 
