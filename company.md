@@ -1474,18 +1474,25 @@ set.delete(s[l]) === del all pre-head
 * ......
 
 
+# when action, think opposite response
+* ....
+
 
 # think good condition -> then back to constraint
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
+
 # not think straight, but think opposite
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+
 
 # think simple 1st
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
 
+
 # think lots of test case
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element
+
 
 # when empty
 # 1. count
