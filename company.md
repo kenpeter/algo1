@@ -1417,6 +1417,13 @@ set.delete(s[l]) === del all pre-head
 * https://leetcode.com/problems/count-zero-request-servers
 
 
+# source !easy use, create new state
+# 1. src (immu) -> create struct (immu) -> diff query use new
+# 2. src (immu) -> create struct (mutable, e.g. share time) -> diff query update
+* https://leetcode.com/problems/count-zero-request-servers
+
+
+
 
 
 # the log questions
