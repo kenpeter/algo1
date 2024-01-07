@@ -1363,23 +1363,23 @@ set.delete(s[l]) === del all pre-head
 * https://leetcode.com/problems/count-zero-request-servers (1 base)
 
 
-
-
-
-
-# the question has query and source
-# 1. query and source pair
-# 2. query and source pair sorted
+# map
+# 1. arr.map -> return new struct
+# 2. arr.map -> callback -> param: item ind -> new struct
 * https://leetcode.com/problems/count-zero-request-servers
 
 
 
 
-# the log questions
-# 1. same ele can repeat in logs, diff time
+
+
+# meaning of sort
+# similar kind in subarr
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+
+# 1. inject ind to struct, after sort, know who is who
+# 2. injected ind (real) VS loop i (fake)
 * https://leetcode.com/problems/count-zero-request-servers
-
-
 
 
 
@@ -1404,21 +1404,28 @@ set.delete(s[l]) === del all pre-head
 
 
 
-# meaning of sort
-# similar kind in subarr
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
-
-# 1. inject ind to struct, after sort, know who is who
-# 2. injected ind (real) VS loop i (fake)
-* https://leetcode.com/problems/count-zero-request-servers
 
 
 
-# map
-# 1. arr.map -> return new struct
-# 2. arr.map -> callback -> param: item ind -> new struct
-* https://leetcode.com/problems/count-zero-request-servers
+
+
+
   
+# the question has query and source
+# 1. query and source pair
+# 2. query and source pair sorted
+* https://leetcode.com/problems/count-zero-request-servers
+
+
+
+
+# the log questions
+# 1. same ele can repeat in logs, diff time
+* https://leetcode.com/problems/count-zero-request-servers
+
+
+
+
 
 
 
