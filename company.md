@@ -871,12 +871,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # slide win code layout
-# 1. expand -> loop shrink
+# 1. expand -> loop shrink -> back (normal)
+# 2. prefix sum (bigger ind RM smaller ind)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters (loop shrink)
 * https://leetcode.com/problems/sliding-window-maximum/ (loop shrink)
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (loop shrink)
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/ (loop shrink)
-
+* https://leetcode.com/problems/count-zero-request-servers (prefix_sum)
 
 
 
@@ -1050,8 +1051,12 @@ https://leetcode.com/problems/perfect-squares/
 # 2. slide_win + max_p_queue (auto)
 # 3. slide_win + arr (manual)
 # 4. slide_win + hash
-* https://leetcode.com/problems/maximum-number-of-robots-within-budget
-* https://leetcode.com/problems/longest-substring-without-repeating-characters/
+# 5. [q-x, q] -> range -> prefix_sum -> bigger ind RM smaller ind
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget (max_p_q)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (hash)
+* https://leetcode.com/problems/count-zero-request-servers (prefix_sum)
+
+  
 
 
 
@@ -1450,8 +1455,12 @@ set.delete(s[l]) === del all pre-head
 
 
 
-# guard then use
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+# guard and use
+# 1. slide win l < r
+# 2. silde win r in obund
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (r in bound)
+* https://leetcode.com/problems/count-zero-request-servers (slide win l < r)
+* https://leetcode.com/problems/count-zero-request-servers (slide win r in bound)
 
 
 
