@@ -1427,4 +1427,10 @@ set.delete(s[l]) === del all pre-head
 # think lots of test case
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element
 
+# when empty
+# 1. count
+# 2. leetcode
+# 3. read
+# 4. exercise
+
   
