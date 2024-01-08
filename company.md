@@ -1483,8 +1483,12 @@ set.delete(s[l]) === del all pre-head
 
 # how to think
 
-# single phase -> group / on the road of group
+# single phase -> group / road of group
 * ......
+
+
+# everything can be group / road group
+* ....
 
 
 # when action, think opposite response
