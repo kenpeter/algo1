@@ -1183,6 +1183,12 @@ set.delete(s[l]) === del all pre-head
 
 
 
+# in a range, all eles close to x
+* e.g. [1, 2, 3, 4, 5], k=4, x=3 -> abs diff x -> [2, 1, 0, 1, 2] -> k == how_many == range == win -> [1, 0, 1] (very close to x=3)
+* https://leetcode.com/problems/find-k-closest-elements/description/
+
+
+
 
 
 
