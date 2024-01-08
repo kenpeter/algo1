@@ -1022,14 +1022,10 @@ https://leetcode.com/problems/perfect-squares/
 # 1. the ele cannot count in
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (!count in)
 
-
-
-
-# inc r vs win_size_check
-# 1. inc r before size check (x)
-# 2. inc r after size check (*)
-* https://leetcode.com/problems/longest-substring-without-repeating-characters
-
+# expand, shrink impact this iteration, impact next iteration
+# 1. one expand -> == win_len -> one shrink -> back expand fit win (*)
+# 2. one expand -> == win_len OR > win_len, one shrink -> win_len always > win_len (x)
+* https://leetcode.com/problems/find-k-closest-elements/description/
 
 
 
