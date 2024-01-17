@@ -800,6 +800,22 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# slide_win struct
+# 1. slide_win + state_vars
+# 2. slide_win + max_p_queue (auto) + state_vars
+# 3. slide_win + arr (manual) + state_vars
+# 4. slide_win + hash + state_vars
+# 5. [q-x, q] -> range -> prefix_sum -> bigger ind RM smaller ind
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (win + state_vars)
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget (win + max_p_q + state_vars)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (win + hash + !state_vars)
+* https://leetcode.com/problems/count-zero-request-servers (prefix_sum)
+
+
+
+
+
+
 
 # slide_win portion
 # 1. full arr = slide_win + right_side
@@ -811,6 +827,13 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
 
+
+
+# slide formula
+# 1. sort -> range box -> edge_val * ele_num === fill in rest ele
+# 2. consump = charge[max_p_queue.front()] + sum_run * (i - win_start + 1) ---> a + b * win_range
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (fill in rest ele)
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget/ (a + b * win_range)
 
 
 
@@ -1057,16 +1080,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# slide_win struct
-# 1. slide_win + state_vars
-# 2. slide_win + max_p_queue (auto) + state_vars
-# 3. slide_win + arr (manual) + state_vars
-# 4. slide_win + hash + state_vars
-# 5. [q-x, q] -> range -> prefix_sum -> bigger ind RM smaller ind
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element (win + state_vars)
-* https://leetcode.com/problems/maximum-number-of-robots-within-budget (win + max_p_q + state_vars)
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (win + hash + !state_vars)
-* https://leetcode.com/problems/count-zero-request-servers (prefix_sum)
+
 
   
 
