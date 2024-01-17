@@ -1520,6 +1520,9 @@ set.delete(s[l]) === del all pre-head
 # start doing 5 min
 * ....
 
+# if life difficult: count num, reflect
+* ....
+
 
 # when empty
 # 1. count
