@@ -813,6 +813,20 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# slide state var
+# 1. sum
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (sum)
+* https://leetcode.com/problems/find-k-closest-elements/ (sum)
+
+
+
+
+# slide formula
+# 1. sort -> range box -> edge_val * ele_num === fill in rest ele
+# 2. consump = charge[max_p_queue.front()] + sum_run * (i - win_start + 1) ---> a + b * win_range
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (fill in rest ele)
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget/ (a + b * win_range)
+
 
 
 
@@ -826,14 +840,6 @@ https://leetcode.com/problems/perfect-squares/
 # mid portion OR left/right portion
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
-
-
-
-# slide formula
-# 1. sort -> range box -> edge_val * ele_num === fill in rest ele
-# 2. consump = charge[max_p_queue.front()] + sum_run * (i - win_start + 1) ---> a + b * win_range
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (fill in rest ele)
-* https://leetcode.com/problems/maximum-number-of-robots-within-budget/ (a + b * win_range)
 
 
 
