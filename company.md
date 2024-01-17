@@ -1011,14 +1011,15 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# when cal win_len
-# 1. when l change, check
-# 2. when r change, check
-# 3. l and r change, !check
-* https://leetcode.com/problems/longest-substring-without-repeating-characters
+# when to cal win_size
+# 1. when l shrink, check
+# 2. when l finish shrink, check
+# 3. when r expand, check
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (l finish, check)
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (l finish, check)
 
-# when !cal win_len
+# when !cal win_size
 # 1. the ele cannot count in
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (!count in)
 
@@ -1086,7 +1087,7 @@ https://leetcode.com/problems/perfect-squares/
 
 # how many pointers
 # 1. l and r
-# 2. l, r, track var (1. hash[c] == repeat; 2. invalid+1)
+# 2. l, r, other pts (1. hash[c] == repeat; 2. invalid+1)
 * https://leetcode.com/problems/sliding-window-maximum/ (l and r)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/ (hash)
 
@@ -1165,9 +1166,8 @@ set.delete(s[l]) === del all pre-head
 
 
 # how to scan substr
-# 1. outloop: each time new range
-# 2. inloop: scan
-* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
+# 1. set in right, scan to right
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/ (set in right, scan to right)
 
 
 
