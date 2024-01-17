@@ -987,14 +987,6 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# how cal win_len
-# 1. r - l + 1 (most of time)
-# 2. r - l (e.g. [1, 1, 1] -> rm 1 -> len 2)
-# 3. r - l - 1 (e.g. [0, 1, 1, 0] -> 1st 0 !contrib, 2nd 0 invalid+1, rm -> len 2)
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (most of time)
-* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (r - l OR r - l - 1)
-
-
 # 1st zero, 2nd zero
 # 1. 1st zero !contrib len
 # 2. 2nd+ zero contrib len, but force left pt invalid+1
@@ -1023,6 +1015,18 @@ https://leetcode.com/problems/perfect-squares/
 # when !cal win_size
 # 1. the ele cannot count in
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (!count in)
+
+
+
+# how cal to win_len
+# 1. r - l + 1 (most of time)
+# 2. r - l (e.g. [1, 1, 1] -> rm 1 -> len 2)
+# 3. r - l - 1 (e.g. [0, 1, 1, 0] -> 1st 0 !contrib, 2nd 0 invalid+1, rm -> len 2)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (most of time)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (r - l OR r - l - 1)
+
+
+  
 
 # expand, shrink impact this iteration, impact next iteration
 # 1. one expand -> == win_len -> one shrink -> back expand fit win (*)
