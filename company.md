@@ -809,7 +809,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# sort slide win better expand
+# sort -> better expand
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (sort)
 
 
@@ -1015,6 +1015,7 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (l finish, check)
 
+
 # when !cal win_size
 # 1. the ele cannot count in
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (!count in)
@@ -1093,10 +1094,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# how many pointers
+# slide win pointers
 # 1. l and r
-# 2. l, r, other pts (1. hash[c] == repeat; 2. invalid+1)
+# 2. l, r, other pts (hash[c] == repeat; invalid+1; etc)
 * https://leetcode.com/problems/sliding-window-maximum/ (l and r)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (l and r)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/ (hash)
 
 
