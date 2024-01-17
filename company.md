@@ -785,6 +785,11 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
 
 
+# really slide win problem, force template + formula
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget/ (template + formula)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (template + formula)
+
+
 
 # how to diff dfs and slide_win
 # 1. both relate to operation
@@ -1052,14 +1057,15 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# slide_win type
-# 1. slide_win
-# 2. slide_win + max_p_queue (auto)
-# 3. slide_win + arr (manual)
-# 4. slide_win + hash
+# slide_win struct
+# 1. slide_win + state_vars
+# 2. slide_win + max_p_queue (auto) + state_vars
+# 3. slide_win + arr (manual) + state_vars
+# 4. slide_win + hash + state_vars
 # 5. [q-x, q] -> range -> prefix_sum -> bigger ind RM smaller ind
-* https://leetcode.com/problems/maximum-number-of-robots-within-budget (max_p_q)
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (hash)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (win + state_vars)
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget (win + max_p_q + state_vars)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (win + hash + !state_vars)
 * https://leetcode.com/problems/count-zero-request-servers (prefix_sum)
 
   
@@ -1072,7 +1078,7 @@ https://leetcode.com/problems/perfect-squares/
   
 
 
-# slide_win: expand, equal, shrink
+# slide_win 3 operations: expand, equal, shrink
 * https://leetcode.com/problems/sliding-window-maximum/
 
 # expand
@@ -1110,11 +1116,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # win l and r are ind, not bound
-* https://leetcode.com/problems/length-of-the-longest-valid-substring
+* https://leetcode.com/problems/length-of-the-longest-valid-substring (l, r ind)
 
 # 1. n-1 === ele ind
 # 2. n === bound (*)
-* https://leetcode.com/problems/length-of-the-longest-valid-substring
+* https://leetcode.com/problems/length-of-the-longest-valid-substring (n-1 === ele ind)
 
 
 # what to maintain window
