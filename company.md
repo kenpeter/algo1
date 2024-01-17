@@ -1085,10 +1085,10 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # how many pointers
-# 1. l == start_win, r == new income
-# 2. l == start_win, r == new income, track var (1. hash[c] == repeat; 2. invalid+1)
-* https://leetcode.com/problems/sliding-window-maximum/
-* https://leetcode.com/problems/longest-substring-without-repeating-characters/
+# 1. l and r
+# 2. l, r, track var (1. hash[c] == repeat; 2. invalid+1)
+* https://leetcode.com/problems/sliding-window-maximum/ (l and r)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/ (hash)
 
 
 # l position repeat
@@ -1164,7 +1164,7 @@ set.delete(s[l]) === del all pre-head
 
 
 
-# how to deal substr
+# how to scan substr
 # 1. outloop: each time new range
 # 2. inloop: scan
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
