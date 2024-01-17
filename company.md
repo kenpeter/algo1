@@ -772,13 +772,14 @@ https://leetcode.com/problems/perfect-squares/
 # slide window
 
 
-# how to detect slide win
+# how to aware it is a slide win problem
 
-# 1. sorted / unsorted slide win
-# 2. diff / same ele slide win
-# 3. containt win range, do op
-# 4. substring: (1) no repeat; (2) bad word
-* https://leetcode.com/problems/longest-substring-without-repeating-characters/
+# 1. sorted num in range
+# 2. same ele in range
+# 3. do operation in range
+# 4. substr: (1) no repeat; (2) bad word
+# 5. subarr
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/ (substr)
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/
 * https://leetcode.com/problems/sliding-window-maximum/
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
