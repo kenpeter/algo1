@@ -1485,6 +1485,10 @@ set.delete(s[l]) === del all pre-head
 
 # how to think
 
+# the poit should be good enough to auto reflect
+* .....
+
+
 # single phase -> group / road of group
 * ......
 
