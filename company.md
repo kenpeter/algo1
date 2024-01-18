@@ -813,10 +813,17 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# slide state var
+# slide win state var (? overall of win)
 # 1. sum
+# 2. len
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (sum)
 * https://leetcode.com/problems/find-k-closest-elements/ (sum)
+
+
+# slide win track var (? some props of win)
+# 1. max
+# 2. posi
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (max, posi)
 
 
 
@@ -1123,11 +1130,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # slide win pointers
-# 1. l and r
-# 2. l, r, other pts (hash[c] == repeat; invalid+1; etc)
+# 1. l and r (? range enough)
+# 2. l, r, other pts (hash[c] repeat; invalid+1) (? range !enough, other props) 
 * https://leetcode.com/problems/sliding-window-maximum/ (l and r)
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (l and r)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/ (hash)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (invalid + 1)
 
 
 # l position repeat
