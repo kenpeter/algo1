@@ -909,12 +909,14 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # slide win code layout
-# 1. expand -> loop shrink -> back (normal)
+# 1. right expand -> left loop shrink -> back
+# 2. right expand -> left shrink once -> back
 # 2. prefix sum (bigger ind RM smaller ind)
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (loop shrink)
-* https://leetcode.com/problems/sliding-window-maximum/ (loop shrink)
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (loop shrink)
-* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/ (loop shrink)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (left loop shrink)
+* https://leetcode.com/problems/sliding-window-maximum/ (left loop shrink)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (left loop shrink)
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/ (left loop shrink)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (left shrink once)
 * https://leetcode.com/problems/count-zero-request-servers (prefix_sum)
 
 
