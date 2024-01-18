@@ -1521,12 +1521,11 @@ set.delete(s[l]) === del all pre-head
 
 # how to think
 
-# the poit should be good enough to auto reflect
-* .....
+# how to understand a question
+# 1. all pts there to rebuild question
+# 2. pt auto reflect
 
 
-# in order to rebuild the answer, all pts to be there
-* .....
   
 
 # single phase -> group / road of group
