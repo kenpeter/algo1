@@ -1415,6 +1415,12 @@ set.delete(s[l]) === del all pre-head
 
 
 
+# remember posi (? come back to it)
+# 1. pre store all posi (? have overview; use once)
+# 2. posi on the fly (? need latest posi; the way scan)
+# 3. combone no.1 and no.2 (? have overview; multi use)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ (posi on the fly)
+
 
 
 
@@ -1534,6 +1540,8 @@ set.delete(s[l]) === del all pre-head
 * ......
 
 
+# why === auto reflect
+* .....
 
 
 # everything can be group / road group
