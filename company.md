@@ -1044,12 +1044,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # when to cal win_size
-# 1. when l shrink, check
-# 2. when l finish shrink, check
-# 3. when r expand, check
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (l finish, check)
+# 1. when l change, check
+# 2. when l loop change, check
+# 3. when r change, check
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (l loop change, check)
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element (l finish, check)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (l loop change, check)
 
 
 # when !cal win_size
@@ -1058,7 +1058,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# how cal to win_len
+# how cal to win_size
 # 1. r - l + 1 (most of time)
 # 2. r - l (e.g. [1, 1, 1] -> rm 1 -> len 2)
 # 3. r - l - 1 (e.g. [0, 1, 1, 0] -> 1st 0 !contrib, 2nd 0 invalid+1, rm -> len 2)
