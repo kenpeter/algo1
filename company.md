@@ -916,8 +916,8 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # slide win code layout
-# 1. right expand -> left loop shrink -> back
-# 2. right expand -> left shrink once -> back
+# 1. r expand -> left loop shrink -> back (? 1 expand too big, multi shinks)
+# 2. r expand -> left shrink once -> back (? 1 expand, state requires 1 shink)
 # 2. prefix sum (bigger ind RM smaller ind)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters (left loop shrink)
 * https://leetcode.com/problems/sliding-window-maximum/ (left loop shrink)
