@@ -1525,8 +1525,14 @@ set.delete(s[l]) === del all pre-head
 * .....
 
 
+# in order to rebuild the answer, all pts to be there
+* .....
+  
+
 # single phase -> group / road of group
 * ......
+
+
 
 
 # everything can be group / road group
