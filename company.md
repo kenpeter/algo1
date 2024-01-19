@@ -1560,8 +1560,15 @@ set.delete(s[l]) === del all pre-head
 
 # how to think
 
+
+
+# auto reflect === why
+* .....
+
+
+
 # how to understand a question
-# 1. all pts there to rebuild question
+# 1. all pts cover
 # 2. pt auto reflect
 
 
@@ -1570,9 +1577,6 @@ set.delete(s[l]) === del all pre-head
 # single phase -> group / road of group
 * ......
 
-
-# why === auto reflect
-* .....
 
 
 # everything can be group / road group
