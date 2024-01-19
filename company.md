@@ -1470,7 +1470,10 @@ set.delete(s[l]) === del all pre-head
 
 
 
-
+# op within if statement
+# 1. some "if" no op (? other "if" conver)
+# 2. some "if" has op (? this "if" need to op)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (? other "if" conver; pure cover it)
 
 
 
@@ -1533,6 +1536,11 @@ set.delete(s[l]) === del all pre-head
 
 # code has diff scenarios, compare each
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/submissions/1136566585/
+
+
+
+
+
 
 
 
