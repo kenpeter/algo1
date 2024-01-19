@@ -1060,13 +1060,14 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# when to cal win_size
-# 1. when l change, check
-# 2. when l loop change, check
-# 3. when r change, check
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (l loop change, check)
-* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element (l loop change, check)
+# when to cal win size
+# 1. l single change (? state satisfy)
+# 2. l loop change (? state !satisfy, need multi)
+# 3. r single change (? r expand, l protect)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (state !satisfy, need multi)
+* https://leetcode.com/problems/length-of-the-longest-valid-substring/description/ (?)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (state !satisfy, need multi)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description (1 single change, state satisfy)
 
 
 # when !cal win_size
@@ -1075,12 +1076,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# how cal to win_size
-# 1. r - l + 1 (most of time)
-# 2. r - l (e.g. [1, 1, 1] -> rm 1 -> len 2)
-# 3. r - l - 1 (e.g. [0, 1, 1, 0] -> 1st 0 !contrib, 2nd 0 invalid+1, rm -> len 2)
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (most of time)
-* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (r - l OR r - l - 1)
+# how cal to win size
+# 1. r - l + 1 (? normnal cal)
+# 2. r - l (? 1_diff, rm 1 ele)
+# 3. r - l - 1 (? 2_diff, invalid, rm 2 eles)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (normal cal)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (1_diff)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (2_diff)
 
 
   
