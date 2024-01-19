@@ -1474,6 +1474,9 @@ set.delete(s[l]) === del all pre-head
 
 
 
+# k op
+# 1. rm all k ops, pure slide win (? no k op, no swing)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (no k op, no swing)
 
 
 
