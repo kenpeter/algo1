@@ -828,8 +828,15 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/find-k-closest-elements (min)
 
 
+# win state reach saturate
+# reach saturate, other props useful (? e.g. rem range)
+* https://leetcode.com/problems/find-k-closest-elements (rem other props)
 
-# win shrink condi in code
+
+
+
+
+# shrink condi in code
 # 1. sum(? sum too big shrink)
 # 2. len (? len too big shrink)
 # 3. seen/hash (? no repeat)
@@ -1433,14 +1440,23 @@ set.delete(s[l]) === del all pre-head
 # a[i] = a[i] + a[i-1] (? prefix sum)
 * https://www.youtube.com/watch?v=pVS3yhlzrlQ
 
+# init 1st ele in prefix sum (? 1st ele add to 2nd)
+* https://leetcode.com/problems/find-k-closest-elements/
+  
 
 # how to cal gap sum
 # [i, j] -> a[j] - a[i-1] (? gap sum)
 * https://www.youtube.com/watch?v=pVS3yhlzrlQ
 
-
-# init 1st ele in prefix sum (? 1st ele add to 2nd)
+# gap sum special case
+# a[j] - a[i-1], i=0 (? a[i-1])
 * https://leetcode.com/problems/find-k-closest-elements/
+
+  
+
+
+
+
 
 
 
@@ -1479,6 +1495,10 @@ set.delete(s[l]) === del all pre-head
 * https://leetcode.com/problems/count-zero-request-servers
 
 
+
+# meaning of min/max
+# see many min/max, one of them is need
+* https://leetcode.com/problems/find-k-closest-elements/ (one of them)
 
 
 
