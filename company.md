@@ -1104,6 +1104,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# ele closest to x (? single num distance)
+# 1. ele - constant === single diff dist (? single num distance)
+# 2. group nearby single diff dist (? group nearby)
+# 3. g: group1 VS group2 -> cloest (? sum smallest)
+* https://leetcode.com/problems/find-k-closest-elements/
+
+  
 
 
 
@@ -1146,6 +1153,7 @@ https://leetcode.com/problems/perfect-squares/
 # 2. l, r, other pts (hash[c] repeat; invalid+1) (? range !enough, other props) 
 * https://leetcode.com/problems/sliding-window-maximum/ (l and r)
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (l and r)
+* https://leetcode.com/problems/find-k-closest-elements (l and r)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/ (hash)
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (invalid + 1)
 
