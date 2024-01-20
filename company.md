@@ -1096,11 +1096,9 @@ https://leetcode.com/problems/perfect-squares/
 
 
   
-
-# expand, shrink impact this iteration, impact next iteration
-# 1. one expand -> == win_len -> one shrink -> back expand fit win (*)
-# 2. one expand -> == win_len OR > win_len, one shrink -> win_len always > win_len (x)
-* https://leetcode.com/problems/find-k-closest-elements/description/
+# future prop in curr iteration, but impact next iteration check
+# 1. r expand in curr iteration, impact future win len check
+* https://leetcode.com/problems/find-k-closest-elements/description/ (? r++ impact future len)
 
 
 
