@@ -829,20 +829,20 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# win state
-# 1. under certain sum (? sum too big shrink)
-# 2. under certain len (? len too big shrink)
+# win shrink condi in code
+# 1. sum(? sum too big shrink)
+# 2. len (? len too big shrink)
 # 3. seen/hash (? no repeat)
-# 4. contain certain ele (? pure)
-# 5. under formula (? align formula)
-# 6. pure eles (pure expanding) -> 1_diff + rest_pure (staying) -> 2_diff + res_pure (get_out) (? ignore k, easy expand)
-* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero (sum too big)
+# 4. formula (? align formula)
+# 5. pure eles (pure expanding) -> 1_diff + rest_pure (staying) -> 2_diff + res_pure (get_out) (? ignore k, easy expand)
+* https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero (sum)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters (no repeat)
-* https://leetcode.com/problems/sliding-window-maximum (len too big)
-* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ (pure)
+* https://leetcode.com/problems/sliding-window-maximum (len)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ (pure eles)
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget (align formula)
 * https://leetcode.com/discuss/interview-question/1636493/Amazon-or-OA-or-Max-Length-of-Valid-Server-Cluster (align formula)
-* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (ignore k, easy expand)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (pure ele)
+* https://leetcode.com/problems/find-k-closest-elements/ (len)
 
 
 
