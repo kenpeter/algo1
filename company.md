@@ -956,7 +956,8 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/sliding-window-maximum/ (left loop shrink)
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (left loop shrink)
 * https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/ (left loop shrink)
-* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (left shrink once)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (shrink once)
+* https://leetcode.com/problems/find-k-closest-elements (shrink once)
 * https://leetcode.com/problems/count-zero-request-servers (prefix_sum)
 
 
