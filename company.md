@@ -1424,10 +1424,26 @@ set.delete(s[l]) === del all pre-head
 
 
 # prefix sum
-# 1. loop -> a[i] = a[i] + a[i-1] (cal prefix sum)
-# 2. range: 0 -> nth (cal range)
-# 2.1. range: [i, j] -> a[j] - a[i-1] (cal range)
+
+# when to use prefix sum
+# need gap sum
+* https://leetcode.com/problems/find-k-closest-elements/
+
+# how to cal prefix sum
+# a[i] = a[i] + a[i-1] (? prefix sum)
 * https://www.youtube.com/watch?v=pVS3yhlzrlQ
+
+
+# how to cal gap sum
+# [i, j] -> a[j] - a[i-1] (? gap sum)
+* https://www.youtube.com/watch?v=pVS3yhlzrlQ
+
+
+# init 1st ele in prefix sum (? 1st ele add to 2nd)
+* https://leetcode.com/problems/find-k-closest-elements/
+
+
+
 
 
 
