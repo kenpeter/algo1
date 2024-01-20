@@ -818,12 +818,14 @@ https://leetcode.com/problems/perfect-squares/
 # 2. len
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (sum)
 * https://leetcode.com/problems/find-k-closest-elements/ (sum)
+* https://leetcode.com/problems/find-k-closest-elements/ (sum)
 
 
 # slide win track var (? some props of win)
-# 1. max
+# 1. max/min
 # 2. posi
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (max, posi)
+* https://leetcode.com/problems/find-k-closest-elements (min)
 
 
 
