@@ -884,6 +884,18 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
+# when k operations relate to slide win
+# 1. k op -> diff eles -> extend same eles -> longest
+# 2. del 1 -> extend same eles -> longest 
+# 3. k op -> refill num gap -> extend same eles -> longest 
+* https://leetcode.com/problems/longest-repeating-character-replacement/ (k op -> diff eles -> extend same ele)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (del 1 -> extend same ele)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (k op -> refill gap -> extend same ele)
+
+
+
+
+
 # sort -> better expand
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (sort)
 
