@@ -1085,12 +1085,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# when to cal win size? (? when reach stable state)
-# 1. when l shink stable
+# when to cal win size? (? when reach valid state)
+# 1. when l shink reach valid state
 # 2. 1 diff -> 2 diff (just before invalid state)
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (when l shink stable)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (when l shink reach valid)
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/ (?)
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element (when l shink stable)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (when l shink reach valid)
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (just before invalid state)
 
 
