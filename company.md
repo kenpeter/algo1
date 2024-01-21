@@ -1071,14 +1071,13 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# when to cal win size
-# 1. l single change (? state satisfy)
-# 2. l loop change (? state !satisfy, need multi)
-# 3. r single change (? r expand, l protect)
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (state !satisfy, need multi)
+# when to cal win size? (? when reach stable state)
+# 1. when l shink stable
+# 2. 1 diff -> 2 diff (just before invalid state)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (when l shink stable)
 * https://leetcode.com/problems/length-of-the-longest-valid-substring/description/ (?)
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element (state !satisfy, need multi)
-* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description (1 single change, state satisfy)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (when l shink stable)
+* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (just before invalid state)
 
 
 # when !cal win_size
