@@ -1477,9 +1477,9 @@ set.delete(s[l]) === del all pre-head
 
 
 # remember posi (? come back to it)
-# 1. pre store all posi (? have overview; use once)
-# 2. posi on the fly (? need latest posi; the way scan)
-# 3. combone no.1 and no.2 (? have overview; multi use)
+# 1. pre store all posi (? use it before seen)
+# 2. posi on the fly (? use it when see)
+# 3. combone no.1 and no.2 (? use it before and update it when see)
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ (posi on the fly)
 
 
