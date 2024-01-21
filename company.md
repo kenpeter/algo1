@@ -839,6 +839,9 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/find-k-closest-elements (rem other props)
 
 
+# win state change, props change (? prop invalid)
+* https://leetcode.com/problems/longest-repeating-character-replacement/ (win state change, props change)
+
 
 
 
