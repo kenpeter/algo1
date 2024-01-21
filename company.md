@@ -788,6 +788,7 @@ https://leetcode.com/problems/perfect-squares/
 # really slide win problem, force template + formula
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget/ (template + formula)
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (template + formula)
+* https://leetcode.com/problems/longest-repeating-character-replacement/ (template + formula)
 
 
 
@@ -815,18 +816,22 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # slide win state var (? overall of win)
-# 1. sum
-# 2. len
+# 1. sum (? overall)
+# 2. len (? overall)
+# 3. hash (? each eles)
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (sum)
 * https://leetcode.com/problems/find-k-closest-elements/ (sum)
 * https://leetcode.com/problems/find-k-closest-elements/ (sum)
+* https://leetcode.com/problems/longest-repeating-character-replacement (hash)
 
 
 # slide win track var (? some props of win)
 # 1. max/min
+# 2. longest (? repeat)
 # 2. posi
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ (max, posi)
 * https://leetcode.com/problems/find-k-closest-elements (min)
+* https://leetcode.com/problems/longest-repeating-character-replacement (longest)
 
 
 # win state reach saturate
@@ -863,10 +868,12 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # slide formula
-# 1. sort -> range box -> edge_val * ele_num === fill in rest ele
-# 2. consump = charge[max_p_queue.front()] + sum_run * (i - win_start + 1) ---> a + b * win_range
+# 1. sort -> range box -> edge_val * ele_num (? fill rest ele)
+# 2. consump = charge[max_p_queue.front()] + sum_run * (i - win_start + 1) (? a + b * win_range)
+# 3. win len > k op + most_freq (? k + most_freq)
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element/ (fill in rest ele)
 * https://leetcode.com/problems/maximum-number-of-robots-within-budget/ (a + b * win_range)
+* https://leetcode.com/problems/longest-repeating-character-replacement/ (k + most_freq)
 
 
 
@@ -1221,7 +1228,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 # when to use hash?
-# 1. see many repeats (? freq++)
+# 1. see many repeat (? repeat)
 # 2. rem posi (? can come back)
 * https://leetcode.com/problems/longest-repeating-character-replacement/ (many repeats)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/ (come back)
@@ -1233,10 +1240,11 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/ (posi)
 
 
-# prefill or fly?
-# 1. prefill hash (? use before seen)
-# 2. hash along the way (? use when see)
+# when to prefill or fly?
+# 1. prefill hash (? use before see)
+# 2. hash along (? use when see)
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/ (use when see)
+* https://leetcode.com/problems/longest-repeating-character-replacement (hash along)
 
 
 
