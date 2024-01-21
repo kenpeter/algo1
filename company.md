@@ -1037,7 +1037,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
- 
+
+
+# ever reach max -> other try to reach -> if fail shirnk to valid (? other try to top mark)
+# win size > k op + max_freq_ever (? other try to top mark)
+* https://leetcode.com/problems/longest-repeating-character-replacement/ (win size > k op + max_freq_ever)
 
 
 
@@ -1100,10 +1104,6 @@ https://leetcode.com/problems/perfect-squares/
 * https://leetcode.com/problems/frequency-of-the-most-frequent-element (when l shink reach valid)
 * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (just before invalid state)
 
-
-# when !cal win_size
-# 1. the ele cannot count in
-* https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element (!count in)
 
 
 
