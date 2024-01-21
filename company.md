@@ -800,15 +800,16 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# slide_win struct (? slide_win + struct + track_vars)
+# slide_win struct
+# 0. slide_win (l, r) + struct (state var) + vars (track var) (? overall formula)
 # 1. slide_win + state_vars
-# 2. slide_win + max_p_queue (auto) + state_vars
-# 3. slide_win + arr (manual) + state_vars
-# 4. slide_win + hash + state_vars
+# 2. slide_win + max_p_queue (auto) + state var
+# 3. slide_win + arr (manual) + state var
+# 4. slide_win + hash + state var
 # 5. [q-x, q] -> range -> prefix_sum -> bigger ind RM smaller ind
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element (win + state_vars)
-* https://leetcode.com/problems/maximum-number-of-robots-within-budget (win + max_p_q + state_vars)
-* https://leetcode.com/problems/longest-substring-without-repeating-characters (win + hash + !state_vars)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element (win + state var)
+* https://leetcode.com/problems/maximum-number-of-robots-within-budget (win + max_p_q + state var)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters (win + hash + !state var)
 * https://leetcode.com/problems/count-zero-request-servers (prefix_sum)
 
 
@@ -1206,10 +1207,23 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# diff way to use hash
+# when to use hash?
+# 1. see many repeats (? freq++)
+# 2. rem posi (? can come back)
+* https://leetcode.com/problems/longest-repeating-character-replacement/ (many repeats)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/ (come back)
+
+
+# diff hash val assigned
 # 1. hash[key] = visited
 # 2. hash[val] = position
-* https://leetcode.com/problems/longest-substring-without-repeating-characters/
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/ (posi)
+
+
+# prefill or fly?
+# 1. prefill hash (? use before seen)
+# 2. hash along the way (? use when see)
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/ (use when see)
 
 
 
