@@ -1502,16 +1502,17 @@ set.delete(s[l]) === del all pre-head
 
 
 
-# array
-# 1. 0 base
-# 2. 1 base
-* https://leetcode.com/problems/count-zero-request-servers (1 base)
+# array 0/1 base
+# 0/1 base depend on Q
+# 1. query arr 0 base
+# 2. res arr 0 base
+# 3. server log 1 base
+* https://leetcode.com/problems/count-zero-request-servers (query, res 0 base; server 1 base)
 
 
 # map
-# 1. arr.map -> return new struct
-# 2. arr.map -> callback -> param: item ind -> new struct
-* https://leetcode.com/problems/count-zero-request-servers
+# arr.map -> extract ind -> rebuild obj
+* https://leetcode.com/problems/count-zero-request-servers (? map rebuild arr)
 
 
 
