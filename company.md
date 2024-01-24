@@ -906,10 +906,11 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-
-
-# sort -> better expand
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element (sort)
+# sort and slide win
+# 1. sort by time in range
+# 2. sort by num max in range
+* https://leetcode.com/problems/count-zero-request-servers/ (sort by time in range)
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/ (sort by num max in rangr)
 
 
 
