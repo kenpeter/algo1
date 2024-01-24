@@ -1502,12 +1502,19 @@ set.delete(s[l]) === del all pre-head
 
 
 
-# array 0/1 base
-# 0/1 base depend on Q
+# array
+
+# arr 0/1 base depend on Q
 # 1. query arr 0 base
 # 2. res arr 0 base
 # 3. server log 1 base
 * https://leetcode.com/problems/count-zero-request-servers (query, res 0 base; server 1 base)
+
+# 1. arr ele re-appear
+# 2. arr ele !re-appear
+* https://leetcode.com/problems/count-zero-request-servers (server log re-appear)
+
+
 
 
 # map
