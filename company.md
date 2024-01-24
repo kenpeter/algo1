@@ -1599,13 +1599,7 @@ set.delete(s[l]) === del all pre-head
 # when loop mutable / immutable
 # 1. immutale, each iteration new start
 # 2. mutable, each iteration share
-* https://leetcode.com/problems/count-zero-request-servers
-
-
-
-# the log questions
-# 1. same ele can repeat in logs, diff time
-* https://leetcode.com/problems/count-zero-request-servers
+* https://leetcode.com/problems/count-zero-request-servers (each iteration share; e.g. activeServer obj)
 
 
 
@@ -1615,11 +1609,10 @@ set.delete(s[l]) === del all pre-head
 
 
 
-# what is active
-# 1. ele 1 action -> 1 active
-# 2. ele 1+ action -> 1 active
-# 3. ele 0 action -> inactive
-* https://leetcode.com/problems/count-zero-request-servers
+
+# freq vs active
+# still 1 left, still active (? freq inc -> 1 active; freq desc zero -> inactive)
+* https://leetcode.com/problems/count-zero-request-servers (still 1 left, still active)
 
 
 
