@@ -1490,6 +1490,14 @@ set.delete(s[l]) === del all pre-head
 # a[j] - a[i-1], i=0 (? a[i-1])
 * https://leetcode.com/problems/find-k-closest-elements/
 
+
+
+# 1. get all eles under gap sum higer bound (? gap sum higher bound)
+# 2. get all eles under gap sum higher bound (? gap sum lower bound)
+# 3. guard gap sum higher bound
+# 4. guard gap sum lower bound
+* https://leetcode.com/problems/count-zero-request-servers/ (gap sum 2 bounds and guard)
+
   
 
 
