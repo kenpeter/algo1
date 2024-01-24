@@ -906,7 +906,7 @@ https://leetcode.com/problems/perfect-squares/
 
 
 
-# sort and slide win
+# sort and slide win Q type
 # 1. sort by time in range
 # 2. sort by num max in range
 * https://leetcode.com/problems/count-zero-request-servers/ (sort by time in range)
@@ -1526,8 +1526,12 @@ set.delete(s[l]) === del all pre-head
 
 
 # meaning of sort
-# similar kind in subarr
-* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/
+# 1. similar kind group
+# 2. in order
+* https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/ (num in order)
+* https://leetcode.com/problems/count-zero-request-servers/ (query, log sort in order)
+
+
 
 # 1. inject ind to struct, after sort, know who is who
 # 2. injected ind (real) VS loop i (fake)
